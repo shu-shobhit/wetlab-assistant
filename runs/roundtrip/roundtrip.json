@@ -1,0 +1,1592 @@
+{
+  "summary": {
+    "model": "deepgram/nova-3",
+    "speaker": "luna",
+    "arms": {
+      "raw": {
+        "acronym": {
+          "recovered": 6,
+          "total": 10
+        },
+        "number": {
+          "recovered": 56,
+          "total": 56
+        },
+        "unit": {
+          "recovered": 31,
+          "total": 41
+        },
+        "all": {
+          "recovered": 93,
+          "total": 107
+        },
+        "numeric_only": {
+          "recovered": 56,
+          "total": 56
+        }
+      },
+      "prepared": {
+        "acronym": {
+          "recovered": 10,
+          "total": 10
+        },
+        "number": {
+          "recovered": 56,
+          "total": 56
+        },
+        "unit": {
+          "recovered": 39,
+          "total": 41
+        },
+        "all": {
+          "recovered": 105,
+          "total": 107
+        },
+        "numeric_only": {
+          "recovered": 56,
+          "total": 56
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s3",
+      "arm": "raw",
+      "sent": "Add 25 \u00b5l of Q5 High-Fidelity 2X Master Mix to the reaction.",
+      "heard": "Add twenty five EL of five Guatemalan COTSOL's high fidelity two Master Mix to the reaction.",
+      "tokens": [
+        {
+          "source": "25",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5l",
+          "kind": "unit",
+          "recovered": false
+        },
+        {
+          "source": "Q5",
+          "kind": "acronym",
+          "recovered": false
+        },
+        {
+          "source": "2",
+          "kind": "number",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s3",
+      "arm": "prepared",
+      "sent": "Add twenty five microlitres of spell(Q) five High-Fidelity two spell(X) Master Mix to the reaction.",
+      "heard": "Add twenty five microliters of q five high fidelity two, x master mix to the reaction.",
+      "tokens": [
+        {
+          "source": "25",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5l",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "Q5",
+          "kind": "acronym",
+          "recovered": true
+        },
+        {
+          "source": "2",
+          "kind": "number",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s4",
+      "arm": "raw",
+      "sent": "Add 2.5 \u00b5l of 10 \u00b5M Forward Primer to the reaction.",
+      "heard": "Add two point five e l of ten mm u four primer to the reaction.",
+      "tokens": [
+        {
+          "source": "2.5",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5l",
+          "kind": "unit",
+          "recovered": false
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5M",
+          "kind": "unit",
+          "recovered": false
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s4",
+      "arm": "prepared",
+      "sent": "Add two point five microlitres of ten micromolar forward primer to the reaction.",
+      "heard": "Add two point five microliters of ten micromolar forward primer to the reaction.",
+      "tokens": [
+        {
+          "source": "2.5",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5l",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5M",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s5",
+      "arm": "raw",
+      "sent": "Add 2.5 \u00b5l of 10 \u00b5M Reverse Primer to the reaction.",
+      "heard": "Add two point five e l of ten reverse primer to the reaction.",
+      "tokens": [
+        {
+          "source": "2.5",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5l",
+          "kind": "unit",
+          "recovered": false
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5M",
+          "kind": "unit",
+          "recovered": false
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s5",
+      "arm": "prepared",
+      "sent": "Add two point five microlitres of ten micromolar reverse primer to the reaction.",
+      "heard": "Add two point five microliters of ten micromolar reverse primer to the reaction.",
+      "tokens": [
+        {
+          "source": "2.5",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5l",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5M",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s6",
+      "arm": "raw",
+      "sent": "Add Template DNA, variable volume, to a final amount of less than 1,000 ng.",
+      "heard": "Add template DNA variable volume to a final amount of less one thousand nanograms.",
+      "tokens": [
+        {
+          "source": "DNA",
+          "kind": "acronym",
+          "recovered": true
+        },
+        {
+          "source": "1,000",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "ng",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s6",
+      "arm": "prepared",
+      "sent": "Add template spell(DNA), variable volume, to a final amount of less than one thousand nanograms.",
+      "heard": "Add template DNA variable volume to a final amount of less than one thousand nanograms.",
+      "tokens": [
+        {
+          "source": "DNA",
+          "kind": "acronym",
+          "recovered": true
+        },
+        {
+          "source": "1,000",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "ng",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s7",
+      "arm": "raw",
+      "sent": "Add Nuclease-Free Water to bring the reaction to a total volume of 50 \u00b5l.",
+      "heard": "Add nucleus free water to bring the reaction to a total volume of fifty e l.",
+      "tokens": [
+        {
+          "source": "50",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5l",
+          "kind": "unit",
+          "recovered": false
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s7",
+      "arm": "prepared",
+      "sent": "Add nuclease free water to bring the reaction to a total volume of fifty microlitres.",
+      "heard": "Add nucleus free water to bring the reaction to a total volume of fifty microliters.",
+      "tokens": [
+        {
+          "source": "50",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b5l",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s10",
+      "arm": "raw",
+      "sent": "Overlay the sample with mineral oil if using a PCR machine without a heated lid.",
+      "heard": "Overlay the sample with mineral oil if using a PCR machine without a heated lid.",
+      "tokens": [
+        {
+          "source": "PCR",
+          "kind": "acronym",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s10",
+      "arm": "prepared",
+      "sent": "Overlay the sample with mineral oil if using a spell(PCR) machine without a heated lid.",
+      "heard": "Overlay the sample with mineral oil if using a PCR machine without a heated lid.",
+      "tokens": [
+        {
+          "source": "PCR",
+          "kind": "acronym",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s11",
+      "arm": "raw",
+      "sent": "Quickly transfer the reactions to a thermocycler preheated to the denaturation temperature of 98\u00b0C and begin thermocycling.",
+      "heard": "Quickly transfer the reactions to a thermocycler preheated to the denituration temperature of ninety eight degrees Celsius and begin",
+      "tokens": [
+        {
+          "source": "98",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s11",
+      "arm": "prepared",
+      "sent": "Quickly transfer the reactions to a thermocycler preheated to the denaturation temperature of ninety eight degrees celsius. Begin thermocycling.",
+      "heard": "Quickly transfer the reactions to a thermocycler preheated to the denituration of ninety eight degrees Celsius. Begin thermocycling.",
+      "tokens": [
+        {
+          "source": "98",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s12",
+      "arm": "raw",
+      "sent": "Initial denaturation at 98\u00b0C for 30 seconds.",
+      "heard": "Initial denaturation at ninety eight degrees Celsius for thirty seconds.",
+      "tokens": [
+        {
+          "source": "98",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "seconds",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s12",
+      "arm": "prepared",
+      "sent": "Initial denaturation at ninety eight degrees celsius for thirty seconds.",
+      "heard": "Initial denituration at ninety eight degrees Celsius for thirty seconds.",
+      "tokens": [
+        {
+          "source": "98",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "seconds",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s13",
+      "arm": "raw",
+      "sent": "For each of the 25-35 cycles, denature at 98\u00b0C for 5-10 seconds.",
+      "heard": "For each of the twenty five to thirty five cycles, denature and ninety eight to degrees Celsius for five to ten seconds.",
+      "tokens": [
+        {
+          "source": "25",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "35",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "cycles",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "98",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "5",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "seconds",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s13",
+      "arm": "prepared",
+      "sent": "For each of the twenty five to thirty five cycles, denature at ninety eight degrees celsius for five to ten seconds.",
+      "heard": "For each of the twenty five to thirty five cycles, then a at ninety eight degrees Celsius for five to ten seconds.",
+      "tokens": [
+        {
+          "source": "25",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "35",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "cycles",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "98",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "5",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "seconds",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s14",
+      "arm": "raw",
+      "sent": "For each of the 25-35 cycles, anneal at 50-72\u00b0C for 10-30 seconds, typically 3\u00b0C above the Tm of the lower Tm primer. Use of the NEB Tm Calculator is highly recommended.",
+      "heard": "For each of the twenty five to thirty five cycles, a needle f fifty to seventy two degrees Celsius for ten to thirty seconds, typically three Celsius above the TM of the lower TM primer. Using the neb t m calculator is highly recommended.",
+      "tokens": [
+        {
+          "source": "25",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "35",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "cycles",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "50",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "72",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "seconds",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "3",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "NEB",
+          "kind": "acronym",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s14",
+      "arm": "prepared",
+      "sent": "For each of the twenty five to thirty five cycles. Anneal at fifty to seventy two degrees celsius for ten to thirty seconds. Typically, anneal three degrees celsius above the spell(Tm) of the lower spell(Tm) primer. Use of the spell(NEB) spell(Tm) calculator is highly recommended.",
+      "heard": "For each of the twenty five to thirty five cycles, anneal at fifty to seventy two degrees Celsius for ten to thirty seconds. Typically, a nil three degrees Celsius above the t m of the lower t m primer. Use of the n e b t m calculator is highly recommended.",
+      "tokens": [
+        {
+          "source": "25",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "35",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "cycles",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "50",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "72",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "seconds",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "3",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "NEB",
+          "kind": "acronym",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s15",
+      "arm": "raw",
+      "sent": "For each of the 25-35 cycles, extend at 72\u00b0C for 20-30 seconds per kb.",
+      "heard": "For each of the twenty five to thirty five cycles, extend at seventy two degree Celsius for twenty to thirty seconds per k b.",
+      "tokens": [
+        {
+          "source": "25",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "35",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "cycles",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "72",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "20",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "seconds",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s15",
+      "arm": "prepared",
+      "sent": "For each of the twenty five to thirty five cycles, extend at seventy two degrees celsius. Extend for twenty to thirty seconds per kilobase.",
+      "heard": "For each of the twenty five to thirty five cycles, extend at seventy two degrees Celsius. Ixtus.",
+      "tokens": [
+        {
+          "source": "25",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "35",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "cycles",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "72",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "20",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "seconds",
+          "kind": "unit",
+          "recovered": false
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s16",
+      "arm": "raw",
+      "sent": "Final extension at 72\u00b0C for 2 minutes.",
+      "heard": "Final extension at seventy two degrees Celsius for two minutes.",
+      "tokens": [
+        {
+          "source": "72",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "2",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "minutes",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s16",
+      "arm": "prepared",
+      "sent": "Final extension at seventy two degrees celsius for two minutes.",
+      "heard": "Final extension at seventy two degrees Celsius for two minutes.",
+      "tokens": [
+        {
+          "source": "72",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "2",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "minutes",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s17",
+      "arm": "raw",
+      "sent": "Hold at 4-10\u00b0C.",
+      "heard": "Hold at four to ten degree Celsius.",
+      "tokens": [
+        {
+          "source": "4",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "neb_q5_m0492",
+      "step": "s17",
+      "arm": "prepared",
+      "sent": "Hold at four to ten degrees celsius.",
+      "heard": "Hold at four to ten degrees Celsius.",
+      "tokens": [
+        {
+          "source": "4",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s1",
+      "arm": "raw",
+      "sent": "Take the competent cells out of -80\u00b0C.",
+      "heard": "Take the competent cells out of minus eighty degrees Celsius.",
+      "tokens": [
+        {
+          "source": "80",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s1",
+      "arm": "prepared",
+      "sent": "Take the competent cells out of minus eighty degrees celsius.",
+      "heard": "Take the competent cells out of minus eighty degrees Celsius.",
+      "tokens": [
+        {
+          "source": "80",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s2",
+      "arm": "raw",
+      "sent": "Thaw the competent cells on ice (approximately 20-30 mins).",
+      "heard": "Thaw the competent cells on ice approximately twenty to thirty minutes.",
+      "tokens": [
+        {
+          "source": "20",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "mins",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s2",
+      "arm": "prepared",
+      "sent": "Thaw the competent cells on ice for approximately twenty to thirty minutes.",
+      "heard": "Thaw the competent cells on ice for approximately twenty to thirty minutes.",
+      "tokens": [
+        {
+          "source": "20",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "mins",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s3",
+      "arm": "raw",
+      "sent": "Remove the agar plates (containing the appropriate antibiotic) from storage at 4\u00b0C.",
+      "heard": "Remove the agar plates containing the appropriate antibiotic from storage at four degrees Celsius.",
+      "tokens": [
+        {
+          "source": "4",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s3",
+      "arm": "prepared",
+      "sent": "Remove the agar plates containing the appropriate antibiotic from storage at four degrees celsius.",
+      "heard": "Remove the agar plates containing the appropriate antibiotic from storage at four degrees Celsius.",
+      "tokens": [
+        {
+          "source": "4",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s5",
+      "arm": "raw",
+      "sent": "Optionally, incubate the plates in a 37\u00b0C incubator.",
+      "heard": "Optionally, incubate the plates in a thirty seven degrees Celsius incubator.",
+      "tokens": [
+        {
+          "source": "37",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s5",
+      "arm": "prepared",
+      "sent": "Optionally, incubate the plates in a thirty seven degrees celsius incubator.",
+      "heard": "Optionally, incubate the plates in a thirty seven degrees Celsius incubator,",
+      "tokens": [
+        {
+          "source": "37",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s6",
+      "arm": "raw",
+      "sent": "Mix 1 - 5 \u03bcl of DNA (usually 10 pg - 100 ng) into 20-50 \u03bcL of competent cells in a microcentrifuge or falcon tube.",
+      "heard": "Mix one to five e l of DN a, usually ten p g, one hundred nanograms into twenty to fifty E L) of competent cells in a microcentrifuge or FALCON tube.",
+      "tokens": [
+        {
+          "source": "1",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "5",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u03bcl",
+          "kind": "unit",
+          "recovered": false
+        },
+        {
+          "source": "DNA",
+          "kind": "acronym",
+          "recovered": false
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "pg",
+          "kind": "unit",
+          "recovered": false
+        },
+        {
+          "source": "100",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "ng",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "20",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "50",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u03bcL",
+          "kind": "unit",
+          "recovered": false
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s6",
+      "arm": "prepared",
+      "sent": "Mix one to five microlitres of spell(DNA), usually ten picograms to one hundred nanograms, into twenty to fifty microlitres of competent cells. Mix in a microcentrifuge or falcon tube.",
+      "heard": "Mix one to five microliters of DNA, usually ten pico pc to one hundred nanograms into twenty to fifty microliters of competent cells. Mix in a microcentrifuge or falcon tube.",
+      "tokens": [
+        {
+          "source": "1",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "5",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u03bcl",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "DNA",
+          "kind": "acronym",
+          "recovered": true
+        },
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "pg",
+          "kind": "unit",
+          "recovered": false
+        },
+        {
+          "source": "100",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "ng",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "20",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "50",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u03bcL",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s7",
+      "arm": "raw",
+      "sent": "GENTLY mix by flicking the bottom of the tube with your finger a few times.",
+      "heard": "Gently mix by flicking the bottom of the tube with your finger a few times.",
+      "tokens": [
+        {
+          "source": "GENTLY",
+          "kind": "acronym",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s7",
+      "arm": "prepared",
+      "sent": "Gently mix by flicking the bottom of the tube with your finger a few times.",
+      "heard": "Gently mix by flicking the bottom of the tube with your finger a few times.",
+      "tokens": [
+        {
+          "source": "GENTLY",
+          "kind": "acronym",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s8",
+      "arm": "raw",
+      "sent": "Incubate the competent cell/DNA mixture on ice for 20-30 mins.",
+      "heard": "Incubate the competent cell slash DNA mixture on ice for twenty to thirty minutes.",
+      "tokens": [
+        {
+          "source": "DNA",
+          "kind": "acronym",
+          "recovered": true
+        },
+        {
+          "source": "20",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "mins",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s8",
+      "arm": "prepared",
+      "sent": "Incubate the competent cell and spell(DNA) mixture on ice for twenty to thirty minutes.",
+      "heard": "Incubate the competent cell and DNA mixture on ice for twenty to thirty minutes.",
+      "tokens": [
+        {
+          "source": "DNA",
+          "kind": "acronym",
+          "recovered": true
+        },
+        {
+          "source": "20",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "mins",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s9",
+      "arm": "raw",
+      "sent": "Heat shock each transformation tube by placing the bottom 1/2 to 2/3 of the tube into a 42\u00b0C water bath for 30-60 secs (45 secs is usually ideal, but this varies depending on the competent cells you are using).",
+      "heard": "Heat shock each transformation tube by placing the bottom one half to two thirds of the tube into a forty two degrees Celsius water bath. For thirty to sixty secs. Forty five secs is usually ideal, but this very depending on the competent cells you are using.",
+      "tokens": [
+        {
+          "source": "42",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "60",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "secs",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "45",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "secs",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s9",
+      "arm": "prepared",
+      "sent": "Heat shock each transformation tube. Place the bottom one half to two thirds of the tube into a forty two degrees celsius water bath for thirty to sixty seconds. Forty five seconds is usually ideal. This varies depending on the competent cells you are using.",
+      "heard": "Heat shock each transformation tube. Place the bottom one half to two thirds of the tube into a forty two degree Celsius water bath for thirty to sixty seconds. Forty five seconds is usually ideal. This varies depending on the competent cells you are using.",
+      "tokens": [
+        {
+          "source": "42",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "30",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "60",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "secs",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "45",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "secs",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s10",
+      "arm": "raw",
+      "sent": "Put the tubes back on ice for 2 min.",
+      "heard": "Put the tubes back on ice for two minutes.",
+      "tokens": [
+        {
+          "source": "2",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "min",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s10",
+      "arm": "prepared",
+      "sent": "Put the tubes back on ice for two minutes.",
+      "heard": "Put the tubes back on ice for two minutes.",
+      "tokens": [
+        {
+          "source": "2",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "min",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s11",
+      "arm": "raw",
+      "sent": "Add 250-1,000 \u03bcl LB or SOC media (without antibiotic) to the bacteria.",
+      "heard": "Add two hundred fifty one thousand ELLB or social media without anti antibiotic to the bacteria.",
+      "tokens": [
+        {
+          "source": "250",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "1,000",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u03bcl",
+          "kind": "unit",
+          "recovered": false
+        },
+        {
+          "source": "LB",
+          "kind": "acronym",
+          "recovered": false
+        },
+        {
+          "source": "SOC",
+          "kind": "acronym",
+          "recovered": false
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s11",
+      "arm": "prepared",
+      "sent": "Add two hundred and fifty to one thousand microlitres of spell(LB) or spell(SOC) media without antibiotic to the bacteria.",
+      "heard": "Add two hundred and fifty to one thousand microliters of l b or SOC media without antibiotic to the bacteria.",
+      "tokens": [
+        {
+          "source": "250",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "1,000",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u03bcl",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "LB",
+          "kind": "acronym",
+          "recovered": true
+        },
+        {
+          "source": "SOC",
+          "kind": "acronym",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s12",
+      "arm": "raw",
+      "sent": "Grow in a 37\u00b0C shaking incubator for 45 min.",
+      "heard": "Grow in a thirty seven degree Celsius shaking incubator for forty five minutes.",
+      "tokens": [
+        {
+          "source": "37",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "45",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "min",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s12",
+      "arm": "prepared",
+      "sent": "Grow in a thirty seven degrees celsius shaking incubator for forty five minutes.",
+      "heard": "Grow in a thirty seven degree Celsius shaking incubator for forty five minutes.",
+      "tokens": [
+        {
+          "source": "37",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "45",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "min",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s13",
+      "arm": "raw",
+      "sent": "Plate some or all of the transformation onto a 10 cm LB agar plate containing the appropriate antibiotic.",
+      "heard": "Plate some or all of the transformation onto a ten centimeters l b agar plate containing the appropriate antibiotic.",
+      "tokens": [
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "cm",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "LB",
+          "kind": "acronym",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s13",
+      "arm": "prepared",
+      "sent": "Plate some or all of the transformation onto a ten centimetre spell(LB) agar plate containing the appropriate antibiotic.",
+      "heard": "Plate some or all of the transformation onto a ten centimeter l b agar plate containing the appropriate antibiotic.",
+      "tokens": [
+        {
+          "source": "10",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "cm",
+          "kind": "unit",
+          "recovered": true
+        },
+        {
+          "source": "LB",
+          "kind": "acronym",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s14",
+      "arm": "raw",
+      "sent": "Incubate plates at 37\u00b0C overnight.",
+      "heard": "Incubate plates at thirty seven degrees Celsius overnight.",
+      "tokens": [
+        {
+          "source": "37",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    },
+    {
+      "protocol": "addgene_transformation",
+      "step": "s14",
+      "arm": "prepared",
+      "sent": "Incubate plates at thirty seven degrees celsius overnight.",
+      "heard": "Incubate plates at thirty seven degrees Celsius overnight.",
+      "tokens": [
+        {
+          "source": "37",
+          "kind": "number",
+          "recovered": true
+        },
+        {
+          "source": "\u00b0C",
+          "kind": "unit",
+          "recovered": true
+        }
+      ]
+    }
+  ]
+}

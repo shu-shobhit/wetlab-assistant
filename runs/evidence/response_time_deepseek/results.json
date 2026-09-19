@@ -1,0 +1,68 @@
+{
+  "response_ms_tool_median": {
+    "value": 4786.9,
+    "unit": "ms",
+    "n": 17,
+    "note": "user finished to first sample heard, turns that called a tool"
+  },
+  "response_ms_tool_p90": {
+    "value": 6586.3,
+    "unit": "ms",
+    "n": 17,
+    "note": ""
+  },
+  "response_ms_no_tool_median": {
+    "value": 3137.4,
+    "unit": "ms",
+    "n": 3,
+    "note": "same, turns answered from the standing context alone"
+  },
+  "response_ms_no_tool_p90": {
+    "value": 3336.9,
+    "unit": "ms",
+    "n": 3,
+    "note": ""
+  },
+  "advance_ms_median": {
+    "value": null,
+    "unit": "ms",
+    "n": 0,
+    "note": "spoken advance to the next step beginning"
+  },
+  "tool_silence_ms_max": {
+    "value": 6794.5380000000005,
+    "unit": "ms",
+    "n": 17,
+    "note": "longest gap before anything was heard on a tool turn"
+  },
+  "status_dropped_pct": {
+    "value": 100.0,
+    "unit": "%",
+    "n": 17,
+    "note": "statuses dropped because the answer was ready first"
+  },
+  "interrupt_stop_ms_median": {
+    "value": 3.0,
+    "unit": "ms",
+    "n": 2,
+    "note": "user speech onset to audio stopping, measured at the listener"
+  },
+  "steps_presented": {
+    "value": 10,
+    "unit": "count",
+    "n": 10,
+    "note": "steps handed to the model to say"
+  },
+  "replies_heard_pct": {
+    "value": 90.9,
+    "unit": "%",
+    "n": 22,
+    "note": "model replies that finished without being cut"
+  },
+  "provider_failures": {
+    "value": 2,
+    "unit": "count",
+    "n": 2,
+    "note": "with no pedal there is no fallback path, so this is reported"
+  }
+}

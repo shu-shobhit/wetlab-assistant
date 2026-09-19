@@ -1,0 +1,10 @@
+Hand-written, not a published protocol.
+
+Authored for the vertical slice and the offline tests so the build has a corpus
+before the real one lands in Task 19. Its step is modelled on the shape of a
+high-fidelity PCR setup but is not taken from any source and must never appear
+in an evidence table.
+
+The three cited protocols are in Task 19: the NEB Q5 High-Fidelity PCR protocol
+(M0491), the Addgene bacterial transformation protocol, and an adherent-cell
+passaging protocol.

@@ -1,0 +1,11 @@
+New England Biolabs. "PCR Using Q5 High-Fidelity 2X Master Mix (NEB #M0492)."
+https://www.neb.com/en-us/protocols/2012/12/07/protocol-for-q5-high-fidelity-2x-master-mix-m0492
+Accessed 6 September 2026. No DOI.
+
+NEB returns 403 to scripted requests, so the source was read through a browser
+and the text saved by hand into source.md. source.md is the page as it reads;
+parsed.yaml is an authored reduction of it, and the difference between the two is
+described in labels.yaml.
+
+Used here for research and evaluation. The protocol text belongs to NEB; nothing
+in this repository redistributes it as a product.

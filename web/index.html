@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wetlab Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <!-- Two views, one at a time. Choosing a protocol has to happen before the
+         room exists: a LiveKit agent job is dispatched when the room is created,
+         so the choice travels in the room name and cannot be changed later
+         without leaving the room. That is why this is a screen and not a
+         dropdown in the corner. -->
+    <main id="setup" class="setup">
+      <header class="setup-head">
+        <h1>Wetlab Assistant</h1>
+        <p class="lede">
+          A protocol read aloud while your hands are busy. Everything is done by
+          talking: there is no pedal and no key.
+        </p>
+      </header>
+
+      <h2 class="label">Choose a protocol</h2>
+      <div id="picker" class="picker" role="radiogroup" aria-label="Protocol">
+        <div class="picker-empty">loading…</div>
+      </div>
+
+      <div class="setup-actions">
+        <button id="join" disabled>Open protocol</button>
+        <span id="setup-note" class="note">
+          Use headphones. Without them the room's echo cancellation carries the
+          assistant's own voice back into the microphone.
+        </span>
+      </div>
+      <div id="setup-error" class="error" hidden></div>
+    </main>
+
+    <main id="bench" class="bench" hidden>
+      <header class="bar">
+        <div class="bar-left">
+          <span class="mark">Wetlab Assistant</span>
+          <span id="protocol-title" class="bar-title"></span>
+        </div>
+        <div class="bar-right">
+          <span id="voice" class="chip"></span>
+          <span id="status" class="chip chip-status">connecting</span>
+        </div>
+      </header>
+
+      <div id="banner" class="banner" hidden></div>
+
+      <div class="grid">
+        <section class="card step-card" aria-live="polite">
+          <div class="card-head">
+            <span class="label">Current step</span>
+            <span id="step-count" class="counter">not started</span>
+          </div>
+          <div class="progress"><div id="progress-fill" class="progress-fill"></div></div>
+
+          <p id="step-source" class="step-source">
+            Say “start the procedure” when you are ready.
+          </p>
+          <!-- The same step in the words handed to Rime. The difference between
+               the two lines is the offline preparation pass, which is otherwise
+               only visible in a YAML file. -->
+          <div id="step-spoken-wrap" class="spoken-wrap" hidden>
+            <span class="label label-inline">as spoken</span>
+            <p id="step-spoken" class="step-spoken"></p>
+          </div>
+        </section>
+
+        <section class="card timer-card">
+          <div class="card-head">
+            <span class="label">Timers</span>
+            <span id="timer-count" class="counter"></span>
+          </div>
+          <div id="timers" class="timers">
+            <p class="empty">Nothing running. A timer starts when you say a step is done.</p>
+          </div>
+        </section>
+
+        <section class="card talk-card">
+          <div class="card-head">
+            <span class="label">Conversation</span>
+            <span id="speaking-flag" class="counter"></span>
+          </div>
+          <div id="talk" class="talk">
+            <p class="empty">Nothing said yet.</p>
+          </div>
+        </section>
+      </div>
+
+      <details class="drawer">
+        <summary>
+          Event log <span class="note">every message the agent sent, as it arrived</span>
+        </summary>
+        <div id="log" class="log"></div>
+      </details>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/livekit-client@2.22.2/dist/livekit-client.umd.js"></script>
+    <script src="/static/room.js"></script>
+    <script src="/static/probe.js"></script>
+    <script src="/static/bench.js"></script>
+    <script>
+      benchView.init();
+    </script>
+  </body>
+</html>

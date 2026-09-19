@@ -1,0 +1,69 @@
+# Ingested from source.md by scripts/ingest_protocol.py using z-ai/glm-5.3.
+#
+# Splitting a document into steps is an authoring decision, not a parse.
+# The source sits beside this file so the two can be read against each
+# other, and CITATION says where the source came from.
+id: addgene_transformation
+title: Bacterial Transformation
+steps:
+- id: s1
+  text: Take the competent cells out of -80°C.
+  timers: []
+- id: s2
+  text: Thaw the competent cells on ice (approximately 20-30 mins).
+  timers:
+  - id: s2.timer1
+    label: twenty to thirty minute thaw on ice
+    seconds: 1200.0
+- id: s3
+  text: Remove the agar plates (containing the appropriate antibiotic) from storage at 4°C.
+  timers: []
+- id: s4
+  text: Let the plates warm up to room temperature.
+  timers: []
+- id: s5
+  text: Optionally, incubate the plates in a 37°C incubator.
+  timers: []
+- id: s6
+  text: Mix 1 - 5 μl of DNA (usually 10 pg - 100 ng) into 20-50 μL of competent cells in a microcentrifuge
+    or falcon tube.
+  timers: []
+- id: s7
+  text: GENTLY mix by flicking the bottom of the tube with your finger a few times.
+  timers: []
+- id: s8
+  text: Incubate the competent cell/DNA mixture on ice for 20-30 mins.
+  timers:
+  - id: s8.timer1
+    label: twenty to thirty minute incubation on ice
+    seconds: 1200.0
+- id: s9
+  text: Heat shock each transformation tube by placing the bottom 1/2 to 2/3 of the tube into a 42°C water
+    bath for 30-60 secs (45 secs is usually ideal, but this varies depending on the competent cells you
+    are using).
+  timers:
+  - id: s9.timer1
+    label: thirty to sixty second heat shock
+    seconds: 30.0
+- id: s10
+  text: Put the tubes back on ice for 2 min.
+  timers:
+  - id: s10.timer1
+    label: two minutes back on ice
+    seconds: 120.0
+- id: s11
+  text: Add 250-1,000 μl LB or SOC media (without antibiotic) to the bacteria.
+  timers: []
+- id: s12
+  text: Grow in a 37°C shaking incubator for 45 min.
+  timers:
+  - id: s12.timer1
+    label: forty-five minute growth in the shaking incubator
+    seconds: 2700.0
+- id: s13
+  text: Plate some or all of the transformation onto a 10 cm LB agar plate containing the appropriate
+    antibiotic.
+  timers: []
+- id: s14
+  text: Incubate plates at 37°C overnight.
+  timers: []

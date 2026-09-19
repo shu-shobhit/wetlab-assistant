@@ -1,0 +1,93 @@
+# Who labelled this, what they decided, and what a bench scientist should check.
+#
+# PS decision 6: the hazard labels and the irreversible flags are hand-applied by
+# a non-specialist. Everything the evidence claims rests on them being right, so
+# the decisions are written down rather than left implicit in the YAML.
+
+protocol: neb_q5_m0492
+labelled_by: non-specialist
+labelled_on: 2026-09-06
+reviewed_by_bench_scientist: false
+review_status: not reviewed
+
+# --- what the parse decided ---------------------------------------------------
+#
+# The source is two reference tables plus prose guidelines. It has no numbered
+# steps, so the step sequence here is authored, not extracted. That is the
+# largest single assumption in this corpus entry.
+parse_decisions:
+  - "The 50 microlitre reaction arm was taken and the 25 microlitre arm dropped.
+     A voice assistant reads one reaction at a time, and carrying both would make
+     every volume ambiguous, which is the opposite of the point."
+  - "Ranges were collapsed to a single value, taking the midpoint or the value
+     the guidelines recommend. 25 to 35 cycles became 30 (the page recommends 30
+     to 35 for genomic amplicons); 5 to 10 seconds denaturation became 10; 10 to
+     30 seconds annealing became 30; 20 to 30 seconds per kb extension became 30;
+     the 4 to 10 degree hold became 4 degrees."
+  - "The annealing temperature is not in the source. The page says 3 degrees
+     above the Tm of the lower Tm primer, which depends on the primers. 65
+     degrees is a placeholder standing in for a value the NEB Tm Calculator would
+     supply, and it is the one number here not traceable to the page."
+  - "Reaction setup was split into one step per component, because that is how a
+     person pipettes and it is what makes each volume separately confirmable."
+
+labelling_decisions:
+  - "The template amount, 1000 ng, is labelled H1 rather than H7. Confusing
+     nanograms with micrograms is a thousandfold error, which is the failure H1
+     exists for rather than a condition being slightly off. It also makes step
+     s5 confirmable: an irreversible step with nothing to read back commits on
+     the pedal alone, which is the behaviour the readback mechanism replaces.
+     tests/test_corpus.py enforces that invariant, and it is what caught this."
+  - "Q5 High-Fidelity 2X Master Mix is H4, a named reagent. With no lexicon entry
+     its pronunciation cannot be fixed, but its digits are now spelled out, so
+     Rime is not left to decide what Q5 and 2X sound like."
+
+# --- hazard coverage ----------------------------------------------------------
+#
+# Counted from parsed.yaml rather than asserted; tests/test_corpus.py checks these
+# against the file, so a label change that is not reflected here fails the suite.
+hazard_counts:
+  H1: 5   # unit scale: 25 µl, 2.5 µl twice, 1000 ng, 50 µl
+  H2: 1   # confusable number: 30 cycles
+  H3: 1   # acronym reagent: DNA
+  H4: 1   # named reagent: Q5 High-Fidelity 2X Master Mix
+  H5: 0
+  H6: 2   # decimal: 0.5 µM twice
+  H7: 14  # conditions: eight temperatures, four durations, two stock concentrations
+
+# Irreversible steps that nothing can confirm by readback.
+#
+# tests/test_corpus.py requires every irreversible step to have a readback span
+# or to be listed here with a reason. The flag is supposed to buy extra
+# protection; a step carrying it and getting none is a false assurance, and it
+# should have to be argued for rather than left as an oversight.
+unconfirmable_irreversible_steps:
+  s8: "Putting the tube into a block already at 98 degrees changes the sample, so
+       the step is irreversible. What makes it dangerous is the temperature the
+       thermocycler is set to, which the assistant does not control and a spoken
+       readback cannot check: the scientist reading back 98 confirms only that
+       they heard it, not that the machine agrees. PS decision 4 keeps readback
+       to H1 and H5, so this is recorded rather than papered over."
+
+gaps:
+  - "H5, sample identity, does not occur. This is a single-reaction protocol with
+     no tube, well or plate numbering, so there is nothing to confuse. H5 is one
+     of the two classes requiring a spoken readback, so on this protocol the
+     readback evidence covers H1 only. H5 evidence comes from the hand-written
+     protocol and must be labelled as such wherever it appears."
+  - "Only one protocol is in the corpus. PS section 7 originally promised three
+     and at least 100 steps; this is one protocol and 14 steps, and every table
+     reporting a corpus-wide number says so."
+
+# --- what a bench scientist should be asked ----------------------------------
+review_questions:
+  - "Is the irreversible flag right? It is set on the pipetting steps, on the
+     assumption that once a component is in the tube it cannot be taken out, and
+     cleared on the thermocycling steps, on the assumption that a wrong
+     temperature is caught before the run finishes. The second is weaker."
+  - "Is 65 degrees an acceptable stand-in for the annealing temperature, or
+     should the step refuse to state a value and ask for the Tm instead? This is
+     the most consequential open question in the file."
+  - "Should the cycling steps declare timers? They are run by the thermocycler,
+     not by the scientist, so none are declared here. If a scientist is expected
+     to watch them, they should be."

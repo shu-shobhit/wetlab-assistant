@@ -1,0 +1,33 @@
+{
+  "source": "data/oov.json",
+  "protocols": [
+    "handwritten",
+    "neb_q5_m0492",
+    "addgene_transformation"
+  ],
+  "out_of_vocabulary": 15,
+  "groups": {
+    "spoken_as_a_word": [
+      "denaturation",
+      "denature",
+      "microcentrifuge",
+      "nuclease",
+      "optionally",
+      "pipetting",
+      "thermocycler",
+      "thermocycling"
+    ],
+    "inside_spell": [
+      "dntp",
+      "lb",
+      "pcr"
+    ],
+    "never_sent": [
+      "cm",
+      "kb",
+      "mins",
+      "pg"
+    ]
+  },
+  "note": "Only spoken_as_a_word is a live risk: Rime predicts a pronunciation for those and may be wrong. Words inside spell() are read letter by letter, and words in never_sent were rewritten by the preparation pass and are not sent to Rime at all."
+}

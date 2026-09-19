@@ -1,0 +1,69 @@
+# Ingested from source.md by scripts/ingest_protocol.py using z-ai/glm-5.3.
+#
+# Splitting a document into steps is an authoring decision, not a parse.
+# The source sits beside this file so the two can be read against each
+# other, and CITATION says where the source came from.
+#
+# Variant requested: the 50 microlitre reaction column of the component table
+id: neb_q5_m0492
+title: 'PCR Using Q5 High-Fidelity 2X Master Mix (NEB #M0492) - 50 µl Reaction'
+steps:
+- id: s1
+  text: Assemble all reaction components on ice.
+  timers: []
+- id: s2
+  text: Gently mix each component before adding it to the reaction.
+  timers: []
+- id: s3
+  text: Add 25 µl of Q5 High-Fidelity 2X Master Mix to the reaction.
+  timers: []
+- id: s4
+  text: Add 2.5 µl of 10 µM Forward Primer to the reaction.
+  timers: []
+- id: s5
+  text: Add 2.5 µl of 10 µM Reverse Primer to the reaction.
+  timers: []
+- id: s6
+  text: Add Template DNA, variable volume, to a final amount of less than 1,000 ng.
+  timers: []
+- id: s7
+  text: Add Nuclease-Free Water to bring the reaction to a total volume of 50 µl.
+  timers: []
+- id: s8
+  text: Mix the entire reaction to ensure a homogeneous, consistent mixture.
+  timers: []
+- id: s9
+  text: Collect all liquid to the bottom of the tube with a quick centrifuge spin if necessary.
+  timers: []
+- id: s10
+  text: Overlay the sample with mineral oil if using a PCR machine without a heated lid.
+  timers: []
+- id: s11
+  text: Quickly transfer the reactions to a thermocycler preheated to the denaturation temperature of
+    98°C and begin thermocycling.
+  timers: []
+- id: s12
+  text: Initial denaturation at 98°C for 30 seconds.
+  timers:
+  - id: s12.timer1
+    label: initial denaturation at ninety-eight degrees Celsius
+    seconds: 30.0
+- id: s13
+  text: For each of the 25-35 cycles, denature at 98°C for 5-10 seconds.
+  timers: []
+- id: s14
+  text: For each of the 25-35 cycles, anneal at 50-72°C for 10-30 seconds, typically 3°C above the Tm
+    of the lower Tm primer. Use of the NEB Tm Calculator is highly recommended.
+  timers: []
+- id: s15
+  text: For each of the 25-35 cycles, extend at 72°C for 20-30 seconds per kb.
+  timers: []
+- id: s16
+  text: Final extension at 72°C for 2 minutes.
+  timers:
+  - id: s16.timer1
+    label: final extension at seventy-two degrees Celsius
+    seconds: 120.0
+- id: s17
+  text: Hold at 4-10°C.
+  timers: []

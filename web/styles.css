@@ -1,0 +1,545 @@
+/* The bench screen.
+ *
+ * Read at arm's length by someone in gloves who glances at it, and recorded for
+ * the demo. Both want the same thing: one large thing to read, everything else
+ * quieter, and no colour that carries meaning on its own. */
+
+:root {
+  --bg: #0d1117;
+  --raise: #151b23;
+  --card: #161d26;
+  --line: #232c37;
+  --line-soft: #1c242e;
+
+  --text: #e6edf3;
+  --dim: #8d9aa8;
+  --faint: #5f6b78;
+
+  --accent: #4c9be8;
+  --running: #ffc857;
+  --good: #5fd08a;
+  --bad: #ff6b6b;
+
+  --radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/* --- shared -------------------------------------------------------------- */
+
+.label {
+  color: var(--dim);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.label-inline {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.note {
+  color: var(--faint);
+  font-size: 13px;
+}
+
+.empty {
+  color: var(--faint);
+  font-size: 14px;
+  margin: 0;
+}
+
+.counter {
+  color: var(--dim);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+button {
+  background: var(--accent);
+  color: #06121e;
+  border: 0;
+  border-radius: 7px;
+  padding: 11px 22px;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: #63aaee;
+}
+
+button:disabled {
+  background: #2a3542;
+  color: var(--faint);
+  cursor: default;
+}
+
+/* --- setup --------------------------------------------------------------- */
+
+.setup {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 24px 64px;
+}
+
+.setup-head h1 {
+  font-size: 26px;
+  font-weight: 650;
+  margin: 0 0 6px;
+}
+
+.lede {
+  color: var(--dim);
+  margin: 0 0 40px;
+  max-width: 54ch;
+}
+
+.picker {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 28px;
+}
+
+.picker-empty {
+  color: var(--faint);
+  font-size: 14px;
+  padding: 14px 0;
+}
+
+.option {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.option:hover {
+  border-color: #33414f;
+}
+
+/* The radio itself is off screen rather than hidden, so the group is still
+   reachable by keyboard and readable by a screen reader. */
+.option input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.option:has(input:checked) {
+  border-color: var(--accent);
+  background: #16222f;
+}
+
+.option:has(input:focus-visible) {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.option-title {
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.option-meta {
+  color: var(--dim);
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.option-cite {
+  color: var(--faint);
+  font-size: 12px;
+  margin-top: 6px;
+  overflow-wrap: anywhere;
+}
+
+.option.unready {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.setup-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.setup-actions .note {
+  max-width: 46ch;
+}
+
+.error {
+  color: var(--bad);
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+/* --- bench --------------------------------------------------------------- */
+
+.bench {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 18px 24px 40px;
+}
+
+.bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line-soft);
+  margin-bottom: 18px;
+}
+
+.bar-left {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  min-width: 0;
+}
+
+.mark {
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.bar-title {
+  color: var(--dim);
+  font-size: 14px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bar-right {
+  display: flex;
+  gap: 8px;
+}
+
+.chip {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 11px;
+  font-size: 12px;
+  color: var(--dim);
+  white-space: nowrap;
+}
+
+.chip-status.live {
+  color: var(--good);
+  border-color: #294a38;
+}
+
+.chip-status.lost {
+  color: var(--bad);
+  border-color: #4a2929;
+}
+
+.banner {
+  background: #3a2a12;
+  border: 1px solid #6b4d1c;
+  color: var(--running);
+  border-radius: var(--radius);
+  padding: 11px 15px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.banner.bad {
+  background: #3a1c1c;
+  border-color: #6b2c2c;
+  color: var(--bad);
+}
+
+.banner.done {
+  background: #16301f;
+  border-color: #2a5b3c;
+  color: var(--good);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  grid-template-areas:
+    "step timers"
+    "step talk";
+  gap: 16px;
+  align-items: start;
+}
+
+/* The step holds its height whether it is one line or six, so the page does not
+   resize under someone who is glancing at it between pipetting steps. */
+.step-card {
+  grid-area: step;
+  min-height: 340px;
+}
+.timer-card {
+  grid-area: timers;
+}
+.talk-card {
+  grid-area: talk;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "step" "timers" "talk";
+  }
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+}
+
+.card-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+/* --- the step ------------------------------------------------------------ */
+
+.progress {
+  height: 3px;
+  background: var(--line-soft);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0;
+  background: var(--accent);
+  transition: width 0.35s ease;
+}
+
+/* The one thing on the page meant to be read from across a bench. */
+.step-source {
+  font-size: 27px;
+  line-height: 1.5;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+.spoken-wrap {
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.step-spoken {
+  color: var(--dim);
+  font-size: 15px;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+/* Reading it out loud, right now. Nothing depends on this; it is the screen
+   agreeing with what the room can hear. */
+.step-card.speaking .step-source {
+  color: #fff;
+}
+
+.step-card.speaking .progress-fill {
+  background: var(--good);
+}
+
+/* Ended, which is not the same as reaching the last step. The step stays on
+   screen and stops looking current, because what was being done when somebody
+   walked away is the thing worth still being able to read. */
+.step-card.finished .step-source,
+.step-card.finished .step-spoken {
+  color: var(--faint);
+}
+
+.step-card.finished .progress-fill {
+  background: var(--line);
+}
+
+.step-card.finished .counter {
+  color: var(--good);
+}
+
+/* --- timers -------------------------------------------------------------- */
+
+.timers {
+  display: grid;
+  gap: 10px;
+}
+
+.timer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  background: var(--raise);
+  border: 1px solid var(--line-soft);
+  border-left: 3px solid var(--running);
+  border-radius: 7px;
+  padding: 11px 14px;
+}
+
+.timer-label {
+  font-size: 14px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.timer-left {
+  font-size: 25px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--running);
+  white-space: nowrap;
+}
+
+.timer.done {
+  border-left-color: var(--good);
+}
+
+.timer.done .timer-left {
+  color: var(--good);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* --- conversation -------------------------------------------------------- */
+
+.talk {
+  display: grid;
+  gap: 12px;
+  max-height: 340px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.turn {
+  display: grid;
+  gap: 3px;
+}
+
+.turn-who {
+  color: var(--faint);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.turn-what {
+  font-size: 15px;
+  overflow-wrap: break-word;
+}
+
+.turn.scientist .turn-what {
+  color: var(--text);
+}
+
+.turn.assistant .turn-what {
+  color: #bcd3e8;
+}
+
+/* A turn still being recognised. It is replaced in place when the recogniser
+   settles, so a half-heard sentence never stays on screen as a record of one. */
+.turn.partial .turn-what {
+  color: var(--faint);
+  font-style: italic;
+}
+
+.turn-tool {
+  color: var(--faint);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+/* --- the log drawer ------------------------------------------------------ */
+
+.drawer {
+  margin-top: 18px;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  background: var(--raise);
+}
+
+.drawer summary {
+  cursor: pointer;
+  padding: 11px 16px;
+  color: var(--dim);
+  font-size: 13px;
+  font-weight: 600;
+  user-select: none;
+}
+
+.drawer summary::marker {
+  color: var(--faint);
+}
+
+.drawer[open] summary {
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.log {
+  height: 260px;
+  overflow-y: auto;
+  padding: 8px 16px 12px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--faint);
+  scrollbar-width: thin;
+}
+
+.log-row {
+  padding: 1px 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.log-row .log-type {
+  color: var(--dim);
+}
+
+.log-row.alert .log-type {
+  color: var(--bad);
+}
+
+.log-row.speech .log-type {
+  color: var(--accent);
+}

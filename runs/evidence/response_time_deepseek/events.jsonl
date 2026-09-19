@@ -1,0 +1,956 @@
+{"type": "header", "t_ms": 0.196, "wall": "2026-09-07T22:28:52.185+00:00", "protocol": "neb_q5_m0492", "protocol_dir": "neb_q5_m0492", "protocol_chosen": "chosen on the page", "citation": "New England Biolabs. \"PCR Using Q5 High-Fidelity 2X Master Mix (NEB #M0492).\"\nhttps://www.neb.com/en-us/protocols/2012/12/07/protocol-for-q5-high-fidelity-2x-master-mix-m0492\nAccessed 6 September 2026. No DOI.\n\nNEB returns 403 to scripted requests, so the source was read through a browser\nand the text saved by hand into source.md. source.md is the page as it reads;\nparsed.yaml is an authored reduction of it, and the difference between the two is\ndescribed in labels.yaml.\n\nUsed here for research and evaluation. The protocol text belongs to NEB; nothing\nin this repository redistributes it as a product.", "room": "bench.neb_q5_m0492.mtrtbje812x2", "model": "mistv3", "speaker": "luna", "llm": "deepseek/deepseek-v4-flash", "llm_reasoning": null, "llm_provider": "baidu/fp8,alibaba/fp8", "stt": "deepgram/nova-3", "steps": 17, "prepared": 17, "revision": {"commit": "ab895900466900f7591f65b56788a7ce2b764b1d", "dirty": true}, "label": "ds_reasoning", "script": ""}
+{"type": "agent.state", "t_ms": 778.431, "wall": "2026-09-07T22:28:52.963+00:00", "state": "listening"}
+{"type": "speech.requested", "t_ms": 782.325, "wall": "2026-09-07T22:28:52.967+00:00", "kind": "greeting", "instructions": "Greet them. Say this is PCR Using Q5 High-Fidelity 2X Master Mix (NEB #M0492) - 50 \u00b5l Reaction, that it has 17 steps, and that they should say start when they are ready. Two sentences at most. Do not read the first step."}
+{"type": "model.reply.created", "t_ms": 782.649, "wall": "2026-09-07T22:28:52.967+00:00"}
+{"type": "speech.start", "t_ms": 784.185, "wall": "2026-09-07T22:28:52.969+00:00", "context_id": "m7797ecb65160", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 810.089, "wall": "2026-09-07T22:28:52.994+00:00", "state": "thinking"}
+{"type": "agent.state", "t_ms": 2666.76, "wall": "2026-09-07T22:28:54.851+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 2813.916, "wall": "2026-09-07T22:28:54.998+00:00", "context_id": "m7797ecb65160", "emitted_samples": 24000, "at_ms": 4751.5}
+{"type": "probe.position", "t_ms": 2814.206, "wall": "2026-09-07T22:28:54.999+00:00", "context_id": "m7797ecb65160", "rendered_s": 0.18, "buffered_s": 0.0178, "concealed_samples": 0, "at_ms": 4751.5}
+{"type": "probe.position", "t_ms": 3013.469, "wall": "2026-09-07T22:28:55.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 0.36, "buffered_s": 0.0189, "concealed_samples": 0, "at_ms": 4951.5}
+{"type": "probe.position", "t_ms": 3213.845, "wall": "2026-09-07T22:28:55.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 0.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 5151.5999999996275}
+{"type": "probe.position", "t_ms": 3414.008, "wall": "2026-09-07T22:28:55.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 0.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 5351.799999998882}
+{"type": "probe.position", "t_ms": 3613.656, "wall": "2026-09-07T22:28:55.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 0.96, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 5551.5}
+{"type": "probe.position", "t_ms": 3816.931, "wall": "2026-09-07T22:28:56.001+00:00", "context_id": "m7797ecb65160", "rendered_s": 1.12, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 5750.799999998882}
+{"type": "probe.position", "t_ms": 4013.137, "wall": "2026-09-07T22:28:56.197+00:00", "context_id": "m7797ecb65160", "rendered_s": 1.36, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 5951.39999999851}
+{"type": "probe.position", "t_ms": 4214.071, "wall": "2026-09-07T22:28:56.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 1.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 6151.5}
+{"type": "probe.position", "t_ms": 4412.805, "wall": "2026-09-07T22:28:56.597+00:00", "context_id": "m7797ecb65160", "rendered_s": 1.76, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 6351.299999998882}
+{"type": "probe.position", "t_ms": 4613.764, "wall": "2026-09-07T22:28:56.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 1.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 6551.5999999996275}
+{"type": "probe.position", "t_ms": 4813.044, "wall": "2026-09-07T22:28:56.997+00:00", "context_id": "m7797ecb65160", "rendered_s": 2.16, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 6751.0999999996275}
+{"type": "probe.position", "t_ms": 5013.904, "wall": "2026-09-07T22:28:57.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 2.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 6951.699999999255}
+{"type": "probe.position", "t_ms": 5213.866, "wall": "2026-09-07T22:28:57.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 2.56, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 7151.5999999996275}
+{"type": "probe.position", "t_ms": 5413.666, "wall": "2026-09-07T22:28:57.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 2.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 7351.5999999996275}
+{"type": "probe.position", "t_ms": 5613.489, "wall": "2026-09-07T22:28:57.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 2.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 7551.5}
+{"type": "probe.position", "t_ms": 5812.879, "wall": "2026-09-07T22:28:57.997+00:00", "context_id": "m7797ecb65160", "rendered_s": 3.12, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 7750.89999999851}
+{"type": "probe.position", "t_ms": 6013.507, "wall": "2026-09-07T22:28:58.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 3.36, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 7951.5999999996275}
+{"type": "probe.position", "t_ms": 6213.677, "wall": "2026-09-07T22:28:58.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 3.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 8151.5999999996275}
+{"type": "probe.position", "t_ms": 6413.698, "wall": "2026-09-07T22:28:58.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 3.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 8351.5}
+{"type": "probe.position", "t_ms": 6613.803, "wall": "2026-09-07T22:28:58.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 3.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 8551.699999999255}
+{"type": "probe.position", "t_ms": 6813.469, "wall": "2026-09-07T22:28:58.998+00:00", "context_id": "m7797ecb65160", "rendered_s": 4.16, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 8751.39999999851}
+{"type": "probe.position", "t_ms": 7013.491, "wall": "2026-09-07T22:28:59.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 4.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 8951.39999999851}
+{"type": "probe.position", "t_ms": 7213.817, "wall": "2026-09-07T22:28:59.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 4.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 9151.599999999627}
+{"type": "probe.position", "t_ms": 7413.406, "wall": "2026-09-07T22:28:59.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 4.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 9351.39999999851}
+{"type": "probe.position", "t_ms": 7613.521, "wall": "2026-09-07T22:28:59.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 4.96, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 9551.39999999851}
+{"type": "probe.position", "t_ms": 7813.178, "wall": "2026-09-07T22:28:59.998+00:00", "context_id": "m7797ecb65160", "rendered_s": 5.12, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 9751}
+{"type": "probe.position", "t_ms": 8013.384, "wall": "2026-09-07T22:29:00.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 5.36, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 9951.39999999851}
+{"type": "probe.position", "t_ms": 8214.002, "wall": "2026-09-07T22:29:00.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 5.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 10151.89999999851}
+{"type": "probe.position", "t_ms": 8413.486, "wall": "2026-09-07T22:29:00.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 5.76, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 10351.5}
+{"type": "probe.position", "t_ms": 8613.681, "wall": "2026-09-07T22:29:00.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 5.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 10551.5}
+{"type": "probe.position", "t_ms": 8813.538, "wall": "2026-09-07T22:29:00.998+00:00", "context_id": "m7797ecb65160", "rendered_s": 6.16, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 10751.299999998882}
+{"type": "probe.position", "t_ms": 9013.41, "wall": "2026-09-07T22:29:01.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 6.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 10951.39999999851}
+{"type": "probe.position", "t_ms": 9213.471, "wall": "2026-09-07T22:29:01.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 6.56, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 11151.5}
+{"type": "probe.position", "t_ms": 9413.813, "wall": "2026-09-07T22:29:01.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 6.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 11351.5}
+{"type": "probe.position", "t_ms": 9613.78, "wall": "2026-09-07T22:29:01.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 6.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 11551.5}
+{"type": "probe.position", "t_ms": 9813.257, "wall": "2026-09-07T22:29:01.998+00:00", "context_id": "m7797ecb65160", "rendered_s": 7.12, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 11751.099999999627}
+{"type": "probe.position", "t_ms": 10013.804, "wall": "2026-09-07T22:29:02.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 7.36, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 11951.699999999255}
+{"type": "probe.position", "t_ms": 10213.773, "wall": "2026-09-07T22:29:02.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 7.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 12151.5}
+{"type": "probe.position", "t_ms": 10413.546, "wall": "2026-09-07T22:29:02.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 7.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 12351.5}
+{"type": "probe.position", "t_ms": 10613.899, "wall": "2026-09-07T22:29:02.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 7.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 12551.599999999627}
+{"type": "probe.position", "t_ms": 10813.257, "wall": "2026-09-07T22:29:02.998+00:00", "context_id": "m7797ecb65160", "rendered_s": 8.16, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 12751.099999999627}
+{"type": "probe.position", "t_ms": 11013.418, "wall": "2026-09-07T22:29:03.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 8.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 12951.299999998882}
+{"type": "probe.position", "t_ms": 11213.491, "wall": "2026-09-07T22:29:03.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 8.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 13151.39999999851}
+{"type": "probe.position", "t_ms": 11413.683, "wall": "2026-09-07T22:29:03.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 8.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 13351.39999999851}
+{"type": "probe.position", "t_ms": 11613.503, "wall": "2026-09-07T22:29:03.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 8.96, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 13551.5}
+{"type": "probe.position", "t_ms": 11813.102, "wall": "2026-09-07T22:29:03.997+00:00", "context_id": "m7797ecb65160", "rendered_s": 9.12, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 13750.89999999851}
+{"type": "probe.position", "t_ms": 12013.527, "wall": "2026-09-07T22:29:04.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 9.36, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 13951.299999998882}
+{"type": "probe.position", "t_ms": 12213.558, "wall": "2026-09-07T22:29:04.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 9.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 14151.39999999851}
+{"type": "probe.position", "t_ms": 12413.578, "wall": "2026-09-07T22:29:04.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 9.76, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 14351.5}
+{"type": "probe.position", "t_ms": 12613.514, "wall": "2026-09-07T22:29:04.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 9.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 14551.39999999851}
+{"type": "probe.position", "t_ms": 12812.837, "wall": "2026-09-07T22:29:04.997+00:00", "context_id": "m7797ecb65160", "rendered_s": 10.16, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 14750.89999999851}
+{"type": "probe.position", "t_ms": 13013.731, "wall": "2026-09-07T22:29:05.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 10.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 14951.599999999627}
+{"type": "probe.position", "t_ms": 13213.868, "wall": "2026-09-07T22:29:05.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 10.56, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 15151.699999999255}
+{"type": "probe.position", "t_ms": 13413.902, "wall": "2026-09-07T22:29:05.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 10.76, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 15351.599999999627}
+{"type": "probe.position", "t_ms": 13613.674, "wall": "2026-09-07T22:29:05.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 10.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 15551.5}
+{"type": "probe.position", "t_ms": 13813.168, "wall": "2026-09-07T22:29:05.998+00:00", "context_id": "m7797ecb65160", "rendered_s": 11.12, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 15750.89999999851}
+{"type": "probe.position", "t_ms": 14013.304, "wall": "2026-09-07T22:29:06.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 11.36, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 15951.39999999851}
+{"type": "probe.position", "t_ms": 14213.439, "wall": "2026-09-07T22:29:06.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 11.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 16151.39999999851}
+{"type": "probe.position", "t_ms": 14413.4, "wall": "2026-09-07T22:29:06.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 11.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 16351.5}
+{"type": "probe.position", "t_ms": 14613.827, "wall": "2026-09-07T22:29:06.798+00:00", "context_id": "m7797ecb65160", "rendered_s": 11.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 16551.5}
+{"type": "probe.position", "t_ms": 14813.482, "wall": "2026-09-07T22:29:06.998+00:00", "context_id": "m7797ecb65160", "rendered_s": 12.16, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 16751.299999998882}
+{"type": "probe.position", "t_ms": 15013.341, "wall": "2026-09-07T22:29:07.198+00:00", "context_id": "m7797ecb65160", "rendered_s": 12.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 16951.39999999851}
+{"type": "probe.position", "t_ms": 15213.545, "wall": "2026-09-07T22:29:07.398+00:00", "context_id": "m7797ecb65160", "rendered_s": 12.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 17151.39999999851}
+{"type": "probe.position", "t_ms": 15413.272, "wall": "2026-09-07T22:29:07.598+00:00", "context_id": "m7797ecb65160", "rendered_s": 12.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 17351.39999999851}
+{"type": "agent.state", "t_ms": 15556.128, "wall": "2026-09-07T22:29:07.740+00:00", "state": "listening"}
+{"type": "speech.finished", "t_ms": 15559.855, "wall": "2026-09-07T22:29:07.744+00:00", "context_id": "m7797ecb65160", "kind": "reply", "step_id": null, "text": "Hello. This is the protocol for spell(PCR) Using Q5 High-Fidelity 2X Master Mix \u2013 a fifty microlitre reaction from spell(NEB), with seventeen steps. Say \"start\" when you are ready.", "tools": [], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 17426.509, "wall": "2026-09-07T22:29:09.611+00:00", "state": "speaking"}
+{"type": "user.state", "t_ms": 18777.131, "wall": "2026-09-07T22:29:10.961+00:00", "state": "listening"}
+{"type": "user.transcript", "t_ms": 18881.936, "wall": "2026-09-07T22:29:11.066+00:00", "text": "Yes. Start."}
+{"type": "model.reply.created", "t_ms": 19238.814, "wall": "2026-09-07T22:29:11.423+00:00"}
+{"type": "speech.start", "t_ms": 19252.401, "wall": "2026-09-07T22:29:11.437+00:00", "context_id": "m7797ecbd3fb0", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 19265.604, "wall": "2026-09-07T22:29:11.450+00:00", "state": "thinking"}
+{"type": "step.presented", "t_ms": 20683.837, "wall": "2026-09-07T22:29:12.868+00:00", "step_id": "s1", "number": 1}
+{"type": "status.dropped", "t_ms": 20683.897, "wall": "2026-09-07T22:29:12.868+00:00"}
+{"type": "agent.state", "t_ms": 22044.676, "wall": "2026-09-07T22:29:14.229+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 22618.827, "wall": "2026-09-07T22:29:14.803+00:00", "context_id": "m7797ecbd3fb0", "emitted_samples": 681600, "at_ms": 24551.39999999851}
+{"type": "probe.position", "t_ms": 22618.948, "wall": "2026-09-07T22:29:14.803+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 0.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 24551.39999999851}
+{"type": "probe.position", "t_ms": 22813.404, "wall": "2026-09-07T22:29:14.998+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 0.4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 24751.39999999851}
+{"type": "probe.position", "t_ms": 23013.888, "wall": "2026-09-07T22:29:15.198+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 0.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 24951.599999999627}
+{"type": "probe.position", "t_ms": 23213.904, "wall": "2026-09-07T22:29:15.398+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 0.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 25151.599999999627}
+{"type": "probe.position", "t_ms": 23414.08, "wall": "2026-09-07T22:29:15.598+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 25351.799999998882}
+{"type": "probe.position", "t_ms": 23613.423, "wall": "2026-09-07T22:29:15.798+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 1.2, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 25551.39999999851}
+{"type": "probe.position", "t_ms": 23813.035, "wall": "2026-09-07T22:29:15.997+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 1.36, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 25751}
+{"type": "probe.position", "t_ms": 24013.46, "wall": "2026-09-07T22:29:16.198+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 1.6, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 25951.5}
+{"type": "probe.position", "t_ms": 24213.674, "wall": "2026-09-07T22:29:16.398+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 1.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 26151.5}
+{"type": "probe.position", "t_ms": 24413.42, "wall": "2026-09-07T22:29:16.598+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 2, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 26351.299999998882}
+{"type": "probe.position", "t_ms": 24613.694, "wall": "2026-09-07T22:29:16.798+00:00", "context_id": "m7797ecbd3fb0", "rendered_s": 2.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 26551.5}
+{"type": "agent.state", "t_ms": 24717.49, "wall": "2026-09-07T22:29:16.902+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 24718.304, "wall": "2026-09-07T22:29:16.903+00:00", "context_id": "m7797ecbd3fb0", "name": "start_protocol", "arguments": "{\"status\": \"Starting the PCR protocol\"}"}
+{"type": "speech.finished", "t_ms": 24718.352, "wall": "2026-09-07T22:29:16.903+00:00", "context_id": "m7797ecbd3fb0", "kind": "reply", "step_id": null, "text": "Assemble all reaction components on ice.", "tools": ["start_protocol"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 25976.177, "wall": "2026-09-07T22:29:18.161+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 27024.017, "wall": "2026-09-07T22:29:19.208+00:00", "text": "Say that again."}
+{"type": "user.state", "t_ms": 27126.267, "wall": "2026-09-07T22:29:19.311+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 27128.866, "wall": "2026-09-07T22:29:19.313+00:00"}
+{"type": "speech.start", "t_ms": 27129.032, "wall": "2026-09-07T22:29:19.313+00:00", "context_id": "m7797daaafe30", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 27145.004, "wall": "2026-09-07T22:29:19.329+00:00", "state": "thinking"}
+{"type": "step.presented", "t_ms": 28469.034, "wall": "2026-09-07T22:29:20.653+00:00", "step_id": "s1", "number": 1}
+{"type": "status.dropped", "t_ms": 28469.105, "wall": "2026-09-07T22:29:20.653+00:00"}
+{"type": "agent.state", "t_ms": 30037.847, "wall": "2026-09-07T22:29:22.222+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 30413.568, "wall": "2026-09-07T22:29:22.598+00:00", "context_id": "m7797daaafe30", "emitted_samples": 821760, "at_ms": 32351.39999999851}
+{"type": "probe.position", "t_ms": 30413.835, "wall": "2026-09-07T22:29:22.598+00:00", "context_id": "m7797daaafe30", "rendered_s": 0.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 32351.39999999851}
+{"type": "probe.position", "t_ms": 30617.992, "wall": "2026-09-07T22:29:22.802+00:00", "context_id": "m7797daaafe30", "rendered_s": 0.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 32551.099999999627}
+{"type": "probe.position", "t_ms": 30813.011, "wall": "2026-09-07T22:29:22.997+00:00", "context_id": "m7797daaafe30", "rendered_s": 0.6, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 32750.89999999851}
+{"type": "probe.position", "t_ms": 31013.412, "wall": "2026-09-07T22:29:23.198+00:00", "context_id": "m7797daaafe30", "rendered_s": 0.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 32951.29999999888}
+{"type": "probe.position", "t_ms": 31213.62, "wall": "2026-09-07T22:29:23.398+00:00", "context_id": "m7797daaafe30", "rendered_s": 1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 33151.39999999851}
+{"type": "probe.position", "t_ms": 31413.548, "wall": "2026-09-07T22:29:23.598+00:00", "context_id": "m7797daaafe30", "rendered_s": 1.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 33351.29999999888}
+{"type": "probe.position", "t_ms": 31613.235, "wall": "2026-09-07T22:29:23.798+00:00", "context_id": "m7797daaafe30", "rendered_s": 1.4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 33551.29999999888}
+{"type": "probe.position", "t_ms": 31813.035, "wall": "2026-09-07T22:29:23.997+00:00", "context_id": "m7797daaafe30", "rendered_s": 1.56, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 33751}
+{"type": "probe.position", "t_ms": 32013.602, "wall": "2026-09-07T22:29:24.198+00:00", "context_id": "m7797daaafe30", "rendered_s": 1.8, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 33951.39999999851}
+{"type": "probe.position", "t_ms": 32213.975, "wall": "2026-09-07T22:29:24.398+00:00", "context_id": "m7797daaafe30", "rendered_s": 2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 34151.699999999255}
+{"type": "probe.position", "t_ms": 32413.376, "wall": "2026-09-07T22:29:24.598+00:00", "context_id": "m7797daaafe30", "rendered_s": 2.2, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 34351.39999999851}
+{"type": "agent.state", "t_ms": 32528.705, "wall": "2026-09-07T22:29:24.713+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 32529.461, "wall": "2026-09-07T22:29:24.714+00:00", "context_id": "m7797daaafe30", "name": "read_current", "arguments": "{\"status\": \"Repeating the current step\"}"}
+{"type": "speech.finished", "t_ms": 32529.648, "wall": "2026-09-07T22:29:24.714+00:00", "context_id": "m7797daaafe30", "kind": "reply", "step_id": null, "text": "Assemble all reaction components on ice.", "tools": ["read_current"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 33726.449, "wall": "2026-09-07T22:29:25.911+00:00", "state": "speaking"}
+{"type": "user.state", "t_ms": 34927.432, "wall": "2026-09-07T22:29:27.112+00:00", "state": "listening"}
+{"type": "user.transcript", "t_ms": 35231.179, "wall": "2026-09-07T22:29:27.416+00:00", "text": "Yeah. Done."}
+{"type": "model.reply.created", "t_ms": 36854.345, "wall": "2026-09-07T22:29:29.039+00:00"}
+{"type": "speech.start", "t_ms": 36854.505, "wall": "2026-09-07T22:29:29.039+00:00", "context_id": "m7797daaafcb0", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 36870.785, "wall": "2026-09-07T22:29:29.055+00:00", "state": "thinking"}
+{"type": "step.presented", "t_ms": 38576.762, "wall": "2026-09-07T22:29:30.761+00:00", "step_id": "s2", "number": 2}
+{"type": "status.dropped", "t_ms": 38576.821, "wall": "2026-09-07T22:29:30.761+00:00"}
+{"type": "agent.state", "t_ms": 40153.841, "wall": "2026-09-07T22:29:32.338+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 40614.041, "wall": "2026-09-07T22:29:32.798+00:00", "context_id": "m7797daaafcb0", "emitted_samples": 970560, "at_ms": 42551.699999999255}
+{"type": "probe.position", "t_ms": 40614.299, "wall": "2026-09-07T22:29:32.799+00:00", "context_id": "m7797daaafcb0", "rendered_s": 0.14, "buffered_s": 0.0186, "concealed_samples": 0, "at_ms": 42551.699999999255}
+{"type": "probe.position", "t_ms": 40813.172, "wall": "2026-09-07T22:29:32.998+00:00", "context_id": "m7797daaafcb0", "rendered_s": 0.34, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 42751.09999999963}
+{"type": "probe.position", "t_ms": 41018.519, "wall": "2026-09-07T22:29:33.203+00:00", "context_id": "m7797daaafcb0", "rendered_s": 0.54, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 42951.29999999888}
+{"type": "probe.position", "t_ms": 41213.219, "wall": "2026-09-07T22:29:33.398+00:00", "context_id": "m7797daaafcb0", "rendered_s": 0.74, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 43151.39999999851}
+{"type": "probe.position", "t_ms": 41413.668, "wall": "2026-09-07T22:29:33.598+00:00", "context_id": "m7797daaafcb0", "rendered_s": 0.94, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 43351.699999999255}
+{"type": "probe.position", "t_ms": 41613.71, "wall": "2026-09-07T22:29:33.798+00:00", "context_id": "m7797daaafcb0", "rendered_s": 1.14, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 43551.39999999851}
+{"type": "probe.position", "t_ms": 41813.041, "wall": "2026-09-07T22:29:33.997+00:00", "context_id": "m7797daaafcb0", "rendered_s": 1.3, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 43750.89999999851}
+{"type": "probe.position", "t_ms": 42013.29, "wall": "2026-09-07T22:29:34.198+00:00", "context_id": "m7797daaafcb0", "rendered_s": 1.54, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 43951.29999999888}
+{"type": "probe.position", "t_ms": 42213.5, "wall": "2026-09-07T22:29:34.398+00:00", "context_id": "m7797daaafcb0", "rendered_s": 1.74, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 44151.39999999851}
+{"type": "probe.position", "t_ms": 42413.209, "wall": "2026-09-07T22:29:34.598+00:00", "context_id": "m7797daaafcb0", "rendered_s": 1.94, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 44351.29999999888}
+{"type": "probe.position", "t_ms": 42613.979, "wall": "2026-09-07T22:29:34.798+00:00", "context_id": "m7797daaafcb0", "rendered_s": 2.14, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 44551.89999999851}
+{"type": "probe.position", "t_ms": 42812.855, "wall": "2026-09-07T22:29:34.997+00:00", "context_id": "m7797daaafcb0", "rendered_s": 2.34, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 44751}
+{"type": "probe.position", "t_ms": 43013.292, "wall": "2026-09-07T22:29:35.198+00:00", "context_id": "m7797daaafcb0", "rendered_s": 2.54, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 44951.29999999888}
+{"type": "probe.position", "t_ms": 43213.426, "wall": "2026-09-07T22:29:35.398+00:00", "context_id": "m7797daaafcb0", "rendered_s": 2.74, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 45151.29999999888}
+{"type": "probe.position", "t_ms": 43413.487, "wall": "2026-09-07T22:29:35.598+00:00", "context_id": "m7797daaafcb0", "rendered_s": 2.94, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 45351.39999999851}
+{"type": "agent.state", "t_ms": 43485.783, "wall": "2026-09-07T22:29:35.670+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 43486.351, "wall": "2026-09-07T22:29:35.671+00:00", "context_id": "m7797daaafcb0", "name": "next_step", "arguments": "{\"status\": \"Moving to the next step\"}"}
+{"type": "speech.finished", "t_ms": 43486.565, "wall": "2026-09-07T22:29:35.671+00:00", "context_id": "m7797daaafcb0", "kind": "reply", "step_id": null, "text": "Gently mix each component before adding it to the reaction.", "tools": ["next_step"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 44976.81, "wall": "2026-09-07T22:29:37.161+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 45772.738, "wall": "2026-09-07T22:29:37.957+00:00", "text": "Done."}
+{"type": "user.state", "t_ms": 45826.544, "wall": "2026-09-07T22:29:38.011+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 47751.707, "wall": "2026-09-07T22:29:39.936+00:00"}
+{"type": "speech.start", "t_ms": 47751.853, "wall": "2026-09-07T22:29:39.936+00:00", "context_id": "m7797ecb31e80", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 47769.426, "wall": "2026-09-07T22:29:39.954+00:00", "state": "thinking"}
+{"type": "step.presented", "t_ms": 49964.28, "wall": "2026-09-07T22:29:42.149+00:00", "step_id": "s3", "number": 3}
+{"type": "status.dropped", "t_ms": 49964.337, "wall": "2026-09-07T22:29:42.149+00:00"}
+{"type": "agent.state", "t_ms": 52045.29, "wall": "2026-09-07T22:29:44.230+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 52413.312, "wall": "2026-09-07T22:29:44.598+00:00", "context_id": "m7797ecb31e80", "emitted_samples": 1163520, "at_ms": 54351.29999999888}
+{"type": "probe.position", "t_ms": 52413.599, "wall": "2026-09-07T22:29:44.598+00:00", "context_id": "m7797ecb31e80", "rendered_s": 0.2, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 54351.29999999888}
+{"type": "probe.position", "t_ms": 52621.082, "wall": "2026-09-07T22:29:44.805+00:00", "context_id": "m7797ecb31e80", "rendered_s": 0.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 54551.39999999851}
+{"type": "probe.position", "t_ms": 52813.106, "wall": "2026-09-07T22:29:44.997+00:00", "context_id": "m7797ecb31e80", "rendered_s": 0.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 54751.09999999963}
+{"type": "probe.position", "t_ms": 53013.721, "wall": "2026-09-07T22:29:45.198+00:00", "context_id": "m7797ecb31e80", "rendered_s": 0.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 54951.59999999963}
+{"type": "probe.position", "t_ms": 53213.723, "wall": "2026-09-07T22:29:45.398+00:00", "context_id": "m7797ecb31e80", "rendered_s": 1, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 55151.59999999963}
+{"type": "probe.position", "t_ms": 53413.399, "wall": "2026-09-07T22:29:45.598+00:00", "context_id": "m7797ecb31e80", "rendered_s": 1.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 55351.29999999888}
+{"type": "probe.position", "t_ms": 53613.542, "wall": "2026-09-07T22:29:45.798+00:00", "context_id": "m7797ecb31e80", "rendered_s": 1.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 55551.29999999888}
+{"type": "probe.position", "t_ms": 53813.173, "wall": "2026-09-07T22:29:45.998+00:00", "context_id": "m7797ecb31e80", "rendered_s": 1.56, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 55751}
+{"type": "probe.position", "t_ms": 54013.474, "wall": "2026-09-07T22:29:46.198+00:00", "context_id": "m7797ecb31e80", "rendered_s": 1.8, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 55951.29999999888}
+{"type": "probe.position", "t_ms": 54213.735, "wall": "2026-09-07T22:29:46.398+00:00", "context_id": "m7797ecb31e80", "rendered_s": 2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 56151.5}
+{"type": "probe.position", "t_ms": 54413.536, "wall": "2026-09-07T22:29:46.598+00:00", "context_id": "m7797ecb31e80", "rendered_s": 2.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 56351.39999999851}
+{"type": "user.state", "t_ms": 54426.166, "wall": "2026-09-07T22:29:46.611+00:00", "state": "speaking"}
+{"type": "speech.interrupted", "t_ms": 54426.295, "wall": "2026-09-07T22:29:46.611+00:00"}
+{"type": "probe.cut", "t_ms": 54429.275, "wall": "2026-09-07T22:29:46.614+00:00", "context_id": "m7797ecb31e80", "rendered_s": 2.2, "buffered_s": 0.019, "reason": "user_speaking", "at_ms": 56366.79999999888}
+{"type": "agent.state", "t_ms": 55727.639, "wall": "2026-09-07T22:29:47.912+00:00", "state": "listening"}
+{"type": "user.transcript", "t_ms": 55875.908, "wall": "2026-09-07T22:29:48.060+00:00", "text": "Hey. Can you go back?"}
+{"type": "tool.called", "t_ms": 55885.303, "wall": "2026-09-07T22:29:48.070+00:00", "context_id": "m7797ecb31e80", "name": "next_step", "arguments": "{\"status\": \"Moving to the next step after mixing components\"}"}
+{"type": "speech.finished", "t_ms": 55885.361, "wall": "2026-09-07T22:29:48.070+00:00", "context_id": "m7797ecb31e80", "kind": "reply", "step_id": null, "text": "Add twenty five microlitres of spell(Q) five High-Fidelity", "tools": ["next_step"], "interrupted": true, "silent": false, "played": false}
+{"type": "user.state", "t_ms": 55926.957, "wall": "2026-09-07T22:29:48.111+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 56194.607, "wall": "2026-09-07T22:29:48.379+00:00"}
+{"type": "speech.start", "t_ms": 56195.012, "wall": "2026-09-07T22:29:48.379+00:00", "context_id": "m7797daaae060", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 56213.7, "wall": "2026-09-07T22:29:48.398+00:00", "state": "thinking"}
+{"type": "step.presented", "t_ms": 57602.375, "wall": "2026-09-07T22:29:49.787+00:00", "step_id": "s2", "number": 2}
+{"type": "status.dropped", "t_ms": 57602.441, "wall": "2026-09-07T22:29:49.787+00:00"}
+{"type": "agent.state", "t_ms": 59117.817, "wall": "2026-09-07T22:29:51.302+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 59413.557, "wall": "2026-09-07T22:29:51.598+00:00", "context_id": "m7797daaae060", "emitted_samples": 1363200, "at_ms": 61351.5}
+{"type": "probe.position", "t_ms": 59413.758, "wall": "2026-09-07T22:29:51.598+00:00", "context_id": "m7797daaae060", "rendered_s": 0.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 61351.5}
+{"type": "probe.position", "t_ms": 59613.148, "wall": "2026-09-07T22:29:51.797+00:00", "context_id": "m7797daaae060", "rendered_s": 0.4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 61551.29999999888}
+{"type": "probe.position", "t_ms": 59813.219, "wall": "2026-09-07T22:29:51.998+00:00", "context_id": "m7797daaae060", "rendered_s": 0.56, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 61751.09999999963}
+{"type": "probe.position", "t_ms": 60013.635, "wall": "2026-09-07T22:29:52.198+00:00", "context_id": "m7797daaae060", "rendered_s": 0.8, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 61951.39999999851}
+{"type": "probe.position", "t_ms": 60213.505, "wall": "2026-09-07T22:29:52.398+00:00", "context_id": "m7797daaae060", "rendered_s": 1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 62151.39999999851}
+{"type": "probe.position", "t_ms": 60413.401, "wall": "2026-09-07T22:29:52.598+00:00", "context_id": "m7797daaae060", "rendered_s": 1.2, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 62351.39999999851}
+{"type": "probe.position", "t_ms": 60613.341, "wall": "2026-09-07T22:29:52.798+00:00", "context_id": "m7797daaae060", "rendered_s": 1.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 62551.29999999888}
+{"type": "probe.position", "t_ms": 60813.144, "wall": "2026-09-07T22:29:52.997+00:00", "context_id": "m7797daaae060", "rendered_s": 1.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 62751.09999999963}
+{"type": "probe.position", "t_ms": 61013.704, "wall": "2026-09-07T22:29:53.198+00:00", "context_id": "m7797daaae060", "rendered_s": 1.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 62951.5}
+{"type": "probe.position", "t_ms": 61213.134, "wall": "2026-09-07T22:29:53.397+00:00", "context_id": "m7797daaae060", "rendered_s": 2, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 63151.199999999255}
+{"type": "probe.position", "t_ms": 61413.434, "wall": "2026-09-07T22:29:53.598+00:00", "context_id": "m7797daaae060", "rendered_s": 2.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 63351.39999999851}
+{"type": "probe.position", "t_ms": 61613.513, "wall": "2026-09-07T22:29:53.798+00:00", "context_id": "m7797daaae060", "rendered_s": 2.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 63551.5}
+{"type": "probe.position", "t_ms": 61813.314, "wall": "2026-09-07T22:29:53.998+00:00", "context_id": "m7797daaae060", "rendered_s": 2.56, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 63751}
+{"type": "probe.position", "t_ms": 62013.607, "wall": "2026-09-07T22:29:54.198+00:00", "context_id": "m7797daaae060", "rendered_s": 2.8, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 63951.699999999255}
+{"type": "probe.position", "t_ms": 62213.754, "wall": "2026-09-07T22:29:54.398+00:00", "context_id": "m7797daaae060", "rendered_s": 3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 64151.5}
+{"type": "probe.position", "t_ms": 62413.526, "wall": "2026-09-07T22:29:54.598+00:00", "context_id": "m7797daaae060", "rendered_s": 3.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 64351.5}
+{"type": "probe.position", "t_ms": 62613.792, "wall": "2026-09-07T22:29:54.798+00:00", "context_id": "m7797daaae060", "rendered_s": 3.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 64551.699999999255}
+{"type": "probe.position", "t_ms": 62812.752, "wall": "2026-09-07T22:29:54.997+00:00", "context_id": "m7797daaae060", "rendered_s": 3.6, "buffered_s": 0.017, "concealed_samples": 0, "at_ms": 64750.89999999851}
+{"type": "probe.position", "t_ms": 63013.732, "wall": "2026-09-07T22:29:55.198+00:00", "context_id": "m7797daaae060", "rendered_s": 3.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 64951.5}
+{"type": "probe.position", "t_ms": 63213.393, "wall": "2026-09-07T22:29:55.398+00:00", "context_id": "m7797daaae060", "rendered_s": 4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 65151.39999999851}
+{"type": "probe.position", "t_ms": 63413.542, "wall": "2026-09-07T22:29:55.598+00:00", "context_id": "m7797daaae060", "rendered_s": 4.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 65351.5}
+{"type": "probe.position", "t_ms": 63613.268, "wall": "2026-09-07T22:29:55.798+00:00", "context_id": "m7797daaae060", "rendered_s": 4.4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 65551.29999999888}
+{"type": "agent.state", "t_ms": 63641.635, "wall": "2026-09-07T22:29:55.826+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 63643.064, "wall": "2026-09-07T22:29:55.827+00:00", "context_id": "m7797daaae060", "name": "previous_step", "arguments": "{\"status\": \"Going back one step\"}"}
+{"type": "speech.finished", "t_ms": 63643.339, "wall": "2026-09-07T22:29:55.828+00:00", "context_id": "m7797daaae060", "kind": "reply", "step_id": null, "text": "Gently mix each component before adding it to the reaction. Shall I carry on?", "tools": ["previous_step"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 64826.615, "wall": "2026-09-07T22:29:57.011+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 66896.322, "wall": "2026-09-07T22:29:59.081+00:00", "text": "Can you tell me where are we in the procedure?"}
+{"type": "user.state", "t_ms": 67027.068, "wall": "2026-09-07T22:29:59.211+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 67606.119, "wall": "2026-09-07T22:29:59.790+00:00"}
+{"type": "speech.start", "t_ms": 67606.427, "wall": "2026-09-07T22:29:59.791+00:00", "context_id": "m7797da9dc650", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 67624.26, "wall": "2026-09-07T22:29:59.809+00:00", "state": "thinking"}
+{"type": "status.dropped", "t_ms": 69014.958, "wall": "2026-09-07T22:30:01.199+00:00"}
+{"type": "agent.state", "t_ms": 70588.525, "wall": "2026-09-07T22:30:02.773+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 70813.331, "wall": "2026-09-07T22:30:02.998+00:00", "context_id": "m7797da9dc650", "emitted_samples": 1608960, "at_ms": 72751.29999999888}
+{"type": "probe.position", "t_ms": 70813.562, "wall": "2026-09-07T22:30:02.998+00:00", "context_id": "m7797da9dc650", "rendered_s": 0.1, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 72751.29999999888}
+{"type": "probe.position", "t_ms": 71013.769, "wall": "2026-09-07T22:30:03.198+00:00", "context_id": "m7797da9dc650", "rendered_s": 0.3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 72951.59999999963}
+{"type": "probe.position", "t_ms": 71213.666, "wall": "2026-09-07T22:30:03.398+00:00", "context_id": "m7797da9dc650", "rendered_s": 0.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 73151.5}
+{"type": "probe.position", "t_ms": 71413.562, "wall": "2026-09-07T22:30:03.598+00:00", "context_id": "m7797da9dc650", "rendered_s": 0.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 73351.39999999851}
+{"type": "probe.position", "t_ms": 71613.456, "wall": "2026-09-07T22:30:03.798+00:00", "context_id": "m7797da9dc650", "rendered_s": 0.9, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 73551.39999999851}
+{"type": "probe.position", "t_ms": 71813.049, "wall": "2026-09-07T22:30:03.997+00:00", "context_id": "m7797da9dc650", "rendered_s": 1.06, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 73751}
+{"type": "probe.position", "t_ms": 72013.679, "wall": "2026-09-07T22:30:04.198+00:00", "context_id": "m7797da9dc650", "rendered_s": 1.3, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 73951.59999999963}
+{"type": "probe.position", "t_ms": 72213.72, "wall": "2026-09-07T22:30:04.398+00:00", "context_id": "m7797da9dc650", "rendered_s": 1.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 74151.59999999963}
+{"type": "probe.position", "t_ms": 72413.123, "wall": "2026-09-07T22:30:04.597+00:00", "context_id": "m7797da9dc650", "rendered_s": 1.7, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 74351.19999999925}
+{"type": "probe.position", "t_ms": 72613.682, "wall": "2026-09-07T22:30:04.798+00:00", "context_id": "m7797da9dc650", "rendered_s": 1.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 74551.59999999963}
+{"type": "probe.position", "t_ms": 72813.452, "wall": "2026-09-07T22:30:04.998+00:00", "context_id": "m7797da9dc650", "rendered_s": 2.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 74751.29999999888}
+{"type": "probe.position", "t_ms": 73013.886, "wall": "2026-09-07T22:30:05.198+00:00", "context_id": "m7797da9dc650", "rendered_s": 2.3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 74951.59999999963}
+{"type": "probe.position", "t_ms": 73213.672, "wall": "2026-09-07T22:30:05.398+00:00", "context_id": "m7797da9dc650", "rendered_s": 2.5, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 75151.59999999963}
+{"type": "probe.position", "t_ms": 73413.536, "wall": "2026-09-07T22:30:05.598+00:00", "context_id": "m7797da9dc650", "rendered_s": 2.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 75351.39999999851}
+{"type": "probe.position", "t_ms": 73613.958, "wall": "2026-09-07T22:30:05.798+00:00", "context_id": "m7797da9dc650", "rendered_s": 2.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 75551.69999999925}
+{"type": "probe.position", "t_ms": 73813.264, "wall": "2026-09-07T22:30:05.998+00:00", "context_id": "m7797da9dc650", "rendered_s": 3.06, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 75751}
+{"type": "probe.position", "t_ms": 74013.535, "wall": "2026-09-07T22:30:06.198+00:00", "context_id": "m7797da9dc650", "rendered_s": 3.3, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 75951.39999999851}
+{"type": "probe.position", "t_ms": 74214.049, "wall": "2026-09-07T22:30:06.398+00:00", "context_id": "m7797da9dc650", "rendered_s": 3.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 76151.69999999925}
+{"type": "probe.position", "t_ms": 74413.612, "wall": "2026-09-07T22:30:06.598+00:00", "context_id": "m7797da9dc650", "rendered_s": 3.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 76351.39999999851}
+{"type": "probe.position", "t_ms": 74613.697, "wall": "2026-09-07T22:30:06.798+00:00", "context_id": "m7797da9dc650", "rendered_s": 3.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 76551.5}
+{"type": "probe.position", "t_ms": 74813.348, "wall": "2026-09-07T22:30:06.998+00:00", "context_id": "m7797da9dc650", "rendered_s": 4.1, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 76751.19999999925}
+{"type": "probe.position", "t_ms": 75013.6, "wall": "2026-09-07T22:30:07.198+00:00", "context_id": "m7797da9dc650", "rendered_s": 4.3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 76951.5}
+{"type": "probe.position", "t_ms": 75213.491, "wall": "2026-09-07T22:30:07.398+00:00", "context_id": "m7797da9dc650", "rendered_s": 4.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 77151.39999999851}
+{"type": "probe.position", "t_ms": 75413.493, "wall": "2026-09-07T22:30:07.598+00:00", "context_id": "m7797da9dc650", "rendered_s": 4.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 77351.39999999851}
+{"type": "probe.position", "t_ms": 75613.385, "wall": "2026-09-07T22:30:07.798+00:00", "context_id": "m7797da9dc650", "rendered_s": 4.9, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 77551.39999999851}
+{"type": "probe.position", "t_ms": 75813.094, "wall": "2026-09-07T22:30:07.997+00:00", "context_id": "m7797da9dc650", "rendered_s": 5.06, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 77751}
+{"type": "probe.position", "t_ms": 76013.787, "wall": "2026-09-07T22:30:08.198+00:00", "context_id": "m7797da9dc650", "rendered_s": 5.3, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 77951.69999999925}
+{"type": "probe.position", "t_ms": 76213.932, "wall": "2026-09-07T22:30:08.398+00:00", "context_id": "m7797da9dc650", "rendered_s": 5.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 78151.79999999888}
+{"type": "probe.position", "t_ms": 76413.529, "wall": "2026-09-07T22:30:08.598+00:00", "context_id": "m7797da9dc650", "rendered_s": 5.7, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 78351.39999999851}
+{"type": "probe.position", "t_ms": 76613.419, "wall": "2026-09-07T22:30:08.798+00:00", "context_id": "m7797da9dc650", "rendered_s": 5.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 78551.5}
+{"type": "probe.position", "t_ms": 76813.109, "wall": "2026-09-07T22:30:08.997+00:00", "context_id": "m7797da9dc650", "rendered_s": 6.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 78751.09999999963}
+{"type": "probe.position", "t_ms": 77013.673, "wall": "2026-09-07T22:30:09.198+00:00", "context_id": "m7797da9dc650", "rendered_s": 6.3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 78951.5}
+{"type": "agent.state", "t_ms": 77101.133, "wall": "2026-09-07T22:30:09.285+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 77102.081, "wall": "2026-09-07T22:30:09.286+00:00", "context_id": "m7797da9dc650", "name": "where_are_we", "arguments": "{\"status\": \"Checking our position in the protocol\"}"}
+{"type": "speech.finished", "t_ms": 77102.569, "wall": "2026-09-07T22:30:09.287+00:00", "context_id": "m7797da9dc650", "kind": "reply", "step_id": null, "text": "We are on step two of seventeen: gently mix each component before adding it to the reaction. Carry on?", "tools": ["where_are_we"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 78027.038, "wall": "2026-09-07T22:30:10.211+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 81639.438, "wall": "2026-09-07T22:30:13.824+00:00", "text": "Okay. What the temperature is in the"}
+{"type": "user.transcript", "t_ms": 84192.434, "wall": "2026-09-07T22:30:16.377+00:00", "text": "like, what temperature is the initial denaturation?"}
+{"type": "user.state", "t_ms": 84526.379, "wall": "2026-09-07T22:30:16.711+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 84745.829, "wall": "2026-09-07T22:30:16.930+00:00"}
+{"type": "speech.start", "t_ms": 84745.975, "wall": "2026-09-07T22:30:16.930+00:00", "context_id": "m7797daaafb00", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 84764.967, "wall": "2026-09-07T22:30:16.949+00:00", "state": "thinking"}
+{"type": "status.dropped", "t_ms": 88089.12, "wall": "2026-09-07T22:30:20.273+00:00"}
+{"type": "agent.state", "t_ms": 89931.291, "wall": "2026-09-07T22:30:22.116+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 90413.447, "wall": "2026-09-07T22:30:22.598+00:00", "context_id": "m7797daaafb00", "emitted_samples": 1984320, "at_ms": 92351.39999999851}
+{"type": "probe.position", "t_ms": 90413.656, "wall": "2026-09-07T22:30:22.598+00:00", "context_id": "m7797daaafb00", "rendered_s": 0.18, "buffered_s": 0.0189, "concealed_samples": 0, "at_ms": 92351.39999999851}
+{"type": "probe.position", "t_ms": 90613.541, "wall": "2026-09-07T22:30:22.798+00:00", "context_id": "m7797daaafb00", "rendered_s": 0.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 92551.39999999851}
+{"type": "probe.position", "t_ms": 90812.478, "wall": "2026-09-07T22:30:22.997+00:00", "context_id": "m7797daaafb00", "rendered_s": 0.58, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 92750.79999999888}
+{"type": "probe.position", "t_ms": 91013.45, "wall": "2026-09-07T22:30:23.198+00:00", "context_id": "m7797daaafb00", "rendered_s": 0.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 92951.29999999888}
+{"type": "probe.position", "t_ms": 91213.518, "wall": "2026-09-07T22:30:23.398+00:00", "context_id": "m7797daaafb00", "rendered_s": 0.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 93151.5}
+{"type": "probe.position", "t_ms": 91414.313, "wall": "2026-09-07T22:30:23.599+00:00", "context_id": "m7797daaafb00", "rendered_s": 1.18, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 93351.39999999851}
+{"type": "probe.position", "t_ms": 91612.966, "wall": "2026-09-07T22:30:23.797+00:00", "context_id": "m7797daaafb00", "rendered_s": 1.38, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 93551.19999999925}
+{"type": "probe.position", "t_ms": 91812.971, "wall": "2026-09-07T22:30:23.997+00:00", "context_id": "m7797daaafb00", "rendered_s": 1.54, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 93750.89999999851}
+{"type": "probe.position", "t_ms": 92013.429, "wall": "2026-09-07T22:30:24.198+00:00", "context_id": "m7797daaafb00", "rendered_s": 1.78, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 93951.29999999888}
+{"type": "probe.position", "t_ms": 92213.679, "wall": "2026-09-07T22:30:24.398+00:00", "context_id": "m7797daaafb00", "rendered_s": 1.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 94151.5}
+{"type": "probe.position", "t_ms": 92413.387, "wall": "2026-09-07T22:30:24.598+00:00", "context_id": "m7797daaafb00", "rendered_s": 2.18, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 94351.39999999851}
+{"type": "probe.position", "t_ms": 92613.503, "wall": "2026-09-07T22:30:24.798+00:00", "context_id": "m7797daaafb00", "rendered_s": 2.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 94551.39999999851}
+{"type": "probe.position", "t_ms": 92813.157, "wall": "2026-09-07T22:30:24.997+00:00", "context_id": "m7797daaafb00", "rendered_s": 2.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 94751.19999999925}
+{"type": "probe.position", "t_ms": 93013.562, "wall": "2026-09-07T22:30:25.198+00:00", "context_id": "m7797daaafb00", "rendered_s": 2.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 94951.59999999963}
+{"type": "probe.position", "t_ms": 93213.213, "wall": "2026-09-07T22:30:25.398+00:00", "context_id": "m7797daaafb00", "rendered_s": 2.98, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 95151.19999999925}
+{"type": "probe.position", "t_ms": 93413.241, "wall": "2026-09-07T22:30:25.598+00:00", "context_id": "m7797daaafb00", "rendered_s": 3.18, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 95351.29999999888}
+{"type": "probe.position", "t_ms": 93613.576, "wall": "2026-09-07T22:30:25.798+00:00", "context_id": "m7797daaafb00", "rendered_s": 3.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 95551.39999999851}
+{"type": "probe.position", "t_ms": 93812.977, "wall": "2026-09-07T22:30:25.997+00:00", "context_id": "m7797daaafb00", "rendered_s": 3.54, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 95751}
+{"type": "probe.position", "t_ms": 94013.079, "wall": "2026-09-07T22:30:26.197+00:00", "context_id": "m7797daaafb00", "rendered_s": 3.78, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 95951.39999999851}
+{"type": "probe.position", "t_ms": 94213.445, "wall": "2026-09-07T22:30:26.398+00:00", "context_id": "m7797daaafb00", "rendered_s": 3.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 96151.39999999851}
+{"type": "probe.position", "t_ms": 94413.607, "wall": "2026-09-07T22:30:26.598+00:00", "context_id": "m7797daaafb00", "rendered_s": 4.18, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 96351.39999999851}
+{"type": "probe.position", "t_ms": 94613.681, "wall": "2026-09-07T22:30:26.798+00:00", "context_id": "m7797daaafb00", "rendered_s": 4.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 96551.5}
+{"type": "probe.position", "t_ms": 94813.326, "wall": "2026-09-07T22:30:26.998+00:00", "context_id": "m7797daaafb00", "rendered_s": 4.56, "buffered_s": 0.0178, "concealed_samples": 0, "at_ms": 96751.19999999925}
+{"type": "probe.position", "t_ms": 95013.706, "wall": "2026-09-07T22:30:27.198+00:00", "context_id": "m7797daaafb00", "rendered_s": 4.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 96951.59999999963}
+{"type": "probe.position", "t_ms": 95213.612, "wall": "2026-09-07T22:30:27.398+00:00", "context_id": "m7797daaafb00", "rendered_s": 4.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 97151.5}
+{"type": "probe.position", "t_ms": 95413.845, "wall": "2026-09-07T22:30:27.598+00:00", "context_id": "m7797daaafb00", "rendered_s": 5.16, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 97351.79999999888}
+{"type": "agent.state", "t_ms": 95504.694, "wall": "2026-09-07T22:30:27.689+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 95505.252, "wall": "2026-09-07T22:30:27.690+00:00", "context_id": "m7797daaafb00", "name": "look_up", "arguments": "{\"query\": \"initial denaturation temperature\", \"step_numbers\": [12], \"status\": \"Checking the initial denaturation temperature\"}"}
+{"type": "speech.finished", "t_ms": 95505.329, "wall": "2026-09-07T22:30:27.690+00:00", "context_id": "m7797daaafb00", "kind": "reply", "step_id": null, "text": "Initial denaturation is at ninety eight degrees celsius for thirty seconds. Carry on?", "tools": ["look_up"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 100076.241, "wall": "2026-09-07T22:30:32.261+00:00", "state": "speaking"}
+{"type": "user.state", "t_ms": 103576.402, "wall": "2026-09-07T22:30:35.761+00:00", "state": "listening"}
+{"type": "user.transcript", "t_ms": 103727.797, "wall": "2026-09-07T22:30:35.912+00:00", "text": "And what p h should the reaction be?"}
+{"type": "model.reply.created", "t_ms": 104119.789, "wall": "2026-09-07T22:30:36.304+00:00"}
+{"type": "speech.start", "t_ms": 104119.953, "wall": "2026-09-07T22:30:36.304+00:00", "context_id": "m7797da9de3f0", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 104140.02, "wall": "2026-09-07T22:30:36.324+00:00", "state": "thinking"}
+{"type": "agent.state", "t_ms": 105791.092, "wall": "2026-09-07T22:30:37.975+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 106213.73, "wall": "2026-09-07T22:30:38.398+00:00", "context_id": "m7797da9de3f0", "emitted_samples": 2285760, "at_ms": 108151.5}
+{"type": "probe.position", "t_ms": 106214.007, "wall": "2026-09-07T22:30:38.398+00:00", "context_id": "m7797da9de3f0", "rendered_s": 0.1, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 108151.5}
+{"type": "probe.position", "t_ms": 106413.574, "wall": "2026-09-07T22:30:38.598+00:00", "context_id": "m7797da9de3f0", "rendered_s": 0.3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 108351.39999999851}
+{"type": "probe.position", "t_ms": 106613.582, "wall": "2026-09-07T22:30:38.798+00:00", "context_id": "m7797da9de3f0", "rendered_s": 0.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 108551.29999999888}
+{"type": "probe.position", "t_ms": 106813.414, "wall": "2026-09-07T22:30:38.998+00:00", "context_id": "m7797da9de3f0", "rendered_s": 0.7, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 108751.19999999925}
+{"type": "probe.position", "t_ms": 107013.769, "wall": "2026-09-07T22:30:39.198+00:00", "context_id": "m7797da9de3f0", "rendered_s": 0.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 108951.5}
+{"type": "probe.position", "t_ms": 107213.656, "wall": "2026-09-07T22:30:39.398+00:00", "context_id": "m7797da9de3f0", "rendered_s": 1.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 109151.79999999888}
+{"type": "probe.position", "t_ms": 107413.551, "wall": "2026-09-07T22:30:39.598+00:00", "context_id": "m7797da9de3f0", "rendered_s": 1.3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 109351.5}
+{"type": "probe.position", "t_ms": 107613.684, "wall": "2026-09-07T22:30:39.798+00:00", "context_id": "m7797da9de3f0", "rendered_s": 1.5, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 109551.39999999851}
+{"type": "probe.position", "t_ms": 107812.945, "wall": "2026-09-07T22:30:39.997+00:00", "context_id": "m7797da9de3f0", "rendered_s": 1.66, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 109750.89999999851}
+{"type": "probe.position", "t_ms": 108013.433, "wall": "2026-09-07T22:30:40.198+00:00", "context_id": "m7797da9de3f0", "rendered_s": 1.9, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 109951.39999999851}
+{"type": "probe.position", "t_ms": 108213.886, "wall": "2026-09-07T22:30:40.398+00:00", "context_id": "m7797da9de3f0", "rendered_s": 2.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 110151.59999999963}
+{"type": "probe.position", "t_ms": 108413.158, "wall": "2026-09-07T22:30:40.597+00:00", "context_id": "m7797da9de3f0", "rendered_s": 2.3, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 110351.29999999888}
+{"type": "probe.position", "t_ms": 108613.265, "wall": "2026-09-07T22:30:40.798+00:00", "context_id": "m7797da9de3f0", "rendered_s": 2.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 110551.19999999925}
+{"type": "probe.position", "t_ms": 108812.982, "wall": "2026-09-07T22:30:40.997+00:00", "context_id": "m7797da9de3f0", "rendered_s": 2.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 110751}
+{"type": "probe.position", "t_ms": 109013.597, "wall": "2026-09-07T22:30:41.198+00:00", "context_id": "m7797da9de3f0", "rendered_s": 2.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 110951.5}
+{"type": "probe.position", "t_ms": 109213.572, "wall": "2026-09-07T22:30:41.398+00:00", "context_id": "m7797da9de3f0", "rendered_s": 3.1, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 111151.39999999851}
+{"type": "probe.position", "t_ms": 109413.361, "wall": "2026-09-07T22:30:41.598+00:00", "context_id": "m7797da9de3f0", "rendered_s": 3.3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 111351.39999999851}
+{"type": "probe.position", "t_ms": 109613.063, "wall": "2026-09-07T22:30:41.797+00:00", "context_id": "m7797da9de3f0", "rendered_s": 3.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 111551.39999999851}
+{"type": "probe.position", "t_ms": 109813.042, "wall": "2026-09-07T22:30:41.997+00:00", "context_id": "m7797da9de3f0", "rendered_s": 3.66, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 111750.89999999851}
+{"type": "probe.position", "t_ms": 110013.545, "wall": "2026-09-07T22:30:42.198+00:00", "context_id": "m7797da9de3f0", "rendered_s": 3.9, "buffered_s": 0.0175, "concealed_samples": 0, "at_ms": 111951.5}
+{"type": "agent.state", "t_ms": 110044.632, "wall": "2026-09-07T22:30:42.229+00:00", "state": "listening"}
+{"type": "speech.finished", "t_ms": 110046.186, "wall": "2026-09-07T22:30:42.231+00:00", "context_id": "m7797da9de3f0", "kind": "reply", "step_id": null, "text": "The protocol does not mention a pH requirement. Would you like to carry on?", "tools": [], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 112727.476, "wall": "2026-09-07T22:30:44.912+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 114547.613, "wall": "2026-09-07T22:30:46.732+00:00", "text": "Okay. Go to step twelve."}
+{"type": "user.state", "t_ms": 114576.876, "wall": "2026-09-07T22:30:46.761+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 114618.162, "wall": "2026-09-07T22:30:46.802+00:00"}
+{"type": "speech.start", "t_ms": 114618.475, "wall": "2026-09-07T22:30:46.803+00:00", "context_id": "m7797daaad700", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 114637.115, "wall": "2026-09-07T22:30:46.821+00:00", "state": "thinking"}
+{"type": "step.presented", "t_ms": 116052.982, "wall": "2026-09-07T22:30:48.237+00:00", "step_id": "s12", "number": 12}
+{"type": "status.dropped", "t_ms": 116053.038, "wall": "2026-09-07T22:30:48.237+00:00"}
+{"type": "agent.state", "t_ms": 117556.518, "wall": "2026-09-07T22:30:49.741+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 118013.677, "wall": "2026-09-07T22:30:50.198+00:00", "context_id": "m7797daaad700", "emitted_samples": 2519040, "at_ms": 119951.29999999888}
+{"type": "probe.position", "t_ms": 118013.92, "wall": "2026-09-07T22:30:50.198+00:00", "context_id": "m7797daaad700", "rendered_s": 0.16, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 119951.29999999888}
+{"type": "probe.position", "t_ms": 118213.527, "wall": "2026-09-07T22:30:50.398+00:00", "context_id": "m7797daaad700", "rendered_s": 0.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 120151.59999999963}
+{"type": "probe.position", "t_ms": 118418.746, "wall": "2026-09-07T22:30:50.603+00:00", "context_id": "m7797daaad700", "rendered_s": 0.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 120351.29999999888}
+{"type": "probe.position", "t_ms": 118613.304, "wall": "2026-09-07T22:30:50.798+00:00", "context_id": "m7797daaad700", "rendered_s": 0.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 120551.5}
+{"type": "probe.position", "t_ms": 118812.973, "wall": "2026-09-07T22:30:50.997+00:00", "context_id": "m7797daaad700", "rendered_s": 0.96, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 120750.89999999851}
+{"type": "probe.position", "t_ms": 119013.65, "wall": "2026-09-07T22:30:51.198+00:00", "context_id": "m7797daaad700", "rendered_s": 1.16, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 120951.5}
+{"type": "probe.position", "t_ms": 119213.569, "wall": "2026-09-07T22:30:51.398+00:00", "context_id": "m7797daaad700", "rendered_s": 1.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 121151.39999999851}
+{"type": "probe.position", "t_ms": 119413.541, "wall": "2026-09-07T22:30:51.598+00:00", "context_id": "m7797daaad700", "rendered_s": 1.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 121351.5}
+{"type": "probe.position", "t_ms": 119613.365, "wall": "2026-09-07T22:30:51.798+00:00", "context_id": "m7797daaad700", "rendered_s": 1.76, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 121551.29999999888}
+{"type": "probe.position", "t_ms": 119812.8, "wall": "2026-09-07T22:30:51.997+00:00", "context_id": "m7797daaad700", "rendered_s": 1.92, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 121750.89999999851}
+{"type": "probe.position", "t_ms": 120013.774, "wall": "2026-09-07T22:30:52.198+00:00", "context_id": "m7797daaad700", "rendered_s": 2.16, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 121951.5}
+{"type": "probe.position", "t_ms": 120213.575, "wall": "2026-09-07T22:30:52.398+00:00", "context_id": "m7797daaad700", "rendered_s": 2.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 122151.59999999963}
+{"type": "probe.position", "t_ms": 120413.266, "wall": "2026-09-07T22:30:52.598+00:00", "context_id": "m7797daaad700", "rendered_s": 2.56, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 122351.29999999888}
+{"type": "probe.position", "t_ms": 120613.524, "wall": "2026-09-07T22:30:52.798+00:00", "context_id": "m7797daaad700", "rendered_s": 2.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 122551.5}
+{"type": "probe.position", "t_ms": 120812.957, "wall": "2026-09-07T22:30:52.997+00:00", "context_id": "m7797daaad700", "rendered_s": 2.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 122750.89999999851}
+{"type": "probe.position", "t_ms": 121013.389, "wall": "2026-09-07T22:30:53.198+00:00", "context_id": "m7797daaad700", "rendered_s": 3.16, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 122951.29999999888}
+{"type": "probe.position", "t_ms": 121213.431, "wall": "2026-09-07T22:30:53.398+00:00", "context_id": "m7797daaad700", "rendered_s": 3.36, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 123151.19999999925}
+{"type": "probe.position", "t_ms": 121413.143, "wall": "2026-09-07T22:30:53.597+00:00", "context_id": "m7797daaad700", "rendered_s": 3.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 123351.29999999888}
+{"type": "probe.position", "t_ms": 121613.509, "wall": "2026-09-07T22:30:53.798+00:00", "context_id": "m7797daaad700", "rendered_s": 3.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 123551.29999999888}
+{"type": "probe.position", "t_ms": 121813.031, "wall": "2026-09-07T22:30:53.997+00:00", "context_id": "m7797daaad700", "rendered_s": 3.92, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 123751}
+{"type": "probe.position", "t_ms": 122013.424, "wall": "2026-09-07T22:30:54.198+00:00", "context_id": "m7797daaad700", "rendered_s": 4.16, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 123951.39999999851}
+{"type": "agent.state", "t_ms": 122128.665, "wall": "2026-09-07T22:30:54.313+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 122129.196, "wall": "2026-09-07T22:30:54.314+00:00", "context_id": "m7797daaad700", "name": "go_to_step", "arguments": "{\"number\": 12, \"status\": \"Jumping to step twelve\"}"}
+{"type": "speech.finished", "t_ms": 122129.24, "wall": "2026-09-07T22:30:54.314+00:00", "context_id": "m7797daaad700", "kind": "reply", "step_id": null, "text": "Initial denaturation at ninety eight degrees celsius for thirty seconds.", "tools": ["go_to_step"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 123926.772, "wall": "2026-09-07T22:30:56.111+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 125026.955, "wall": "2026-09-07T22:30:57.211+00:00", "text": "Okay. Done."}
+{"type": "user.state", "t_ms": 125126.183, "wall": "2026-09-07T22:30:57.311+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 125794.806, "wall": "2026-09-07T22:30:57.979+00:00"}
+{"type": "speech.start", "t_ms": 125795.091, "wall": "2026-09-07T22:30:57.979+00:00", "context_id": "m7797daaae270", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 125815.327, "wall": "2026-09-07T22:30:58.000+00:00", "state": "thinking"}
+{"type": "timers.started", "t_ms": 127253.771, "wall": "2026-09-07T22:30:59.438+00:00", "step_id": "s12", "timers": [{"id": "s12.timer1", "label": "initial denaturation at ninety-eight degrees Celsius", "seconds": 30.0}]}
+{"type": "step.presented", "t_ms": 127255.534, "wall": "2026-09-07T22:30:59.440+00:00", "step_id": "s13", "number": 13}
+{"type": "status.dropped", "t_ms": 127255.641, "wall": "2026-09-07T22:30:59.440+00:00"}
+{"type": "agent.state", "t_ms": 129074.614, "wall": "2026-09-07T22:31:01.259+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 129413.468, "wall": "2026-09-07T22:31:01.598+00:00", "context_id": "m7797daaae270", "emitted_samples": 2770560, "at_ms": 131351.29999999888}
+{"type": "probe.position", "t_ms": 129413.71, "wall": "2026-09-07T22:31:01.598+00:00", "context_id": "m7797daaae270", "rendered_s": 0.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 131351.29999999888}
+{"type": "probe.position", "t_ms": 129613.087, "wall": "2026-09-07T22:31:01.797+00:00", "context_id": "m7797daaae270", "rendered_s": 0.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 131551.29999999888}
+{"type": "probe.position", "t_ms": 129813.141, "wall": "2026-09-07T22:31:01.997+00:00", "context_id": "m7797daaae270", "rendered_s": 0.56, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 131750.8999999985}
+{"type": "probe.position", "t_ms": 130013.326, "wall": "2026-09-07T22:31:02.198+00:00", "context_id": "m7797daaae270", "rendered_s": 0.8, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 131951.3999999985}
+{"type": "probe.position", "t_ms": 130213.634, "wall": "2026-09-07T22:31:02.398+00:00", "context_id": "m7797daaae270", "rendered_s": 1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 132151.59999999963}
+{"type": "probe.position", "t_ms": 130413.501, "wall": "2026-09-07T22:31:02.598+00:00", "context_id": "m7797daaae270", "rendered_s": 1.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 132351.5}
+{"type": "probe.position", "t_ms": 130613.798, "wall": "2026-09-07T22:31:02.798+00:00", "context_id": "m7797daaae270", "rendered_s": 1.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 132551.69999999925}
+{"type": "probe.position", "t_ms": 130813.719, "wall": "2026-09-07T22:31:02.998+00:00", "context_id": "m7797daaae270", "rendered_s": 1.6, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 132751}
+{"type": "probe.position", "t_ms": 131013.663, "wall": "2026-09-07T22:31:03.198+00:00", "context_id": "m7797daaae270", "rendered_s": 1.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 132951.59999999963}
+{"type": "probe.position", "t_ms": 131213.657, "wall": "2026-09-07T22:31:03.398+00:00", "context_id": "m7797daaae270", "rendered_s": 2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 133151.3999999985}
+{"type": "probe.position", "t_ms": 131414.145, "wall": "2026-09-07T22:31:03.598+00:00", "context_id": "m7797daaae270", "rendered_s": 2.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 133351.8999999985}
+{"type": "probe.position", "t_ms": 131613.491, "wall": "2026-09-07T22:31:03.798+00:00", "context_id": "m7797daaae270", "rendered_s": 2.4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 133551.29999999888}
+{"type": "probe.position", "t_ms": 131813.017, "wall": "2026-09-07T22:31:03.997+00:00", "context_id": "m7797daaae270", "rendered_s": 2.56, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 133751}
+{"type": "probe.position", "t_ms": 132013.684, "wall": "2026-09-07T22:31:04.198+00:00", "context_id": "m7797daaae270", "rendered_s": 2.8, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 133951.5}
+{"type": "probe.position", "t_ms": 132213.522, "wall": "2026-09-07T22:31:04.398+00:00", "context_id": "m7797daaae270", "rendered_s": 3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 134151.5}
+{"type": "probe.position", "t_ms": 132413.276, "wall": "2026-09-07T22:31:04.598+00:00", "context_id": "m7797daaae270", "rendered_s": 3.2, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 134351.3999999985}
+{"type": "probe.position", "t_ms": 132613.536, "wall": "2026-09-07T22:31:04.798+00:00", "context_id": "m7797daaae270", "rendered_s": 3.4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 134551.29999999888}
+{"type": "probe.position", "t_ms": 132813.088, "wall": "2026-09-07T22:31:04.997+00:00", "context_id": "m7797daaae270", "rendered_s": 3.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 134751.09999999963}
+{"type": "probe.position", "t_ms": 133013.602, "wall": "2026-09-07T22:31:05.198+00:00", "context_id": "m7797daaae270", "rendered_s": 3.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 134951.5}
+{"type": "probe.position", "t_ms": 133213.458, "wall": "2026-09-07T22:31:05.398+00:00", "context_id": "m7797daaae270", "rendered_s": 4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 135151.29999999888}
+{"type": "probe.position", "t_ms": 133413.451, "wall": "2026-09-07T22:31:05.598+00:00", "context_id": "m7797daaae270", "rendered_s": 4.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 135351.3999999985}
+{"type": "probe.position", "t_ms": 133613.606, "wall": "2026-09-07T22:31:05.798+00:00", "context_id": "m7797daaae270", "rendered_s": 4.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 135551.3999999985}
+{"type": "probe.position", "t_ms": 133813.538, "wall": "2026-09-07T22:31:05.998+00:00", "context_id": "m7797daaae270", "rendered_s": 4.56, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 135751.19999999925}
+{"type": "probe.position", "t_ms": 134013.415, "wall": "2026-09-07T22:31:06.198+00:00", "context_id": "m7797daaae270", "rendered_s": 4.8, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 135951.29999999888}
+{"type": "probe.position", "t_ms": 134213.465, "wall": "2026-09-07T22:31:06.398+00:00", "context_id": "m7797daaae270", "rendered_s": 5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 136151.3999999985}
+{"type": "probe.position", "t_ms": 134413.247, "wall": "2026-09-07T22:31:06.598+00:00", "context_id": "m7797daaae270", "rendered_s": 5.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 136351.29999999888}
+{"type": "probe.position", "t_ms": 134613.912, "wall": "2026-09-07T22:31:06.798+00:00", "context_id": "m7797daaae270", "rendered_s": 5.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 136551.79999999888}
+{"type": "probe.position", "t_ms": 134813.211, "wall": "2026-09-07T22:31:06.998+00:00", "context_id": "m7797daaae270", "rendered_s": 5.6, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 136751.09999999963}
+{"type": "probe.position", "t_ms": 135013.764, "wall": "2026-09-07T22:31:07.198+00:00", "context_id": "m7797daaae270", "rendered_s": 5.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 136951.69999999925}
+{"type": "probe.position", "t_ms": 135213.618, "wall": "2026-09-07T22:31:07.398+00:00", "context_id": "m7797daaae270", "rendered_s": 6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 137151.3999999985}
+{"type": "probe.position", "t_ms": 135413.764, "wall": "2026-09-07T22:31:07.598+00:00", "context_id": "m7797daaae270", "rendered_s": 6.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 137351.69999999925}
+{"type": "probe.position", "t_ms": 135613.817, "wall": "2026-09-07T22:31:07.798+00:00", "context_id": "m7797daaae270", "rendered_s": 6.4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 137551.59999999963}
+{"type": "agent.state", "t_ms": 135706.301, "wall": "2026-09-07T22:31:07.891+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 135707.023, "wall": "2026-09-07T22:31:07.891+00:00", "context_id": "m7797daaae270", "name": "next_step", "arguments": "{\"status\": \"Moving to the next step after initial denaturation\"}"}
+{"type": "speech.finished", "t_ms": 135707.09, "wall": "2026-09-07T22:31:07.891+00:00", "context_id": "m7797daaae270", "kind": "reply", "step_id": null, "text": "For each of the twenty five to thirty five cycles, denature at ninety eight degrees celsius for five to ten seconds.", "tools": ["next_step"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 150706.798, "wall": "2026-09-07T22:31:22.891+00:00", "state": "away"}
+{"type": "timer.fired", "t_ms": 157254.581, "wall": "2026-09-07T22:31:29.439+00:00", "timer_id": "s12.timer1", "label": "initial denaturation at ninety-eight degrees Celsius"}
+{"type": "speech.requested", "t_ms": 157255.842, "wall": "2026-09-07T22:31:29.440+00:00", "kind": "announce", "instructions": "The timer for initial denaturation at ninety-eight degrees Celsius has just finished. Tell them so, in one short sentence, and say nothing else. Do not read a step and do not ask a question."}
+{"type": "model.reply.created", "t_ms": 157256.106, "wall": "2026-09-07T22:31:29.440+00:00"}
+{"type": "speech.start", "t_ms": 157256.243, "wall": "2026-09-07T22:31:29.441+00:00", "context_id": "m7797daaad0d0", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 157277.888, "wall": "2026-09-07T22:31:29.462+00:00", "state": "thinking"}
+{"type": "provider_failure", "t_ms": 161308.92, "wall": "2026-09-07T22:31:33.493+00:00", "error": "type='tts_error' timestamp=1788820293.4932725 label='wetlab.tts_rime.FencedRimeTTS' error=APIStatusError('Rime ws closed unexpectedly', status_code=-1, request_id='ctx_6d7b0165ad16', body=None, retryable=True) recoverable=True"}
+{"type": "agent.state", "t_ms": 162727.359, "wall": "2026-09-07T22:31:34.912+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 163013.628, "wall": "2026-09-07T22:31:35.198+00:00", "context_id": "m7797daaad0d0", "emitted_samples": 3215040, "at_ms": 164951.3999999985}
+{"type": "probe.position", "t_ms": 163013.902, "wall": "2026-09-07T22:31:35.198+00:00", "context_id": "m7797daaad0d0", "rendered_s": 0.18, "buffered_s": 0.0189, "concealed_samples": 0, "at_ms": 164951.3999999985}
+{"type": "probe.position", "t_ms": 163213.643, "wall": "2026-09-07T22:31:35.398+00:00", "context_id": "m7797daaad0d0", "rendered_s": 0.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 165151.3999999985}
+{"type": "probe.position", "t_ms": 163413.427, "wall": "2026-09-07T22:31:35.598+00:00", "context_id": "m7797daaad0d0", "rendered_s": 0.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 165351.29999999888}
+{"type": "probe.position", "t_ms": 163617.314, "wall": "2026-09-07T22:31:35.802+00:00", "context_id": "m7797daaad0d0", "rendered_s": 0.78, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 165551.09999999963}
+{"type": "probe.position", "t_ms": 163812.882, "wall": "2026-09-07T22:31:35.997+00:00", "context_id": "m7797daaad0d0", "rendered_s": 0.94, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 165750.8999999985}
+{"type": "probe.position", "t_ms": 164013.483, "wall": "2026-09-07T22:31:36.198+00:00", "context_id": "m7797daaad0d0", "rendered_s": 1.18, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 165951.3999999985}
+{"type": "probe.position", "t_ms": 164213.084, "wall": "2026-09-07T22:31:36.397+00:00", "context_id": "m7797daaad0d0", "rendered_s": 1.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 166151.29999999888}
+{"type": "probe.position", "t_ms": 164413.531, "wall": "2026-09-07T22:31:36.598+00:00", "context_id": "m7797daaad0d0", "rendered_s": 1.58, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 166351.29999999888}
+{"type": "probe.position", "t_ms": 164613.35, "wall": "2026-09-07T22:31:36.798+00:00", "context_id": "m7797daaad0d0", "rendered_s": 1.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 166551.19999999925}
+{"type": "probe.position", "t_ms": 164813.013, "wall": "2026-09-07T22:31:36.997+00:00", "context_id": "m7797daaad0d0", "rendered_s": 1.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 166750.8999999985}
+{"type": "probe.position", "t_ms": 165013.266, "wall": "2026-09-07T22:31:37.198+00:00", "context_id": "m7797daaad0d0", "rendered_s": 2.18, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 166951.19999999925}
+{"type": "probe.position", "t_ms": 165213.661, "wall": "2026-09-07T22:31:37.398+00:00", "context_id": "m7797daaad0d0", "rendered_s": 2.38, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 167151.3999999985}
+{"type": "probe.position", "t_ms": 165413.438, "wall": "2026-09-07T22:31:37.598+00:00", "context_id": "m7797daaad0d0", "rendered_s": 2.58, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 167351.29999999888}
+{"type": "probe.position", "t_ms": 165613.69, "wall": "2026-09-07T22:31:37.798+00:00", "context_id": "m7797daaad0d0", "rendered_s": 2.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 167551.3999999985}
+{"type": "probe.position", "t_ms": 165813.657, "wall": "2026-09-07T22:31:37.998+00:00", "context_id": "m7797daaad0d0", "rendered_s": 2.94, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 167751}
+{"type": "probe.position", "t_ms": 166013.775, "wall": "2026-09-07T22:31:38.198+00:00", "context_id": "m7797daaad0d0", "rendered_s": 3.18, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 167951.69999999925}
+{"type": "probe.position", "t_ms": 166213.388, "wall": "2026-09-07T22:31:38.398+00:00", "context_id": "m7797daaad0d0", "rendered_s": 3.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 168151.29999999888}
+{"type": "probe.position", "t_ms": 166413.341, "wall": "2026-09-07T22:31:38.598+00:00", "context_id": "m7797daaad0d0", "rendered_s": 3.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 168351.19999999925}
+{"type": "probe.position", "t_ms": 166614.179, "wall": "2026-09-07T22:31:38.799+00:00", "context_id": "m7797daaad0d0", "rendered_s": 3.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 168551.8999999985}
+{"type": "probe.position", "t_ms": 166813.281, "wall": "2026-09-07T22:31:38.998+00:00", "context_id": "m7797daaad0d0", "rendered_s": 3.98, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 168751.09999999963}
+{"type": "probe.position", "t_ms": 167013.257, "wall": "2026-09-07T22:31:39.198+00:00", "context_id": "m7797daaad0d0", "rendered_s": 4.18, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 168951.29999999888}
+{"type": "probe.position", "t_ms": 167213.487, "wall": "2026-09-07T22:31:39.398+00:00", "context_id": "m7797daaad0d0", "rendered_s": 4.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 169151.29999999888}
+{"type": "probe.position", "t_ms": 167413.23, "wall": "2026-09-07T22:31:39.598+00:00", "context_id": "m7797daaad0d0", "rendered_s": 4.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 169351.19999999925}
+{"type": "probe.position", "t_ms": 167613.693, "wall": "2026-09-07T22:31:39.798+00:00", "context_id": "m7797daaad0d0", "rendered_s": 4.78, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 169551.3999999985}
+{"type": "probe.position", "t_ms": 167813.189, "wall": "2026-09-07T22:31:39.998+00:00", "context_id": "m7797daaad0d0", "rendered_s": 4.94, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 169751.09999999963}
+{"type": "agent.state", "t_ms": 167819.603, "wall": "2026-09-07T22:31:40.004+00:00", "state": "listening"}
+{"type": "speech.finished", "t_ms": 167820.11, "wall": "2026-09-07T22:31:40.004+00:00", "context_id": "m7797daaad0d0", "kind": "reply", "step_id": null, "text": "The timer for the initial denaturation at ninety eight degrees celsius has finished.", "tools": [], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 170276.561, "wall": "2026-09-07T22:31:42.461+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 173537.964, "wall": "2026-09-07T22:31:45.722+00:00", "text": "Okay. Set a timer for two minutes for the gel."}
+{"type": "user.state", "t_ms": 173676.533, "wall": "2026-09-07T22:31:45.861+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 174265.227, "wall": "2026-09-07T22:31:46.450+00:00"}
+{"type": "speech.start", "t_ms": 174265.599, "wall": "2026-09-07T22:31:46.450+00:00", "context_id": "m7797ecbd3f50", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 174286.654, "wall": "2026-09-07T22:31:46.471+00:00", "state": "thinking"}
+{"type": "timers.started", "t_ms": 176371.266, "wall": "2026-09-07T22:31:48.556+00:00", "step_id": "s13", "timers": [{"id": "ad_hoc.1", "label": "Gel timer", "seconds": 120.0}]}
+{"type": "status.dropped", "t_ms": 176371.337, "wall": "2026-09-07T22:31:48.556+00:00"}
+{"type": "agent.state", "t_ms": 178884.199, "wall": "2026-09-07T22:31:51.069+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 179213.724, "wall": "2026-09-07T22:31:51.398+00:00", "context_id": "m7797ecbd3f50", "emitted_samples": 3511680, "at_ms": 181151.29999999888}
+{"type": "probe.position", "t_ms": 179213.918, "wall": "2026-09-07T22:31:51.398+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 0.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 181151.29999999888}
+{"type": "probe.position", "t_ms": 179413.028, "wall": "2026-09-07T22:31:51.597+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 0.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 181351.3999999985}
+{"type": "probe.position", "t_ms": 179613.533, "wall": "2026-09-07T22:31:51.798+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 0.6, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 181551.3999999985}
+{"type": "probe.position", "t_ms": 179812.924, "wall": "2026-09-07T22:31:51.997+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 0.76, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 181750.8999999985}
+{"type": "probe.position", "t_ms": 180013.629, "wall": "2026-09-07T22:31:52.198+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 1, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 181951.5}
+{"type": "probe.position", "t_ms": 180213.897, "wall": "2026-09-07T22:31:52.398+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 1.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 182151.29999999888}
+{"type": "probe.position", "t_ms": 180413.302, "wall": "2026-09-07T22:31:52.598+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 1.4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 182351.29999999888}
+{"type": "probe.position", "t_ms": 180613.55, "wall": "2026-09-07T22:31:52.798+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 1.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 182551.59999999963}
+{"type": "probe.position", "t_ms": 180813.008, "wall": "2026-09-07T22:31:52.997+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 1.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 182751}
+{"type": "probe.position", "t_ms": 181013.618, "wall": "2026-09-07T22:31:53.198+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 182951.5}
+{"type": "probe.position", "t_ms": 181213.442, "wall": "2026-09-07T22:31:53.398+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 2.2, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 183151.3999999985}
+{"type": "probe.position", "t_ms": 181413.331, "wall": "2026-09-07T22:31:53.598+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 2.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 183351.3999999985}
+{"type": "probe.position", "t_ms": 181613.728, "wall": "2026-09-07T22:31:53.798+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 2.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 183551.5}
+{"type": "probe.position", "t_ms": 181813.183, "wall": "2026-09-07T22:31:53.998+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 2.76, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 183751}
+{"type": "probe.position", "t_ms": 182013.842, "wall": "2026-09-07T22:31:54.198+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 3, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 183951.59999999963}
+{"type": "probe.position", "t_ms": 182213.493, "wall": "2026-09-07T22:31:54.398+00:00", "context_id": "m7797ecbd3f50", "rendered_s": 3.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 184151.3999999985}
+{"type": "agent.state", "t_ms": 182396.428, "wall": "2026-09-07T22:31:54.581+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 182397.154, "wall": "2026-09-07T22:31:54.581+00:00", "context_id": "m7797ecbd3f50", "name": "start_timer", "arguments": "{\"seconds\": 120, \"label\": \"Gel timer\", \"status\": \"Setting a two minute timer for the gel\"}"}
+{"type": "speech.finished", "t_ms": 182397.438, "wall": "2026-09-07T22:31:54.582+00:00", "context_id": "m7797ecbd3f50", "kind": "reply", "step_id": null, "text": "Two minute gel timer is set. Shall I carry on with the protocol?", "tools": ["start_timer"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 183726.163, "wall": "2026-09-07T22:31:55.910+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 186091.241, "wall": "2026-09-07T22:31:58.276+00:00", "text": "Can you tell me what timers are currently running?"}
+{"type": "user.state", "t_ms": 186226.821, "wall": "2026-09-07T22:31:58.411+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 186761.372, "wall": "2026-09-07T22:31:58.946+00:00"}
+{"type": "speech.start", "t_ms": 186761.709, "wall": "2026-09-07T22:31:58.946+00:00", "context_id": "m7797d9799250", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 186783.855, "wall": "2026-09-07T22:31:58.968+00:00", "state": "thinking"}
+{"type": "status.dropped", "t_ms": 188565.414, "wall": "2026-09-07T22:32:00.750+00:00"}
+{"type": "agent.state", "t_ms": 190328.275, "wall": "2026-09-07T22:32:02.513+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 190813.121, "wall": "2026-09-07T22:32:02.997+00:00", "context_id": "m7797d9799250", "emitted_samples": 3720960, "at_ms": 192750.8999999985}
+{"type": "probe.position", "t_ms": 190813.421, "wall": "2026-09-07T22:32:02.998+00:00", "context_id": "m7797d9799250", "rendered_s": 0.18, "buffered_s": 0.0189, "concealed_samples": 0, "at_ms": 192750.8999999985}
+{"type": "probe.position", "t_ms": 191013.723, "wall": "2026-09-07T22:32:03.198+00:00", "context_id": "m7797d9799250", "rendered_s": 0.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 192951.5}
+{"type": "probe.position", "t_ms": 191213.207, "wall": "2026-09-07T22:32:03.398+00:00", "context_id": "m7797d9799250", "rendered_s": 0.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 193151.19999999925}
+{"type": "probe.position", "t_ms": 191413.616, "wall": "2026-09-07T22:32:03.598+00:00", "context_id": "m7797d9799250", "rendered_s": 0.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 193351.5}
+{"type": "probe.position", "t_ms": 191613.957, "wall": "2026-09-07T22:32:03.798+00:00", "context_id": "m7797d9799250", "rendered_s": 0.98, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 193551.69999999925}
+{"type": "probe.position", "t_ms": 191813.224, "wall": "2026-09-07T22:32:03.998+00:00", "context_id": "m7797d9799250", "rendered_s": 1.14, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 193751}
+{"type": "probe.position", "t_ms": 192014.271, "wall": "2026-09-07T22:32:04.199+00:00", "context_id": "m7797d9799250", "rendered_s": 1.38, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 193952}
+{"type": "probe.position", "t_ms": 192213.844, "wall": "2026-09-07T22:32:04.398+00:00", "context_id": "m7797d9799250", "rendered_s": 1.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 194151.5}
+{"type": "probe.position", "t_ms": 192413.544, "wall": "2026-09-07T22:32:04.598+00:00", "context_id": "m7797d9799250", "rendered_s": 1.78, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 194351.3999999985}
+{"type": "probe.position", "t_ms": 192613.655, "wall": "2026-09-07T22:32:04.798+00:00", "context_id": "m7797d9799250", "rendered_s": 1.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 194551.5}
+{"type": "probe.position", "t_ms": 192813.399, "wall": "2026-09-07T22:32:04.998+00:00", "context_id": "m7797d9799250", "rendered_s": 2.18, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 194751.09999999963}
+{"type": "probe.position", "t_ms": 193013.826, "wall": "2026-09-07T22:32:05.198+00:00", "context_id": "m7797d9799250", "rendered_s": 2.38, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 194951.59999999963}
+{"type": "probe.position", "t_ms": 193213.681, "wall": "2026-09-07T22:32:05.398+00:00", "context_id": "m7797d9799250", "rendered_s": 2.58, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 195151.3999999985}
+{"type": "probe.position", "t_ms": 193413.335, "wall": "2026-09-07T22:32:05.598+00:00", "context_id": "m7797d9799250", "rendered_s": 2.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 195351.3999999985}
+{"type": "probe.position", "t_ms": 193613.599, "wall": "2026-09-07T22:32:05.798+00:00", "context_id": "m7797d9799250", "rendered_s": 2.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 195551.3999999985}
+{"type": "probe.position", "t_ms": 193813.295, "wall": "2026-09-07T22:32:05.998+00:00", "context_id": "m7797d9799250", "rendered_s": 3.14, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 195751}
+{"type": "probe.position", "t_ms": 194013.463, "wall": "2026-09-07T22:32:06.198+00:00", "context_id": "m7797d9799250", "rendered_s": 3.38, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 195951.29999999888}
+{"type": "probe.position", "t_ms": 194213.648, "wall": "2026-09-07T22:32:06.398+00:00", "context_id": "m7797d9799250", "rendered_s": 3.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 196151.29999999888}
+{"type": "probe.position", "t_ms": 194413.25, "wall": "2026-09-07T22:32:06.598+00:00", "context_id": "m7797d9799250", "rendered_s": 3.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 196351.19999999925}
+{"type": "probe.position", "t_ms": 194613.727, "wall": "2026-09-07T22:32:06.798+00:00", "context_id": "m7797d9799250", "rendered_s": 3.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 196551.3999999985}
+{"type": "probe.position", "t_ms": 194812.767, "wall": "2026-09-07T22:32:06.997+00:00", "context_id": "m7797d9799250", "rendered_s": 4.18, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 196750.79999999888}
+{"type": "probe.position", "t_ms": 195013.544, "wall": "2026-09-07T22:32:07.198+00:00", "context_id": "m7797d9799250", "rendered_s": 4.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 196951.3999999985}
+{"type": "probe.position", "t_ms": 195213.765, "wall": "2026-09-07T22:32:07.398+00:00", "context_id": "m7797d9799250", "rendered_s": 4.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 197151.3999999985}
+{"type": "probe.position", "t_ms": 195413.712, "wall": "2026-09-07T22:32:07.598+00:00", "context_id": "m7797d9799250", "rendered_s": 4.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 197351.3999999985}
+{"type": "probe.position", "t_ms": 195613.363, "wall": "2026-09-07T22:32:07.798+00:00", "context_id": "m7797d9799250", "rendered_s": 4.98, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 197551.29999999888}
+{"type": "probe.position", "t_ms": 195813.089, "wall": "2026-09-07T22:32:07.997+00:00", "context_id": "m7797d9799250", "rendered_s": 5.14, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 197750.8999999985}
+{"type": "probe.position", "t_ms": 196013.449, "wall": "2026-09-07T22:32:08.198+00:00", "context_id": "m7797d9799250", "rendered_s": 5.38, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 197951.79999999888}
+{"type": "probe.position", "t_ms": 196212.962, "wall": "2026-09-07T22:32:08.397+00:00", "context_id": "m7797d9799250", "rendered_s": 5.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 198151.19999999925}
+{"type": "probe.position", "t_ms": 196413.482, "wall": "2026-09-07T22:32:08.598+00:00", "context_id": "m7797d9799250", "rendered_s": 5.78, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 198351.29999999888}
+{"type": "probe.position", "t_ms": 196613.711, "wall": "2026-09-07T22:32:08.798+00:00", "context_id": "m7797d9799250", "rendered_s": 5.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 198551.3999999985}
+{"type": "probe.position", "t_ms": 196813.167, "wall": "2026-09-07T22:32:08.998+00:00", "context_id": "m7797d9799250", "rendered_s": 6.18, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 198751.09999999963}
+{"type": "agent.state", "t_ms": 196880.257, "wall": "2026-09-07T22:32:09.065+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 196881.692, "wall": "2026-09-07T22:32:09.066+00:00", "context_id": "m7797d9799250", "name": "list_timers", "arguments": "{\"status\": \"Listing currently running timers\"}"}
+{"type": "speech.finished", "t_ms": 196881.749, "wall": "2026-09-07T22:32:09.066+00:00", "context_id": "m7797d9799250", "kind": "reply", "step_id": null, "text": "There is one timer running: the gel timer, with about one hundred and eight seconds left. Carry on with the protocol?", "tools": ["list_timers"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 202276.829, "wall": "2026-09-07T22:32:14.461+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 203531.739, "wall": "2026-09-07T22:32:15.716+00:00", "text": "Go ahead."}
+{"type": "user.state", "t_ms": 203627.009, "wall": "2026-09-07T22:32:15.811+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 204234.443, "wall": "2026-09-07T22:32:16.419+00:00"}
+{"type": "speech.start", "t_ms": 204234.838, "wall": "2026-09-07T22:32:16.419+00:00", "context_id": "m7797da9deb40", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 204256.387, "wall": "2026-09-07T22:32:16.441+00:00", "state": "thinking"}
+{"type": "step.presented", "t_ms": 207350.55, "wall": "2026-09-07T22:32:19.535+00:00", "step_id": "s14", "number": 14}
+{"type": "status.dropped", "t_ms": 207350.619, "wall": "2026-09-07T22:32:19.535+00:00"}
+{"type": "agent.state", "t_ms": 209671.995, "wall": "2026-09-07T22:32:21.856+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 210013.727, "wall": "2026-09-07T22:32:22.198+00:00", "context_id": "m7797da9deb40", "emitted_samples": 4085760, "at_ms": 211951.29999999888}
+{"type": "probe.position", "t_ms": 210014.004, "wall": "2026-09-07T22:32:22.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 0.22, "buffered_s": 0.0182, "concealed_samples": 0, "at_ms": 211951.29999999888}
+{"type": "probe.position", "t_ms": 210213.288, "wall": "2026-09-07T22:32:22.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 0.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 212151.29999999888}
+{"type": "probe.position", "t_ms": 210413.163, "wall": "2026-09-07T22:32:22.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 0.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 212351.19999999925}
+{"type": "probe.position", "t_ms": 210613.784, "wall": "2026-09-07T22:32:22.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 0.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 212551.59999999963}
+{"type": "probe.position", "t_ms": 210818.465, "wall": "2026-09-07T22:32:23.003+00:00", "context_id": "m7797da9deb40", "rendered_s": 1.02, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 212750.8999999985}
+{"type": "probe.position", "t_ms": 211013.511, "wall": "2026-09-07T22:32:23.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 1.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 212951.3999999985}
+{"type": "probe.position", "t_ms": 211213.427, "wall": "2026-09-07T22:32:23.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 1.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 213151.3999999985}
+{"type": "probe.position", "t_ms": 211413.468, "wall": "2026-09-07T22:32:23.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 1.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 213351.3999999985}
+{"type": "probe.position", "t_ms": 211613.416, "wall": "2026-09-07T22:32:23.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 1.82, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 213551.29999999888}
+{"type": "probe.position", "t_ms": 211813.028, "wall": "2026-09-07T22:32:23.997+00:00", "context_id": "m7797da9deb40", "rendered_s": 1.98, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 213751}
+{"type": "probe.position", "t_ms": 212013.562, "wall": "2026-09-07T22:32:24.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 2.22, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 213951.29999999888}
+{"type": "probe.position", "t_ms": 212213.878, "wall": "2026-09-07T22:32:24.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 2.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 214151.59999999963}
+{"type": "probe.position", "t_ms": 212413.345, "wall": "2026-09-07T22:32:24.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 2.62, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 214351.29999999888}
+{"type": "probe.position", "t_ms": 212613.558, "wall": "2026-09-07T22:32:24.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 2.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 214551.19999999925}
+{"type": "probe.position", "t_ms": 212812.715, "wall": "2026-09-07T22:32:24.997+00:00", "context_id": "m7797da9deb40", "rendered_s": 3.02, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 214750.8999999985}
+{"type": "probe.position", "t_ms": 213013.681, "wall": "2026-09-07T22:32:25.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 3.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 214951.3999999985}
+{"type": "probe.position", "t_ms": 213213.12, "wall": "2026-09-07T22:32:25.397+00:00", "context_id": "m7797da9deb40", "rendered_s": 3.42, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 215151.19999999925}
+{"type": "probe.position", "t_ms": 213413.427, "wall": "2026-09-07T22:32:25.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 3.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 215351.29999999888}
+{"type": "probe.position", "t_ms": 213613.479, "wall": "2026-09-07T22:32:25.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 3.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 215551.29999999888}
+{"type": "probe.position", "t_ms": 213813.197, "wall": "2026-09-07T22:32:25.998+00:00", "context_id": "m7797da9deb40", "rendered_s": 3.98, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 215751}
+{"type": "probe.position", "t_ms": 214013.559, "wall": "2026-09-07T22:32:26.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 4.22, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 215951.59999999963}
+{"type": "probe.position", "t_ms": 214213.07, "wall": "2026-09-07T22:32:26.397+00:00", "context_id": "m7797da9deb40", "rendered_s": 4.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 216151.29999999888}
+{"type": "probe.position", "t_ms": 214414.165, "wall": "2026-09-07T22:32:26.599+00:00", "context_id": "m7797da9deb40", "rendered_s": 4.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 216351.29999999888}
+{"type": "probe.position", "t_ms": 214614.089, "wall": "2026-09-07T22:32:26.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 4.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 216551.79999999888}
+{"type": "probe.position", "t_ms": 214813.075, "wall": "2026-09-07T22:32:26.997+00:00", "context_id": "m7797da9deb40", "rendered_s": 5.02, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 216751}
+{"type": "probe.position", "t_ms": 215013.404, "wall": "2026-09-07T22:32:27.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 5.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 216951.19999999925}
+{"type": "probe.position", "t_ms": 215213.656, "wall": "2026-09-07T22:32:27.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 5.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 217151.29999999888}
+{"type": "probe.position", "t_ms": 215413.69, "wall": "2026-09-07T22:32:27.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 5.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 217351.59999999963}
+{"type": "probe.position", "t_ms": 215613.411, "wall": "2026-09-07T22:32:27.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 5.82, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 217551.3999999985}
+{"type": "probe.position", "t_ms": 215813.139, "wall": "2026-09-07T22:32:27.997+00:00", "context_id": "m7797da9deb40", "rendered_s": 5.98, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 217751}
+{"type": "probe.position", "t_ms": 216013.493, "wall": "2026-09-07T22:32:28.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 6.22, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 217951.3999999985}
+{"type": "probe.position", "t_ms": 216213.491, "wall": "2026-09-07T22:32:28.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 6.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 218151.3999999985}
+{"type": "probe.position", "t_ms": 216413.301, "wall": "2026-09-07T22:32:28.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 6.62, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 218351.19999999925}
+{"type": "probe.position", "t_ms": 216613.656, "wall": "2026-09-07T22:32:28.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 6.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 218551.5}
+{"type": "probe.position", "t_ms": 216812.978, "wall": "2026-09-07T22:32:28.997+00:00", "context_id": "m7797da9deb40", "rendered_s": 7.02, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 218751}
+{"type": "probe.position", "t_ms": 217013.718, "wall": "2026-09-07T22:32:29.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 7.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 218951.59999999963}
+{"type": "probe.position", "t_ms": 217213.755, "wall": "2026-09-07T22:32:29.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 7.42, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 219151.5}
+{"type": "probe.position", "t_ms": 217413.539, "wall": "2026-09-07T22:32:29.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 7.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 219351.29999999888}
+{"type": "probe.position", "t_ms": 217613.965, "wall": "2026-09-07T22:32:29.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 7.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 219551.59999999963}
+{"type": "probe.position", "t_ms": 217813.899, "wall": "2026-09-07T22:32:29.998+00:00", "context_id": "m7797da9deb40", "rendered_s": 7.98, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 219751.3999999985}
+{"type": "probe.position", "t_ms": 218013.528, "wall": "2026-09-07T22:32:30.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 8.22, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 219951.3999999985}
+{"type": "probe.position", "t_ms": 218213.786, "wall": "2026-09-07T22:32:30.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 8.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 220151.59999999963}
+{"type": "probe.position", "t_ms": 218413.308, "wall": "2026-09-07T22:32:30.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 8.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 220351.29999999888}
+{"type": "probe.position", "t_ms": 218613.702, "wall": "2026-09-07T22:32:30.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 8.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 220551.3999999985}
+{"type": "probe.position", "t_ms": 218812.928, "wall": "2026-09-07T22:32:30.997+00:00", "context_id": "m7797da9deb40", "rendered_s": 9.02, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 220750.8999999985}
+{"type": "probe.position", "t_ms": 219013.237, "wall": "2026-09-07T22:32:31.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 9.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 220951.19999999925}
+{"type": "probe.position", "t_ms": 219213.6, "wall": "2026-09-07T22:32:31.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 9.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 221151.3999999985}
+{"type": "probe.position", "t_ms": 219413.698, "wall": "2026-09-07T22:32:31.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 9.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 221351.3999999985}
+{"type": "probe.position", "t_ms": 219613.854, "wall": "2026-09-07T22:32:31.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 9.82, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 221551.59999999963}
+{"type": "probe.position", "t_ms": 219813.154, "wall": "2026-09-07T22:32:31.997+00:00", "context_id": "m7797da9deb40", "rendered_s": 9.98, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 221750.8999999985}
+{"type": "probe.position", "t_ms": 220013.662, "wall": "2026-09-07T22:32:32.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 10.22, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 221951.3999999985}
+{"type": "probe.position", "t_ms": 220214.273, "wall": "2026-09-07T22:32:32.399+00:00", "context_id": "m7797da9deb40", "rendered_s": 10.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 222152.09999999963}
+{"type": "probe.position", "t_ms": 220413.52, "wall": "2026-09-07T22:32:32.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 10.62, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 222351.5}
+{"type": "probe.position", "t_ms": 220616.661, "wall": "2026-09-07T22:32:32.801+00:00", "context_id": "m7797da9deb40", "rendered_s": 10.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 222551.5}
+{"type": "probe.position", "t_ms": 220812.975, "wall": "2026-09-07T22:32:32.997+00:00", "context_id": "m7797da9deb40", "rendered_s": 11.02, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 222751}
+{"type": "probe.position", "t_ms": 221013.513, "wall": "2026-09-07T22:32:33.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 11.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 222951.5}
+{"type": "probe.position", "t_ms": 221213.782, "wall": "2026-09-07T22:32:33.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 11.42, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 223151.59999999963}
+{"type": "probe.position", "t_ms": 221413.585, "wall": "2026-09-07T22:32:33.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 11.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 223351.3999999985}
+{"type": "probe.position", "t_ms": 221613.903, "wall": "2026-09-07T22:32:33.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 11.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 223551.5}
+{"type": "probe.position", "t_ms": 221813.437, "wall": "2026-09-07T22:32:33.998+00:00", "context_id": "m7797da9deb40", "rendered_s": 11.98, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 223751.09999999963}
+{"type": "probe.position", "t_ms": 222013.521, "wall": "2026-09-07T22:32:34.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 12.2, "buffered_s": 0.0182, "concealed_samples": 0, "at_ms": 223951.3999999985}
+{"type": "probe.position", "t_ms": 222213.572, "wall": "2026-09-07T22:32:34.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 12.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 224151.5}
+{"type": "probe.position", "t_ms": 222413.7, "wall": "2026-09-07T22:32:34.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 12.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 224351.3999999985}
+{"type": "probe.position", "t_ms": 222613.712, "wall": "2026-09-07T22:32:34.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 12.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 224551.69999999925}
+{"type": "probe.position", "t_ms": 222813.571, "wall": "2026-09-07T22:32:34.998+00:00", "context_id": "m7797da9deb40", "rendered_s": 13, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 224751.09999999963}
+{"type": "probe.position", "t_ms": 223013.712, "wall": "2026-09-07T22:32:35.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 13.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 224951.59999999963}
+{"type": "probe.position", "t_ms": 223214.545, "wall": "2026-09-07T22:32:35.399+00:00", "context_id": "m7797da9deb40", "rendered_s": 13.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 225152}
+{"type": "probe.position", "t_ms": 223413.345, "wall": "2026-09-07T22:32:35.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 13.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 225351.3999999985}
+{"type": "probe.position", "t_ms": 223613.364, "wall": "2026-09-07T22:32:35.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 13.8, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 225551.29999999888}
+{"type": "probe.position", "t_ms": 223813.139, "wall": "2026-09-07T22:32:35.997+00:00", "context_id": "m7797da9deb40", "rendered_s": 13.96, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 225751}
+{"type": "probe.position", "t_ms": 224013.339, "wall": "2026-09-07T22:32:36.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 14.2, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 225951.29999999888}
+{"type": "probe.position", "t_ms": 224213.461, "wall": "2026-09-07T22:32:36.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 14.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 226151.5}
+{"type": "probe.position", "t_ms": 224413.133, "wall": "2026-09-07T22:32:36.597+00:00", "context_id": "m7797da9deb40", "rendered_s": 14.6, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 226351.29999999888}
+{"type": "probe.position", "t_ms": 224613.54, "wall": "2026-09-07T22:32:36.798+00:00", "context_id": "m7797da9deb40", "rendered_s": 14.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 226551.29999999888}
+{"type": "probe.position", "t_ms": 224813.603, "wall": "2026-09-07T22:32:36.998+00:00", "context_id": "m7797da9deb40", "rendered_s": 15, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 226751}
+{"type": "probe.position", "t_ms": 225013.739, "wall": "2026-09-07T22:32:37.198+00:00", "context_id": "m7797da9deb40", "rendered_s": 15.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 226951.3999999985}
+{"type": "probe.position", "t_ms": 225213.755, "wall": "2026-09-07T22:32:37.398+00:00", "context_id": "m7797da9deb40", "rendered_s": 15.4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 227151.59999999963}
+{"type": "probe.position", "t_ms": 225413.866, "wall": "2026-09-07T22:32:37.598+00:00", "context_id": "m7797da9deb40", "rendered_s": 15.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 227351.29999999888}
+{"type": "agent.state", "t_ms": 225523.878, "wall": "2026-09-07T22:32:37.708+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 225526.09, "wall": "2026-09-07T22:32:37.710+00:00", "context_id": "m7797da9deb40", "name": "next_step", "arguments": "{\"status\": \"Moving to the next step after denaturation step\"}"}
+{"type": "speech.finished", "t_ms": 225526.335, "wall": "2026-09-07T22:32:37.711+00:00", "context_id": "m7797da9deb40", "kind": "reply", "step_id": null, "text": "For each of the twenty five to thirty five cycles. Anneal at fifty to seventy two degrees celsius for ten to thirty seconds. Typically, anneal three degrees celsius above the spell(Tm) of the lower spell(Tm) primer. Use of the spell(NEB) spell(Tm) calculator is highly recommended.", "tools": ["next_step"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 229126.275, "wall": "2026-09-07T22:32:41.311+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 230698.931, "wall": "2026-09-07T22:32:42.883+00:00", "text": "Cancel the drill timer."}
+{"type": "user.state", "t_ms": 230876.348, "wall": "2026-09-07T22:32:43.061+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 231441.762, "wall": "2026-09-07T22:32:43.626+00:00"}
+{"type": "speech.start", "t_ms": 231441.915, "wall": "2026-09-07T22:32:43.626+00:00", "context_id": "m7797d9799cd0", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 231462.962, "wall": "2026-09-07T22:32:43.647+00:00", "state": "thinking"}
+{"type": "agent.state", "t_ms": 233589.321, "wall": "2026-09-07T22:32:45.774+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 234013.819, "wall": "2026-09-07T22:32:46.198+00:00", "context_id": "m7797d9799cd0", "emitted_samples": 4885440, "at_ms": 235951.3999999985}
+{"type": "probe.position", "t_ms": 234014.041, "wall": "2026-09-07T22:32:46.198+00:00", "context_id": "m7797d9799cd0", "rendered_s": 0.24, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 235951.3999999985}
+{"type": "probe.position", "t_ms": 234213.271, "wall": "2026-09-07T22:32:46.398+00:00", "context_id": "m7797d9799cd0", "rendered_s": 0.44, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 236151.19999999925}
+{"type": "probe.position", "t_ms": 234413.313, "wall": "2026-09-07T22:32:46.598+00:00", "context_id": "m7797d9799cd0", "rendered_s": 0.64, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 236351.29999999888}
+{"type": "probe.position", "t_ms": 234613.603, "wall": "2026-09-07T22:32:46.798+00:00", "context_id": "m7797d9799cd0", "rendered_s": 0.84, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 236551.5}
+{"type": "probe.position", "t_ms": 234812.87, "wall": "2026-09-07T22:32:46.997+00:00", "context_id": "m7797d9799cd0", "rendered_s": 1.04, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 236750.8999999985}
+{"type": "probe.position", "t_ms": 235013.586, "wall": "2026-09-07T22:32:47.198+00:00", "context_id": "m7797d9799cd0", "rendered_s": 1.24, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 236951.3999999985}
+{"type": "probe.position", "t_ms": 235214.453, "wall": "2026-09-07T22:32:47.399+00:00", "context_id": "m7797d9799cd0", "rendered_s": 1.44, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 237152.29999999888}
+{"type": "probe.position", "t_ms": 235413.563, "wall": "2026-09-07T22:32:47.598+00:00", "context_id": "m7797d9799cd0", "rendered_s": 1.64, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 237351.29999999888}
+{"type": "probe.position", "t_ms": 235613.355, "wall": "2026-09-07T22:32:47.798+00:00", "context_id": "m7797d9799cd0", "rendered_s": 1.84, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 237551.3999999985}
+{"type": "probe.position", "t_ms": 235812.965, "wall": "2026-09-07T22:32:47.997+00:00", "context_id": "m7797d9799cd0", "rendered_s": 2, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 237751}
+{"type": "probe.position", "t_ms": 236013.252, "wall": "2026-09-07T22:32:48.198+00:00", "context_id": "m7797d9799cd0", "rendered_s": 2.24, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 237951.29999999888}
+{"type": "user.state", "t_ms": 236176.248, "wall": "2026-09-07T22:32:48.361+00:00", "state": "speaking"}
+{"type": "speech.interrupted", "t_ms": 236176.309, "wall": "2026-09-07T22:32:48.361+00:00"}
+{"type": "probe.cut", "t_ms": 236179.21, "wall": "2026-09-07T22:32:48.364+00:00", "context_id": "m7797d9799cd0", "rendered_s": 2.24, "buffered_s": 0.0192, "reason": "user_speaking", "at_ms": 238116.59999999963}
+{"type": "agent.state", "t_ms": 236626.481, "wall": "2026-09-07T22:32:48.811+00:00", "state": "listening"}
+{"type": "user.transcript", "t_ms": 237178.175, "wall": "2026-09-07T22:32:49.363+00:00", "text": "Meant"}
+{"type": "speech.finished", "t_ms": 237183.714, "wall": "2026-09-07T22:32:49.368+00:00", "context_id": "m7797d9799cd0", "kind": "reply", "step_id": null, "text": "There is no drill timer running. The only timer active is", "tools": [], "interrupted": true, "silent": false, "played": false}
+{"type": "user.state", "t_ms": 237276.406, "wall": "2026-09-07T22:32:49.461+00:00", "state": "listening"}
+{"type": "user.state", "t_ms": 237327.442, "wall": "2026-09-07T22:32:49.512+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 238878.35, "wall": "2026-09-07T22:32:51.063+00:00", "text": "I meant gel timer."}
+{"type": "user.state", "t_ms": 238976.045, "wall": "2026-09-07T22:32:51.160+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 240902.007, "wall": "2026-09-07T22:32:53.086+00:00"}
+{"type": "speech.start", "t_ms": 240902.163, "wall": "2026-09-07T22:32:53.086+00:00", "context_id": "m7797daa34140", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 240924.318, "wall": "2026-09-07T22:32:53.109+00:00", "state": "thinking"}
+{"type": "timer.cancelled", "t_ms": 242313.982, "wall": "2026-09-07T22:32:54.498+00:00", "timer_id": "ad_hoc.1", "reason": "asked"}
+{"type": "status.dropped", "t_ms": 242314.045, "wall": "2026-09-07T22:32:54.498+00:00"}
+{"type": "agent.state", "t_ms": 243752.561, "wall": "2026-09-07T22:32:55.937+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 244014.613, "wall": "2026-09-07T22:32:56.199+00:00", "context_id": "m7797daa34140", "emitted_samples": 5066880, "at_ms": 245952.09999999963}
+{"type": "probe.position", "t_ms": 244014.861, "wall": "2026-09-07T22:32:56.199+00:00", "context_id": "m7797daa34140", "rendered_s": 0.24, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 245952.09999999963}
+{"type": "probe.position", "t_ms": 244213.966, "wall": "2026-09-07T22:32:56.398+00:00", "context_id": "m7797daa34140", "rendered_s": 0.42, "buffered_s": 0.0189, "concealed_samples": 0, "at_ms": 246151.79999999888}
+{"type": "probe.position", "t_ms": 244413.216, "wall": "2026-09-07T22:32:56.598+00:00", "context_id": "m7797daa34140", "rendered_s": 0.62, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 246351.3999999985}
+{"type": "probe.position", "t_ms": 244615.004, "wall": "2026-09-07T22:32:56.799+00:00", "context_id": "m7797daa34140", "rendered_s": 0.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 246551.29999999888}
+{"type": "probe.position", "t_ms": 244813.455, "wall": "2026-09-07T22:32:56.998+00:00", "context_id": "m7797daa34140", "rendered_s": 1.02, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 246751.09999999963}
+{"type": "probe.position", "t_ms": 245013.978, "wall": "2026-09-07T22:32:57.198+00:00", "context_id": "m7797daa34140", "rendered_s": 1.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 246951.79999999888}
+{"type": "probe.position", "t_ms": 245213.953, "wall": "2026-09-07T22:32:57.398+00:00", "context_id": "m7797daa34140", "rendered_s": 1.42, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 247151.69999999925}
+{"type": "probe.position", "t_ms": 245414.034, "wall": "2026-09-07T22:32:57.598+00:00", "context_id": "m7797daa34140", "rendered_s": 1.62, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 247351.5}
+{"type": "probe.position", "t_ms": 245613.814, "wall": "2026-09-07T22:32:57.798+00:00", "context_id": "m7797daa34140", "rendered_s": 1.8, "buffered_s": 0.0189, "concealed_samples": 0, "at_ms": 247551.69999999925}
+{"type": "probe.position", "t_ms": 245813.122, "wall": "2026-09-07T22:32:57.997+00:00", "context_id": "m7797daa34140", "rendered_s": 1.96, "buffered_s": 0.0175, "concealed_samples": 0, "at_ms": 247751}
+{"type": "probe.position", "t_ms": 246013.391, "wall": "2026-09-07T22:32:58.198+00:00", "context_id": "m7797daa34140", "rendered_s": 2.2, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 247951.5}
+{"type": "probe.position", "t_ms": 246213.418, "wall": "2026-09-07T22:32:58.398+00:00", "context_id": "m7797daa34140", "rendered_s": 2.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 248151.3999999985}
+{"type": "agent.state", "t_ms": 246385.889, "wall": "2026-09-07T22:32:58.570+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 246386.513, "wall": "2026-09-07T22:32:58.571+00:00", "context_id": "m7797daa34140", "name": "cancel_timer", "arguments": "{\"label\": \"Gel timer\", \"status\": \"Cancelling the gel timer\"}"}
+{"type": "speech.finished", "t_ms": 246386.592, "wall": "2026-09-07T22:32:58.571+00:00", "context_id": "m7797daa34140", "kind": "reply", "step_id": null, "text": "Gel timer cancelled. Carry on?", "tools": ["cancel_timer"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 248276.248, "wall": "2026-09-07T22:33:00.461+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 249682.269, "wall": "2026-09-07T22:33:01.867+00:00", "text": "Go to step forty."}
+{"type": "user.state", "t_ms": 249876.411, "wall": "2026-09-07T22:33:02.061+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 250410.106, "wall": "2026-09-07T22:33:02.594+00:00"}
+{"type": "speech.start", "t_ms": 250410.457, "wall": "2026-09-07T22:33:02.595+00:00", "context_id": "m7797d980b2c0", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 250433.763, "wall": "2026-09-07T22:33:02.618+00:00", "state": "thinking"}
+{"type": "agent.state", "t_ms": 252239.921, "wall": "2026-09-07T22:33:04.424+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 252817.349, "wall": "2026-09-07T22:33:05.002+00:00", "context_id": "m7797d980b2c0", "emitted_samples": 5224320, "at_ms": 254751.09999999963}
+{"type": "probe.position", "t_ms": 252817.719, "wall": "2026-09-07T22:33:05.002+00:00", "context_id": "m7797d980b2c0", "rendered_s": 0.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 254751.09999999963}
+{"type": "probe.position", "t_ms": 253013.832, "wall": "2026-09-07T22:33:05.198+00:00", "context_id": "m7797d980b2c0", "rendered_s": 0.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 254951.59999999963}
+{"type": "probe.position", "t_ms": 253213.533, "wall": "2026-09-07T22:33:05.398+00:00", "context_id": "m7797d980b2c0", "rendered_s": 0.6, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 255151.3999999985}
+{"type": "probe.position", "t_ms": 253418.518, "wall": "2026-09-07T22:33:05.603+00:00", "context_id": "m7797d980b2c0", "rendered_s": 0.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 255351.19999999925}
+{"type": "probe.position", "t_ms": 253613.785, "wall": "2026-09-07T22:33:05.798+00:00", "context_id": "m7797d980b2c0", "rendered_s": 1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 255551.59999999963}
+{"type": "probe.position", "t_ms": 253813.209, "wall": "2026-09-07T22:33:05.998+00:00", "context_id": "m7797d980b2c0", "rendered_s": 1.16, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 255751.09999999963}
+{"type": "probe.position", "t_ms": 254013.574, "wall": "2026-09-07T22:33:06.198+00:00", "context_id": "m7797d980b2c0", "rendered_s": 1.4, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 255951.5}
+{"type": "probe.position", "t_ms": 254213.899, "wall": "2026-09-07T22:33:06.398+00:00", "context_id": "m7797d980b2c0", "rendered_s": 1.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 256151.69999999925}
+{"type": "probe.position", "t_ms": 254413.771, "wall": "2026-09-07T22:33:06.598+00:00", "context_id": "m7797d980b2c0", "rendered_s": 1.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 256351.5}
+{"type": "probe.position", "t_ms": 254613.941, "wall": "2026-09-07T22:33:06.798+00:00", "context_id": "m7797d980b2c0", "rendered_s": 2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 256551.69999999925}
+{"type": "probe.position", "t_ms": 254812.923, "wall": "2026-09-07T22:33:06.997+00:00", "context_id": "m7797d980b2c0", "rendered_s": 2.2, "buffered_s": 0.017, "concealed_samples": 0, "at_ms": 256751}
+{"type": "probe.position", "t_ms": 255013.468, "wall": "2026-09-07T22:33:07.198+00:00", "context_id": "m7797d980b2c0", "rendered_s": 2.4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 256951.3999999985}
+{"type": "probe.position", "t_ms": 255213.863, "wall": "2026-09-07T22:33:07.398+00:00", "context_id": "m7797d980b2c0", "rendered_s": 2.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 257151.69999999925}
+{"type": "probe.position", "t_ms": 255413.801, "wall": "2026-09-07T22:33:07.598+00:00", "context_id": "m7797d980b2c0", "rendered_s": 2.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 257351.5}
+{"type": "probe.position", "t_ms": 255613.862, "wall": "2026-09-07T22:33:07.798+00:00", "context_id": "m7797d980b2c0", "rendered_s": 3, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 257551.69999999925}
+{"type": "probe.position", "t_ms": 255813.021, "wall": "2026-09-07T22:33:07.997+00:00", "context_id": "m7797d980b2c0", "rendered_s": 3.16, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 257750.8999999985}
+{"type": "probe.position", "t_ms": 256013.805, "wall": "2026-09-07T22:33:08.198+00:00", "context_id": "m7797d980b2c0", "rendered_s": 3.4, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 257951.79999999888}
+{"type": "probe.position", "t_ms": 256213.644, "wall": "2026-09-07T22:33:08.398+00:00", "context_id": "m7797d980b2c0", "rendered_s": 3.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 258151.5}
+{"type": "probe.position", "t_ms": 256414.019, "wall": "2026-09-07T22:33:08.598+00:00", "context_id": "m7797d980b2c0", "rendered_s": 3.8, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 258351.79999999888}
+{"type": "probe.position", "t_ms": 256613.468, "wall": "2026-09-07T22:33:08.798+00:00", "context_id": "m7797d980b2c0", "rendered_s": 4, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 258551.3999999985}
+{"type": "probe.position", "t_ms": 256813.483, "wall": "2026-09-07T22:33:08.998+00:00", "context_id": "m7797d980b2c0", "rendered_s": 4.18, "buffered_s": 0.0189, "concealed_samples": 0, "at_ms": 258751.29999999888}
+{"type": "probe.position", "t_ms": 257013.28, "wall": "2026-09-07T22:33:09.198+00:00", "context_id": "m7797d980b2c0", "rendered_s": 4.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 258951.29999999888}
+{"type": "probe.position", "t_ms": 257213.535, "wall": "2026-09-07T22:33:09.398+00:00", "context_id": "m7797d980b2c0", "rendered_s": 4.58, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 259151.3999999985}
+{"type": "probe.position", "t_ms": 257413.332, "wall": "2026-09-07T22:33:09.598+00:00", "context_id": "m7797d980b2c0", "rendered_s": 4.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 259351.19999999925}
+{"type": "probe.position", "t_ms": 257613.541, "wall": "2026-09-07T22:33:09.798+00:00", "context_id": "m7797d980b2c0", "rendered_s": 4.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 259551.5}
+{"type": "probe.position", "t_ms": 257813.043, "wall": "2026-09-07T22:33:09.997+00:00", "context_id": "m7797d980b2c0", "rendered_s": 5.14, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 259751}
+{"type": "probe.position", "t_ms": 258013.575, "wall": "2026-09-07T22:33:10.198+00:00", "context_id": "m7797d980b2c0", "rendered_s": 5.38, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 259951.59999999963}
+{"type": "probe.position", "t_ms": 258213.312, "wall": "2026-09-07T22:33:10.398+00:00", "context_id": "m7797d980b2c0", "rendered_s": 5.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 260151.29999999888}
+{"type": "probe.position", "t_ms": 258413.716, "wall": "2026-09-07T22:33:10.598+00:00", "context_id": "m7797d980b2c0", "rendered_s": 5.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 260351.59999999963}
+{"type": "probe.position", "t_ms": 258613.508, "wall": "2026-09-07T22:33:10.798+00:00", "context_id": "m7797d980b2c0", "rendered_s": 5.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 260551.29999999888}
+{"type": "probe.position", "t_ms": 258813.081, "wall": "2026-09-07T22:33:10.997+00:00", "context_id": "m7797d980b2c0", "rendered_s": 6.18, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 260751}
+{"type": "probe.position", "t_ms": 259013.809, "wall": "2026-09-07T22:33:11.198+00:00", "context_id": "m7797d980b2c0", "rendered_s": 6.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 260951.59999999963}
+{"type": "probe.position", "t_ms": 259214.311, "wall": "2026-09-07T22:33:11.399+00:00", "context_id": "m7797d980b2c0", "rendered_s": 6.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 261152.19999999925}
+{"type": "probe.position", "t_ms": 259413.804, "wall": "2026-09-07T22:33:11.598+00:00", "context_id": "m7797d980b2c0", "rendered_s": 6.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 261351.59999999963}
+{"type": "probe.position", "t_ms": 259614.11, "wall": "2026-09-07T22:33:11.798+00:00", "context_id": "m7797d980b2c0", "rendered_s": 6.98, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 261551.8999999985}
+{"type": "probe.position", "t_ms": 259812.962, "wall": "2026-09-07T22:33:11.997+00:00", "context_id": "m7797d980b2c0", "rendered_s": 7.14, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 261750.8999999985}
+{"type": "probe.position", "t_ms": 260013.663, "wall": "2026-09-07T22:33:12.198+00:00", "context_id": "m7797d980b2c0", "rendered_s": 7.38, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 261951.3999999985}
+{"type": "probe.position", "t_ms": 260213.603, "wall": "2026-09-07T22:33:12.398+00:00", "context_id": "m7797d980b2c0", "rendered_s": 7.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 262151.5999999996}
+{"type": "agent.state", "t_ms": 260353.889, "wall": "2026-09-07T22:33:12.538+00:00", "state": "listening"}
+{"type": "speech.finished", "t_ms": 260354.592, "wall": "2026-09-07T22:33:12.539+00:00", "context_id": "m7797d980b2c0", "kind": "reply", "step_id": null, "text": "This protocol only has seventeen steps, so there is no step forty. We are currently on step fourteen. Shall I carry on from here?", "tools": [], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 264026.472, "wall": "2026-09-07T22:33:16.211+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 265285.494, "wall": "2026-09-07T22:33:17.470+00:00", "text": "Okay. Go ahead."}
+{"type": "user.state", "t_ms": 265326.562, "wall": "2026-09-07T22:33:17.511+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 265637.259, "wall": "2026-09-07T22:33:17.822+00:00"}
+{"type": "speech.start", "t_ms": 265637.401, "wall": "2026-09-07T22:33:17.822+00:00", "context_id": "m7797ecba05f0", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 265660.398, "wall": "2026-09-07T22:33:17.845+00:00", "state": "thinking"}
+{"type": "step.presented", "t_ms": 267323.815, "wall": "2026-09-07T22:33:19.508+00:00", "step_id": "s15", "number": 15}
+{"type": "status.dropped", "t_ms": 267323.876, "wall": "2026-09-07T22:33:19.508+00:00"}
+{"type": "agent.state", "t_ms": 269436.668, "wall": "2026-09-07T22:33:21.621+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 269613.733, "wall": "2026-09-07T22:33:21.798+00:00", "context_id": "m7797ecba05f0", "emitted_samples": 5645760, "at_ms": 271551.5}
+{"type": "probe.position", "t_ms": 269613.932, "wall": "2026-09-07T22:33:21.798+00:00", "context_id": "m7797ecba05f0", "rendered_s": 0.18, "buffered_s": 0.0189, "concealed_samples": 0, "at_ms": 271551.5}
+{"type": "probe.position", "t_ms": 269813.082, "wall": "2026-09-07T22:33:21.997+00:00", "context_id": "m7797ecba05f0", "rendered_s": 0.26, "buffered_s": 0.0175, "concealed_samples": 0, "at_ms": 271751}
+{"type": "probe.position", "t_ms": 270013.36, "wall": "2026-09-07T22:33:22.198+00:00", "context_id": "m7797ecba05f0", "rendered_s": 0.5, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 271951.3999999985}
+{"type": "probe.position", "t_ms": 270213.677, "wall": "2026-09-07T22:33:22.398+00:00", "context_id": "m7797ecba05f0", "rendered_s": 0.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 272151.2999999989}
+{"type": "probe.position", "t_ms": 270413.64, "wall": "2026-09-07T22:33:22.598+00:00", "context_id": "m7797ecba05f0", "rendered_s": 0.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 272351.5}
+{"type": "probe.position", "t_ms": 270614.567, "wall": "2026-09-07T22:33:22.799+00:00", "context_id": "m7797ecba05f0", "rendered_s": 1.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 272551.19999999925}
+{"type": "probe.position", "t_ms": 270812.93, "wall": "2026-09-07T22:33:22.997+00:00", "context_id": "m7797ecba05f0", "rendered_s": 1.3, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 272751}
+{"type": "probe.position", "t_ms": 271013.399, "wall": "2026-09-07T22:33:23.198+00:00", "context_id": "m7797ecba05f0", "rendered_s": 1.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 272951.3999999985}
+{"type": "probe.position", "t_ms": 271213.254, "wall": "2026-09-07T22:33:23.398+00:00", "context_id": "m7797ecba05f0", "rendered_s": 1.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 273151.3999999985}
+{"type": "probe.position", "t_ms": 271413.362, "wall": "2026-09-07T22:33:23.598+00:00", "context_id": "m7797ecba05f0", "rendered_s": 1.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 273351.2999999989}
+{"type": "probe.position", "t_ms": 271613.526, "wall": "2026-09-07T22:33:23.798+00:00", "context_id": "m7797ecba05f0", "rendered_s": 2.1, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 273551.5}
+{"type": "probe.position", "t_ms": 271813.018, "wall": "2026-09-07T22:33:23.997+00:00", "context_id": "m7797ecba05f0", "rendered_s": 2.26, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 273750.8999999985}
+{"type": "probe.position", "t_ms": 272013.904, "wall": "2026-09-07T22:33:24.198+00:00", "context_id": "m7797ecba05f0", "rendered_s": 2.5, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 273951.69999999925}
+{"type": "probe.position", "t_ms": 272213.778, "wall": "2026-09-07T22:33:24.398+00:00", "context_id": "m7797ecba05f0", "rendered_s": 2.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 274151.7999999989}
+{"type": "probe.position", "t_ms": 272413.602, "wall": "2026-09-07T22:33:24.598+00:00", "context_id": "m7797ecba05f0", "rendered_s": 2.9, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 274351.5999999996}
+{"type": "probe.position", "t_ms": 272613.661, "wall": "2026-09-07T22:33:24.798+00:00", "context_id": "m7797ecba05f0", "rendered_s": 3.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 274551.19999999925}
+{"type": "probe.position", "t_ms": 272813.57, "wall": "2026-09-07T22:33:24.998+00:00", "context_id": "m7797ecba05f0", "rendered_s": 3.3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 274751.19999999925}
+{"type": "probe.position", "t_ms": 273013.538, "wall": "2026-09-07T22:33:25.198+00:00", "context_id": "m7797ecba05f0", "rendered_s": 3.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 274951.5}
+{"type": "probe.position", "t_ms": 273213.408, "wall": "2026-09-07T22:33:25.398+00:00", "context_id": "m7797ecba05f0", "rendered_s": 3.7, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 275151.5}
+{"type": "probe.position", "t_ms": 273413.201, "wall": "2026-09-07T22:33:25.598+00:00", "context_id": "m7797ecba05f0", "rendered_s": 3.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 275351.3999999985}
+{"type": "probe.position", "t_ms": 273613.946, "wall": "2026-09-07T22:33:25.798+00:00", "context_id": "m7797ecba05f0", "rendered_s": 4.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 275551.7999999989}
+{"type": "probe.position", "t_ms": 273813.237, "wall": "2026-09-07T22:33:25.998+00:00", "context_id": "m7797ecba05f0", "rendered_s": 4.26, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 275751.0999999996}
+{"type": "probe.position", "t_ms": 274014.276, "wall": "2026-09-07T22:33:26.199+00:00", "context_id": "m7797ecba05f0", "rendered_s": 4.5, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 275952}
+{"type": "probe.position", "t_ms": 274213.907, "wall": "2026-09-07T22:33:26.398+00:00", "context_id": "m7797ecba05f0", "rendered_s": 4.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 276151.69999999925}
+{"type": "probe.position", "t_ms": 274414.001, "wall": "2026-09-07T22:33:26.598+00:00", "context_id": "m7797ecba05f0", "rendered_s": 4.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 276351.8999999985}
+{"type": "probe.position", "t_ms": 274613.733, "wall": "2026-09-07T22:33:26.798+00:00", "context_id": "m7797ecba05f0", "rendered_s": 5.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 276551.5}
+{"type": "probe.position", "t_ms": 274813.373, "wall": "2026-09-07T22:33:26.998+00:00", "context_id": "m7797ecba05f0", "rendered_s": 5.3, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 276751.5}
+{"type": "probe.position", "t_ms": 275013.663, "wall": "2026-09-07T22:33:27.198+00:00", "context_id": "m7797ecba05f0", "rendered_s": 5.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 276951.5999999996}
+{"type": "probe.position", "t_ms": 275214.291, "wall": "2026-09-07T22:33:27.399+00:00", "context_id": "m7797ecba05f0", "rendered_s": 5.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 277152}
+{"type": "probe.position", "t_ms": 275413.425, "wall": "2026-09-07T22:33:27.598+00:00", "context_id": "m7797ecba05f0", "rendered_s": 5.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 277351.5}
+{"type": "probe.position", "t_ms": 275613.905, "wall": "2026-09-07T22:33:27.798+00:00", "context_id": "m7797ecba05f0", "rendered_s": 6.1, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 277551.69999999925}
+{"type": "probe.position", "t_ms": 275813.171, "wall": "2026-09-07T22:33:27.998+00:00", "context_id": "m7797ecba05f0", "rendered_s": 6.26, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 277751}
+{"type": "probe.position", "t_ms": 276013.695, "wall": "2026-09-07T22:33:28.198+00:00", "context_id": "m7797ecba05f0", "rendered_s": 6.5, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 277951.5}
+{"type": "probe.position", "t_ms": 276213.735, "wall": "2026-09-07T22:33:28.398+00:00", "context_id": "m7797ecba05f0", "rendered_s": 6.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 278151.5}
+{"type": "probe.position", "t_ms": 276413.443, "wall": "2026-09-07T22:33:28.598+00:00", "context_id": "m7797ecba05f0", "rendered_s": 6.9, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 278351.3999999985}
+{"type": "probe.position", "t_ms": 276613.559, "wall": "2026-09-07T22:33:28.798+00:00", "context_id": "m7797ecba05f0", "rendered_s": 7.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 278551.3999999985}
+{"type": "agent.state", "t_ms": 276710.479, "wall": "2026-09-07T22:33:28.895+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 276711.945, "wall": "2026-09-07T22:33:28.896+00:00", "context_id": "m7797ecba05f0", "name": "next_step", "arguments": "{\"status\": \"Moving to the next step after the anneal step\"}"}
+{"type": "speech.finished", "t_ms": 276712.138, "wall": "2026-09-07T22:33:28.896+00:00", "context_id": "m7797ecba05f0", "kind": "reply", "step_id": null, "text": "For each of the twenty five to thirty five cycles, extend at seventy two degrees celsius. Extend for twenty to thirty seconds per kilobase.", "tools": ["next_step"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 286576.191, "wall": "2026-09-07T22:33:38.761+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 287982.323, "wall": "2026-09-07T22:33:40.167+00:00", "text": "Go to the last step."}
+{"type": "user.state", "t_ms": 288076.312, "wall": "2026-09-07T22:33:40.261+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 288553.445, "wall": "2026-09-07T22:33:40.738+00:00"}
+{"type": "speech.start", "t_ms": 288553.602, "wall": "2026-09-07T22:33:40.738+00:00", "context_id": "m7797ecbd18e0", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 288577.806, "wall": "2026-09-07T22:33:40.762+00:00", "state": "thinking"}
+{"type": "step.presented", "t_ms": 290171.139, "wall": "2026-09-07T22:33:42.355+00:00", "step_id": "s17", "number": 17}
+{"type": "status.dropped", "t_ms": 290171.199, "wall": "2026-09-07T22:33:42.356+00:00"}
+{"type": "agent.state", "t_ms": 291455.499, "wall": "2026-09-07T22:33:43.640+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 291613.604, "wall": "2026-09-07T22:33:43.798+00:00", "context_id": "m7797ecbd18e0", "emitted_samples": 6059520, "at_ms": 293551.3999999985}
+{"type": "probe.position", "t_ms": 291613.782, "wall": "2026-09-07T22:33:43.798+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 0.1, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 293551.3999999985}
+{"type": "probe.position", "t_ms": 291813.123, "wall": "2026-09-07T22:33:43.997+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 0.26, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 293751}
+{"type": "probe.position", "t_ms": 292013.616, "wall": "2026-09-07T22:33:44.198+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 0.5, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 293951.5999999996}
+{"type": "probe.position", "t_ms": 292213.715, "wall": "2026-09-07T22:33:44.398+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 0.7, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 294151.5999999996}
+{"type": "probe.position", "t_ms": 292413.688, "wall": "2026-09-07T22:33:44.598+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 0.9, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 294351.5999999996}
+{"type": "probe.position", "t_ms": 292613.346, "wall": "2026-09-07T22:33:44.798+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 1.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 294551.2999999989}
+{"type": "probe.position", "t_ms": 292813.282, "wall": "2026-09-07T22:33:44.998+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 1.3, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 294751.19999999925}
+{"type": "probe.position", "t_ms": 293013.522, "wall": "2026-09-07T22:33:45.198+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 1.5, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 294951.3999999985}
+{"type": "probe.position", "t_ms": 293213.49, "wall": "2026-09-07T22:33:45.398+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 1.7, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 295151.5}
+{"type": "probe.position", "t_ms": 293413.365, "wall": "2026-09-07T22:33:45.598+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 1.9, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 295351.3999999985}
+{"type": "probe.position", "t_ms": 293613.515, "wall": "2026-09-07T22:33:45.798+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 2.1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 295551.3999999985}
+{"type": "probe.position", "t_ms": 293812.971, "wall": "2026-09-07T22:33:45.997+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 2.26, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 295750.8999999985}
+{"type": "probe.position", "t_ms": 294014.006, "wall": "2026-09-07T22:33:46.198+00:00", "context_id": "m7797ecbd18e0", "rendered_s": 2.5, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 295952}
+{"type": "agent.state", "t_ms": 294068.911, "wall": "2026-09-07T22:33:46.253+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 294069.529, "wall": "2026-09-07T22:33:46.254+00:00", "context_id": "m7797ecbd18e0", "name": "go_to_step", "arguments": "{\"number\": 17, \"status\": \"Jumping to the last step\"}"}
+{"type": "speech.finished", "t_ms": 294069.702, "wall": "2026-09-07T22:33:46.254+00:00", "context_id": "m7797ecbd18e0", "kind": "reply", "step_id": null, "text": "Hold at four to ten degrees celsius.", "tools": ["go_to_step"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 294127.218, "wall": "2026-09-07T22:33:46.312+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 296091.275, "wall": "2026-09-07T22:33:48.276+00:00", "text": "Hey. Wait. How much water?"}
+{"type": "user.state", "t_ms": 296126.534, "wall": "2026-09-07T22:33:48.311+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 296128.528, "wall": "2026-09-07T22:33:48.313+00:00"}
+{"type": "speech.start", "t_ms": 296128.808, "wall": "2026-09-07T22:33:48.313+00:00", "context_id": "m7797d9809490", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 296152.415, "wall": "2026-09-07T22:33:48.337+00:00", "state": "thinking"}
+{"type": "status.dropped", "t_ms": 298148.231, "wall": "2026-09-07T22:33:50.333+00:00"}
+{"type": "agent.state", "t_ms": 300785.306, "wall": "2026-09-07T22:33:52.970+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 301013.522, "wall": "2026-09-07T22:33:53.198+00:00", "context_id": "m7797d9809490", "emitted_samples": 6217920, "at_ms": 302951.3999999985}
+{"type": "probe.position", "t_ms": 301013.861, "wall": "2026-09-07T22:33:53.198+00:00", "context_id": "m7797d9809490", "rendered_s": 0.16, "buffered_s": 0.02, "concealed_samples": 0, "at_ms": 302951.3999999985}
+{"type": "probe.position", "t_ms": 301213.585, "wall": "2026-09-07T22:33:53.398+00:00", "context_id": "m7797d9809490", "rendered_s": 0.36, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 303151.5}
+{"type": "probe.position", "t_ms": 301413.609, "wall": "2026-09-07T22:33:53.598+00:00", "context_id": "m7797d9809490", "rendered_s": 0.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 303351.5}
+{"type": "probe.position", "t_ms": 301614.015, "wall": "2026-09-07T22:33:53.798+00:00", "context_id": "m7797d9809490", "rendered_s": 0.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 303551.7999999989}
+{"type": "probe.position", "t_ms": 301813.147, "wall": "2026-09-07T22:33:53.997+00:00", "context_id": "m7797d9809490", "rendered_s": 0.92, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 303750.8999999985}
+{"type": "probe.position", "t_ms": 302016.723, "wall": "2026-09-07T22:33:54.201+00:00", "context_id": "m7797d9809490", "rendered_s": 1.16, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 303951.2999999989}
+{"type": "probe.position", "t_ms": 302216.214, "wall": "2026-09-07T22:33:54.401+00:00", "context_id": "m7797d9809490", "rendered_s": 1.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 304151.19999999925}
+{"type": "probe.position", "t_ms": 302413.528, "wall": "2026-09-07T22:33:54.598+00:00", "context_id": "m7797d9809490", "rendered_s": 1.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 304351.3999999985}
+{"type": "probe.position", "t_ms": 302613.914, "wall": "2026-09-07T22:33:54.798+00:00", "context_id": "m7797d9809490", "rendered_s": 1.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 304551.7999999989}
+{"type": "probe.position", "t_ms": 302813.124, "wall": "2026-09-07T22:33:54.997+00:00", "context_id": "m7797d9809490", "rendered_s": 1.96, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 304751.19999999925}
+{"type": "probe.position", "t_ms": 303012.996, "wall": "2026-09-07T22:33:55.197+00:00", "context_id": "m7797d9809490", "rendered_s": 2.16, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 304951.2999999989}
+{"type": "probe.position", "t_ms": 303213.803, "wall": "2026-09-07T22:33:55.398+00:00", "context_id": "m7797d9809490", "rendered_s": 2.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 305151.5}
+{"type": "probe.position", "t_ms": 303413.397, "wall": "2026-09-07T22:33:55.598+00:00", "context_id": "m7797d9809490", "rendered_s": 2.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 305351.3999999985}
+{"type": "probe.position", "t_ms": 303613.928, "wall": "2026-09-07T22:33:55.798+00:00", "context_id": "m7797d9809490", "rendered_s": 2.76, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 305551.8999999985}
+{"type": "probe.position", "t_ms": 303813.266, "wall": "2026-09-07T22:33:55.998+00:00", "context_id": "m7797d9809490", "rendered_s": 2.92, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 305750.8999999985}
+{"type": "probe.position", "t_ms": 304014.289, "wall": "2026-09-07T22:33:56.199+00:00", "context_id": "m7797d9809490", "rendered_s": 3.16, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 305952}
+{"type": "probe.position", "t_ms": 304213.715, "wall": "2026-09-07T22:33:56.398+00:00", "context_id": "m7797d9809490", "rendered_s": 3.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 306151.5}
+{"type": "probe.position", "t_ms": 304413.446, "wall": "2026-09-07T22:33:56.598+00:00", "context_id": "m7797d9809490", "rendered_s": 3.56, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 306351.5}
+{"type": "probe.position", "t_ms": 304613.486, "wall": "2026-09-07T22:33:56.798+00:00", "context_id": "m7797d9809490", "rendered_s": 3.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 306551.2999999989}
+{"type": "probe.position", "t_ms": 304813.389, "wall": "2026-09-07T22:33:56.998+00:00", "context_id": "m7797d9809490", "rendered_s": 3.96, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 306751.0999999996}
+{"type": "probe.position", "t_ms": 305013.636, "wall": "2026-09-07T22:33:57.198+00:00", "context_id": "m7797d9809490", "rendered_s": 4.16, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 306951.3999999985}
+{"type": "probe.position", "t_ms": 305213.577, "wall": "2026-09-07T22:33:57.398+00:00", "context_id": "m7797d9809490", "rendered_s": 4.36, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 307151.5}
+{"type": "probe.position", "t_ms": 305413.67, "wall": "2026-09-07T22:33:57.598+00:00", "context_id": "m7797d9809490", "rendered_s": 4.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 307351.2999999989}
+{"type": "probe.position", "t_ms": 305613.485, "wall": "2026-09-07T22:33:57.798+00:00", "context_id": "m7797d9809490", "rendered_s": 4.76, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 307551.5}
+{"type": "probe.position", "t_ms": 305813.289, "wall": "2026-09-07T22:33:57.998+00:00", "context_id": "m7797d9809490", "rendered_s": 4.92, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 307751}
+{"type": "probe.position", "t_ms": 306013.281, "wall": "2026-09-07T22:33:58.198+00:00", "context_id": "m7797d9809490", "rendered_s": 5.16, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 307951.2999999989}
+{"type": "probe.position", "t_ms": 306213.333, "wall": "2026-09-07T22:33:58.398+00:00", "context_id": "m7797d9809490", "rendered_s": 5.36, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 308151.2999999989}
+{"type": "probe.position", "t_ms": 306413.222, "wall": "2026-09-07T22:33:58.598+00:00", "context_id": "m7797d9809490", "rendered_s": 5.56, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 308351.2999999989}
+{"type": "probe.position", "t_ms": 306613.592, "wall": "2026-09-07T22:33:58.798+00:00", "context_id": "m7797d9809490", "rendered_s": 5.74, "buffered_s": 0.0189, "concealed_samples": 0, "at_ms": 308551.3999999985}
+{"type": "probe.position", "t_ms": 306812.809, "wall": "2026-09-07T22:33:58.997+00:00", "context_id": "m7797d9809490", "rendered_s": 5.94, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 308750.8999999985}
+{"type": "probe.position", "t_ms": 307013.241, "wall": "2026-09-07T22:33:59.198+00:00", "context_id": "m7797d9809490", "rendered_s": 6.14, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 308951.2999999989}
+{"type": "probe.position", "t_ms": 307214.221, "wall": "2026-09-07T22:33:59.399+00:00", "context_id": "m7797d9809490", "rendered_s": 6.34, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 309151.8999999985}
+{"type": "probe.position", "t_ms": 307413.62, "wall": "2026-09-07T22:33:59.598+00:00", "context_id": "m7797d9809490", "rendered_s": 6.54, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 309351.3999999985}
+{"type": "probe.position", "t_ms": 307613.726, "wall": "2026-09-07T22:33:59.798+00:00", "context_id": "m7797d9809490", "rendered_s": 6.74, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 309551.5}
+{"type": "probe.position", "t_ms": 307812.993, "wall": "2026-09-07T22:33:59.997+00:00", "context_id": "m7797d9809490", "rendered_s": 6.9, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 309750.8999999985}
+{"type": "probe.position", "t_ms": 308013.798, "wall": "2026-09-07T22:34:00.198+00:00", "context_id": "m7797d9809490", "rendered_s": 7.14, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 309951.5999999996}
+{"type": "probe.position", "t_ms": 308214.187, "wall": "2026-09-07T22:34:00.399+00:00", "context_id": "m7797d9809490", "rendered_s": 7.34, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 310151.8999999985}
+{"type": "probe.position", "t_ms": 308413.748, "wall": "2026-09-07T22:34:00.598+00:00", "context_id": "m7797d9809490", "rendered_s": 7.54, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 310351.5999999996}
+{"type": "probe.position", "t_ms": 308613.541, "wall": "2026-09-07T22:34:00.798+00:00", "context_id": "m7797d9809490", "rendered_s": 7.74, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 310551.3999999985}
+{"type": "probe.position", "t_ms": 308813.834, "wall": "2026-09-07T22:34:00.998+00:00", "context_id": "m7797d9809490", "rendered_s": 7.94, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 310751.69999999925}
+{"type": "probe.position", "t_ms": 309013.885, "wall": "2026-09-07T22:34:01.198+00:00", "context_id": "m7797d9809490", "rendered_s": 8.14, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 310951.7999999989}
+{"type": "probe.position", "t_ms": 309213.42, "wall": "2026-09-07T22:34:01.398+00:00", "context_id": "m7797d9809490", "rendered_s": 8.34, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 311151.3999999985}
+{"type": "probe.position", "t_ms": 309413.239, "wall": "2026-09-07T22:34:01.598+00:00", "context_id": "m7797d9809490", "rendered_s": 8.54, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 311351.19999999925}
+{"type": "probe.position", "t_ms": 309614.123, "wall": "2026-09-07T22:34:01.798+00:00", "context_id": "m7797d9809490", "rendered_s": 8.74, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 311551.69999999925}
+{"type": "probe.position", "t_ms": 309813.145, "wall": "2026-09-07T22:34:01.997+00:00", "context_id": "m7797d9809490", "rendered_s": 8.86, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 311751}
+{"type": "probe.position", "t_ms": 310013.976, "wall": "2026-09-07T22:34:02.198+00:00", "context_id": "m7797d9809490", "rendered_s": 9.06, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 311951.69999999925}
+{"type": "probe.position", "t_ms": 310213.371, "wall": "2026-09-07T22:34:02.398+00:00", "context_id": "m7797d9809490", "rendered_s": 9.26, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 312151.2999999989}
+{"type": "probe.position", "t_ms": 310413.469, "wall": "2026-09-07T22:34:02.598+00:00", "context_id": "m7797d9809490", "rendered_s": 9.46, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 312351.3999999985}
+{"type": "probe.position", "t_ms": 310613.834, "wall": "2026-09-07T22:34:02.798+00:00", "context_id": "m7797d9809490", "rendered_s": 9.66, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 312551.5999999996}
+{"type": "probe.position", "t_ms": 310812.857, "wall": "2026-09-07T22:34:02.997+00:00", "context_id": "m7797d9809490", "rendered_s": 9.86, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 312750.8999999985}
+{"type": "probe.position", "t_ms": 311013.698, "wall": "2026-09-07T22:34:03.198+00:00", "context_id": "m7797d9809490", "rendered_s": 10.06, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 312951.5999999996}
+{"type": "probe.position", "t_ms": 311213.958, "wall": "2026-09-07T22:34:03.398+00:00", "context_id": "m7797d9809490", "rendered_s": 10.26, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 313151.8999999985}
+{"type": "probe.position", "t_ms": 311412.975, "wall": "2026-09-07T22:34:03.597+00:00", "context_id": "m7797d9809490", "rendered_s": 10.46, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 313351.2999999989}
+{"type": "probe.position", "t_ms": 311613.895, "wall": "2026-09-07T22:34:03.798+00:00", "context_id": "m7797d9809490", "rendered_s": 10.66, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 313551.69999999925}
+{"type": "probe.position", "t_ms": 311813.051, "wall": "2026-09-07T22:34:03.997+00:00", "context_id": "m7797d9809490", "rendered_s": 10.82, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 313751}
+{"type": "probe.position", "t_ms": 312015.415, "wall": "2026-09-07T22:34:04.200+00:00", "context_id": "m7797d9809490", "rendered_s": 11.06, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 313952.5}
+{"type": "probe.position", "t_ms": 312213.544, "wall": "2026-09-07T22:34:04.398+00:00", "context_id": "m7797d9809490", "rendered_s": 11.26, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 314151.3999999985}
+{"type": "probe.position", "t_ms": 312413.393, "wall": "2026-09-07T22:34:04.598+00:00", "context_id": "m7797d9809490", "rendered_s": 11.46, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 314351.3999999985}
+{"type": "probe.position", "t_ms": 312613.567, "wall": "2026-09-07T22:34:04.798+00:00", "context_id": "m7797d9809490", "rendered_s": 11.66, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 314551.5}
+{"type": "probe.position", "t_ms": 312813.23, "wall": "2026-09-07T22:34:04.998+00:00", "context_id": "m7797d9809490", "rendered_s": 11.86, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 314751}
+{"type": "probe.position", "t_ms": 313013.86, "wall": "2026-09-07T22:34:05.198+00:00", "context_id": "m7797d9809490", "rendered_s": 12.06, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 314951.7999999989}
+{"type": "probe.position", "t_ms": 313214.242, "wall": "2026-09-07T22:34:05.399+00:00", "context_id": "m7797d9809490", "rendered_s": 12.26, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 315152}
+{"type": "probe.position", "t_ms": 313413.688, "wall": "2026-09-07T22:34:05.598+00:00", "context_id": "m7797d9809490", "rendered_s": 12.46, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 315351.5999999996}
+{"type": "probe.position", "t_ms": 313613.857, "wall": "2026-09-07T22:34:05.798+00:00", "context_id": "m7797d9809490", "rendered_s": 12.66, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 315551.5999999996}
+{"type": "probe.position", "t_ms": 313813.395, "wall": "2026-09-07T22:34:05.998+00:00", "context_id": "m7797d9809490", "rendered_s": 12.82, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 315751.0999999996}
+{"type": "probe.position", "t_ms": 314013.612, "wall": "2026-09-07T22:34:06.198+00:00", "context_id": "m7797d9809490", "rendered_s": 13.06, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 315951.5999999996}
+{"type": "probe.position", "t_ms": 314213.189, "wall": "2026-09-07T22:34:06.398+00:00", "context_id": "m7797d9809490", "rendered_s": 13.26, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 316151.3999999985}
+{"type": "probe.position", "t_ms": 314413.421, "wall": "2026-09-07T22:34:06.598+00:00", "context_id": "m7797d9809490", "rendered_s": 13.46, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 316351.2999999989}
+{"type": "probe.position", "t_ms": 314613.379, "wall": "2026-09-07T22:34:06.798+00:00", "context_id": "m7797d9809490", "rendered_s": 13.66, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 316551.2999999989}
+{"type": "probe.position", "t_ms": 314813.272, "wall": "2026-09-07T22:34:06.998+00:00", "context_id": "m7797d9809490", "rendered_s": 13.86, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 316751.0999999996}
+{"type": "probe.position", "t_ms": 315013.423, "wall": "2026-09-07T22:34:07.198+00:00", "context_id": "m7797d9809490", "rendered_s": 14.06, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 316951.3999999985}
+{"type": "probe.position", "t_ms": 315213.415, "wall": "2026-09-07T22:34:07.398+00:00", "context_id": "m7797d9809490", "rendered_s": 14.26, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 317151.3999999985}
+{"type": "probe.position", "t_ms": 315413.796, "wall": "2026-09-07T22:34:07.598+00:00", "context_id": "m7797d9809490", "rendered_s": 14.46, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 317351.3999999985}
+{"type": "probe.position", "t_ms": 315613.614, "wall": "2026-09-07T22:34:07.798+00:00", "context_id": "m7797d9809490", "rendered_s": 14.66, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 317551.3999999985}
+{"type": "probe.position", "t_ms": 315812.953, "wall": "2026-09-07T22:34:07.997+00:00", "context_id": "m7797d9809490", "rendered_s": 14.82, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 317751}
+{"type": "probe.position", "t_ms": 316013.669, "wall": "2026-09-07T22:34:08.198+00:00", "context_id": "m7797d9809490", "rendered_s": 15.06, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 317951.5999999996}
+{"type": "probe.position", "t_ms": 316213.325, "wall": "2026-09-07T22:34:08.398+00:00", "context_id": "m7797d9809490", "rendered_s": 15.26, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 318151.2999999989}
+{"type": "probe.position", "t_ms": 316413.671, "wall": "2026-09-07T22:34:08.598+00:00", "context_id": "m7797d9809490", "rendered_s": 15.46, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 318351.5999999996}
+{"type": "probe.position", "t_ms": 316613.439, "wall": "2026-09-07T22:34:08.798+00:00", "context_id": "m7797d9809490", "rendered_s": 15.66, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 318551.3999999985}
+{"type": "probe.position", "t_ms": 316813.367, "wall": "2026-09-07T22:34:08.998+00:00", "context_id": "m7797d9809490", "rendered_s": 15.86, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 318751.19999999925}
+{"type": "probe.position", "t_ms": 317013.289, "wall": "2026-09-07T22:34:09.198+00:00", "context_id": "m7797d9809490", "rendered_s": 16.06, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 318951.5}
+{"type": "probe.position", "t_ms": 317213.784, "wall": "2026-09-07T22:34:09.398+00:00", "context_id": "m7797d9809490", "rendered_s": 16.26, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 319151.69999999925}
+{"type": "probe.position", "t_ms": 317413.707, "wall": "2026-09-07T22:34:09.598+00:00", "context_id": "m7797d9809490", "rendered_s": 16.46, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 319351.5999999996}
+{"type": "probe.position", "t_ms": 317613.9, "wall": "2026-09-07T22:34:09.798+00:00", "context_id": "m7797d9809490", "rendered_s": 16.66, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 319551.69999999925}
+{"type": "probe.position", "t_ms": 317813.127, "wall": "2026-09-07T22:34:09.997+00:00", "context_id": "m7797d9809490", "rendered_s": 16.82, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 319751}
+{"type": "probe.position", "t_ms": 318013.479, "wall": "2026-09-07T22:34:10.198+00:00", "context_id": "m7797d9809490", "rendered_s": 17.06, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 319951.3999999985}
+{"type": "probe.position", "t_ms": 318213.226, "wall": "2026-09-07T22:34:10.398+00:00", "context_id": "m7797d9809490", "rendered_s": 17.26, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 320151.2999999989}
+{"type": "probe.position", "t_ms": 318414.195, "wall": "2026-09-07T22:34:10.599+00:00", "context_id": "m7797d9809490", "rendered_s": 17.46, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 320351.8999999985}
+{"type": "probe.position", "t_ms": 318613.412, "wall": "2026-09-07T22:34:10.798+00:00", "context_id": "m7797d9809490", "rendered_s": 17.62, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 320551.3999999985}
+{"type": "probe.position", "t_ms": 318813.233, "wall": "2026-09-07T22:34:10.998+00:00", "context_id": "m7797d9809490", "rendered_s": 17.82, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 320751.2999999989}
+{"type": "probe.position", "t_ms": 319013.363, "wall": "2026-09-07T22:34:11.198+00:00", "context_id": "m7797d9809490", "rendered_s": 18.02, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 320951.3999999985}
+{"type": "probe.position", "t_ms": 319213.421, "wall": "2026-09-07T22:34:11.398+00:00", "context_id": "m7797d9809490", "rendered_s": 18.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 321151.5}
+{"type": "probe.position", "t_ms": 319413.713, "wall": "2026-09-07T22:34:11.598+00:00", "context_id": "m7797d9809490", "rendered_s": 18.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 321351.5}
+{"type": "probe.position", "t_ms": 319613.767, "wall": "2026-09-07T22:34:11.798+00:00", "context_id": "m7797d9809490", "rendered_s": 18.62, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 321551.5999999996}
+{"type": "probe.position", "t_ms": 319813.223, "wall": "2026-09-07T22:34:11.998+00:00", "context_id": "m7797d9809490", "rendered_s": 18.78, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 321751}
+{"type": "probe.position", "t_ms": 320013.6, "wall": "2026-09-07T22:34:12.198+00:00", "context_id": "m7797d9809490", "rendered_s": 19.02, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 321951.5}
+{"type": "probe.position", "t_ms": 320213.764, "wall": "2026-09-07T22:34:12.398+00:00", "context_id": "m7797d9809490", "rendered_s": 19.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 322151.5999999996}
+{"type": "probe.position", "t_ms": 320413.194, "wall": "2026-09-07T22:34:12.598+00:00", "context_id": "m7797d9809490", "rendered_s": 19.42, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 322351.2999999989}
+{"type": "probe.position", "t_ms": 320613.528, "wall": "2026-09-07T22:34:12.798+00:00", "context_id": "m7797d9809490", "rendered_s": 19.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 322551.5}
+{"type": "probe.position", "t_ms": 320813.48, "wall": "2026-09-07T22:34:12.998+00:00", "context_id": "m7797d9809490", "rendered_s": 19.82, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 322751.19999999925}
+{"type": "probe.position", "t_ms": 321013.071, "wall": "2026-09-07T22:34:13.197+00:00", "context_id": "m7797d9809490", "rendered_s": 20.02, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 322951.19999999925}
+{"type": "probe.position", "t_ms": 321213.635, "wall": "2026-09-07T22:34:13.398+00:00", "context_id": "m7797d9809490", "rendered_s": 20.22, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 323151.5}
+{"type": "probe.position", "t_ms": 321413.123, "wall": "2026-09-07T22:34:13.597+00:00", "context_id": "m7797d9809490", "rendered_s": 20.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 323351.19999999925}
+{"type": "probe.position", "t_ms": 321613.302, "wall": "2026-09-07T22:34:13.798+00:00", "context_id": "m7797d9809490", "rendered_s": 20.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 323551.2999999989}
+{"type": "probe.position", "t_ms": 321812.913, "wall": "2026-09-07T22:34:13.997+00:00", "context_id": "m7797d9809490", "rendered_s": 20.78, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 323750.8999999985}
+{"type": "probe.position", "t_ms": 322013.604, "wall": "2026-09-07T22:34:14.198+00:00", "context_id": "m7797d9809490", "rendered_s": 21.02, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 323951.3999999985}
+{"type": "probe.position", "t_ms": 322213.263, "wall": "2026-09-07T22:34:14.398+00:00", "context_id": "m7797d9809490", "rendered_s": 21.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 324151.2999999989}
+{"type": "probe.position", "t_ms": 322413.287, "wall": "2026-09-07T22:34:14.598+00:00", "context_id": "m7797d9809490", "rendered_s": 21.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 324351.2999999989}
+{"type": "probe.position", "t_ms": 322613.601, "wall": "2026-09-07T22:34:14.798+00:00", "context_id": "m7797d9809490", "rendered_s": 21.62, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 324551.3999999985}
+{"type": "probe.position", "t_ms": 322813.169, "wall": "2026-09-07T22:34:14.998+00:00", "context_id": "m7797d9809490", "rendered_s": 21.82, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 324751.0999999996}
+{"type": "probe.position", "t_ms": 323013.171, "wall": "2026-09-07T22:34:15.198+00:00", "context_id": "m7797d9809490", "rendered_s": 22.02, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 324951.2999999989}
+{"type": "probe.position", "t_ms": 323213.714, "wall": "2026-09-07T22:34:15.398+00:00", "context_id": "m7797d9809490", "rendered_s": 22.22, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 325151.3999999985}
+{"type": "probe.position", "t_ms": 323413.157, "wall": "2026-09-07T22:34:15.597+00:00", "context_id": "m7797d9809490", "rendered_s": 22.42, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 325351.19999999925}
+{"type": "probe.position", "t_ms": 323613.4, "wall": "2026-09-07T22:34:15.798+00:00", "context_id": "m7797d9809490", "rendered_s": 22.62, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 325551.19999999925}
+{"type": "probe.position", "t_ms": 323812.875, "wall": "2026-09-07T22:34:15.997+00:00", "context_id": "m7797d9809490", "rendered_s": 22.78, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 325750.8999999985}
+{"type": "agent.state", "t_ms": 323837.689, "wall": "2026-09-07T22:34:16.022+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 323838.331, "wall": "2026-09-07T22:34:16.023+00:00", "context_id": "m7797d9809490", "name": "look_up", "arguments": "{\"step_numbers\": [7], \"query\": \"water\", \"status\": \"Checking the water volume\"}"}
+{"type": "speech.finished", "t_ms": 323838.383, "wall": "2026-09-07T22:34:16.023+00:00", "context_id": "m7797d9809490", "kind": "reply", "step_id": null, "text": "Step seven: add nuclease free water to bring the reaction to a total volume of fifty microlitres. The exact amount depends on the other components you have added. Steps three to six give the other volumes: twenty five microlitres of master mix, two point five microlitres each of forward and reverse primer, plus a variable amount of template spell(DNA). So water makes up the rest to fifty microlitres.", "tools": ["look_up"], "interrupted": false, "silent": false, "played": true}
+{"type": "user.state", "t_ms": 327926.731, "wall": "2026-09-07T22:34:20.111+00:00", "state": "speaking"}
+{"type": "user.transcript", "t_ms": 329438.971, "wall": "2026-09-07T22:34:21.623+00:00", "text": "Okay. End the protocol."}
+{"type": "user.state", "t_ms": 329776.409, "wall": "2026-09-07T22:34:21.961+00:00", "state": "listening"}
+{"type": "model.reply.created", "t_ms": 330259.328, "wall": "2026-09-07T22:34:22.444+00:00"}
+{"type": "speech.start", "t_ms": 330259.518, "wall": "2026-09-07T22:34:22.444+00:00", "context_id": "m7797d980a540", "kind": "reply", "step_id": null, "text": ""}
+{"type": "agent.state", "t_ms": 330283.278, "wall": "2026-09-07T22:34:22.468+00:00", "state": "thinking"}
+{"type": "protocol.finished", "t_ms": 332678.774, "wall": "2026-09-07T22:34:24.863+00:00", "step_id": "s17", "number": 17, "timers_stopped": 0}
+{"type": "status.dropped", "t_ms": 332678.842, "wall": "2026-09-07T22:34:24.863+00:00"}
+{"type": "provider_failure", "t_ms": 334350.46, "wall": "2026-09-07T22:34:26.535+00:00", "error": "type='tts_error' timestamp=1788820466.5350885 label='wetlab.tts_rime.FencedRimeTTS' error=APIStatusError('Rime ws closed unexpectedly', status_code=-1, request_id='ctx_55d58be41780', body=None, retryable=True) recoverable=True"}
+{"type": "agent.state", "t_ms": 335716.853, "wall": "2026-09-07T22:34:27.901+00:00", "state": "speaking"}
+{"type": "probe.onset", "t_ms": 336214.12, "wall": "2026-09-07T22:34:28.398+00:00", "context_id": "m7797d980a540", "emitted_samples": 7375680, "at_ms": 338151.69999999925}
+{"type": "probe.position", "t_ms": 336214.339, "wall": "2026-09-07T22:34:28.399+00:00", "context_id": "m7797d980a540", "rendered_s": 0.2, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 338151.69999999925}
+{"type": "probe.position", "t_ms": 336413.261, "wall": "2026-09-07T22:34:28.598+00:00", "context_id": "m7797d980a540", "rendered_s": 0.4, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 338351.2999999989}
+{"type": "probe.position", "t_ms": 336613.633, "wall": "2026-09-07T22:34:28.798+00:00", "context_id": "m7797d980a540", "rendered_s": 0.6, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 338551.2999999989}
+{"type": "probe.position", "t_ms": 336815.803, "wall": "2026-09-07T22:34:29.000+00:00", "context_id": "m7797d980a540", "rendered_s": 0.8, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 338750.7999999989}
+{"type": "probe.position", "t_ms": 337013.98, "wall": "2026-09-07T22:34:29.198+00:00", "context_id": "m7797d980a540", "rendered_s": 1, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 338951.5999999996}
+{"type": "probe.position", "t_ms": 337214.219, "wall": "2026-09-07T22:34:29.399+00:00", "context_id": "m7797d980a540", "rendered_s": 1.2, "buffered_s": 0.017, "concealed_samples": 0, "at_ms": 339151.69999999925}
+{"type": "probe.position", "t_ms": 337413.631, "wall": "2026-09-07T22:34:29.598+00:00", "context_id": "m7797d980a540", "rendered_s": 1.38, "buffered_s": 0.0189, "concealed_samples": 0, "at_ms": 339351.3999999985}
+{"type": "probe.position", "t_ms": 337613.823, "wall": "2026-09-07T22:34:29.798+00:00", "context_id": "m7797d980a540", "rendered_s": 1.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 339551.5999999996}
+{"type": "probe.position", "t_ms": 337812.654, "wall": "2026-09-07T22:34:29.997+00:00", "context_id": "m7797d980a540", "rendered_s": 1.74, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 339750.8999999985}
+{"type": "probe.position", "t_ms": 338013.473, "wall": "2026-09-07T22:34:30.198+00:00", "context_id": "m7797d980a540", "rendered_s": 1.98, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 339951.3999999985}
+{"type": "probe.position", "t_ms": 338213.239, "wall": "2026-09-07T22:34:30.398+00:00", "context_id": "m7797d980a540", "rendered_s": 2.18, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 340151.3999999985}
+{"type": "probe.position", "t_ms": 338413.315, "wall": "2026-09-07T22:34:30.598+00:00", "context_id": "m7797d980a540", "rendered_s": 2.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 340351.2999999989}
+{"type": "probe.position", "t_ms": 338613.565, "wall": "2026-09-07T22:34:30.798+00:00", "context_id": "m7797d980a540", "rendered_s": 2.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 340551.3999999985}
+{"type": "probe.position", "t_ms": 338812.82, "wall": "2026-09-07T22:34:30.997+00:00", "context_id": "m7797d980a540", "rendered_s": 2.78, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 340750.8999999985}
+{"type": "probe.position", "t_ms": 339013.748, "wall": "2026-09-07T22:34:31.198+00:00", "context_id": "m7797d980a540", "rendered_s": 2.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 340951.5}
+{"type": "probe.position", "t_ms": 339213.857, "wall": "2026-09-07T22:34:31.398+00:00", "context_id": "m7797d980a540", "rendered_s": 3.18, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 341151.69999999925}
+{"type": "probe.position", "t_ms": 339413.447, "wall": "2026-09-07T22:34:31.598+00:00", "context_id": "m7797d980a540", "rendered_s": 3.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 341351.3999999985}
+{"type": "probe.position", "t_ms": 339613.387, "wall": "2026-09-07T22:34:31.798+00:00", "context_id": "m7797d980a540", "rendered_s": 3.58, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 341551.2999999989}
+{"type": "probe.position", "t_ms": 339812.993, "wall": "2026-09-07T22:34:31.997+00:00", "context_id": "m7797d980a540", "rendered_s": 3.74, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 341751}
+{"type": "probe.position", "t_ms": 340013.657, "wall": "2026-09-07T22:34:32.198+00:00", "context_id": "m7797d980a540", "rendered_s": 3.98, "buffered_s": 0.0192, "concealed_samples": 0, "at_ms": 341951.5}
+{"type": "probe.position", "t_ms": 340213.783, "wall": "2026-09-07T22:34:32.398+00:00", "context_id": "m7797d980a540", "rendered_s": 4.18, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 342151.5999999996}
+{"type": "probe.position", "t_ms": 340413.458, "wall": "2026-09-07T22:34:32.598+00:00", "context_id": "m7797d980a540", "rendered_s": 4.38, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 342351.2999999989}
+{"type": "probe.position", "t_ms": 340613.486, "wall": "2026-09-07T22:34:32.798+00:00", "context_id": "m7797d980a540", "rendered_s": 4.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 342551.3999999985}
+{"type": "probe.position", "t_ms": 340812.871, "wall": "2026-09-07T22:34:32.997+00:00", "context_id": "m7797d980a540", "rendered_s": 4.78, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 342750.8999999985}
+{"type": "probe.position", "t_ms": 341013.85, "wall": "2026-09-07T22:34:33.198+00:00", "context_id": "m7797d980a540", "rendered_s": 4.98, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 342951.5999999996}
+{"type": "probe.position", "t_ms": 341213.342, "wall": "2026-09-07T22:34:33.398+00:00", "context_id": "m7797d980a540", "rendered_s": 5.18, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 343151.3999999985}
+{"type": "probe.position", "t_ms": 341413.841, "wall": "2026-09-07T22:34:33.598+00:00", "context_id": "m7797d980a540", "rendered_s": 5.38, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 343351.69999999925}
+{"type": "probe.position", "t_ms": 341613.849, "wall": "2026-09-07T22:34:33.798+00:00", "context_id": "m7797d980a540", "rendered_s": 5.58, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 343551.5}
+{"type": "probe.position", "t_ms": 341812.958, "wall": "2026-09-07T22:34:33.997+00:00", "context_id": "m7797d980a540", "rendered_s": 5.74, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 343751}
+{"type": "probe.position", "t_ms": 342013.876, "wall": "2026-09-07T22:34:34.198+00:00", "context_id": "m7797d980a540", "rendered_s": 5.98, "buffered_s": 0.0183, "concealed_samples": 0, "at_ms": 343951.7999999989}
+{"type": "probe.position", "t_ms": 342213.481, "wall": "2026-09-07T22:34:34.398+00:00", "context_id": "m7797d980a540", "rendered_s": 6.14, "buffered_s": 0.0187, "concealed_samples": 0, "at_ms": 344151.3999999985}
+{"type": "probe.position", "t_ms": 342414.088, "wall": "2026-09-07T22:34:34.598+00:00", "context_id": "m7797d980a540", "rendered_s": 6.34, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 344351.8999999985}
+{"type": "probe.position", "t_ms": 342614.048, "wall": "2026-09-07T22:34:34.798+00:00", "context_id": "m7797d980a540", "rendered_s": 6.54, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 344551.7999999989}
+{"type": "probe.position", "t_ms": 342813.58, "wall": "2026-09-07T22:34:34.998+00:00", "context_id": "m7797d980a540", "rendered_s": 6.74, "buffered_s": 0.018, "concealed_samples": 0, "at_ms": 344751.3999999985}
+{"type": "probe.position", "t_ms": 343013.846, "wall": "2026-09-07T22:34:35.198+00:00", "context_id": "m7797d980a540", "rendered_s": 6.94, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 344951.5999999996}
+{"type": "probe.position", "t_ms": 343214.185, "wall": "2026-09-07T22:34:35.399+00:00", "context_id": "m7797d980a540", "rendered_s": 7.14, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 345151.7999999989}
+{"type": "probe.position", "t_ms": 343413.695, "wall": "2026-09-07T22:34:35.598+00:00", "context_id": "m7797d980a540", "rendered_s": 7.34, "buffered_s": 0.019, "concealed_samples": 0, "at_ms": 345351.5999999996}
+{"type": "agent.state", "t_ms": 343438.745, "wall": "2026-09-07T22:34:35.623+00:00", "state": "listening"}
+{"type": "tool.called", "t_ms": 343439.38, "wall": "2026-09-07T22:34:35.624+00:00", "context_id": "m7797d980a540", "name": "finish_protocol", "arguments": "{\"status\": \"Ending the protocol\"}"}
+{"type": "speech.finished", "t_ms": 343439.89, "wall": "2026-09-07T22:34:35.624+00:00", "context_id": "m7797d980a540", "kind": "reply", "step_id": null, "text": "Protocol finished. You ended at step seventeen of seventeen, holding at four to ten degrees celsius. No timers were running.", "tools": ["finish_protocol"], "interrupted": false, "silent": false, "played": true}
+{"type": "shutdown", "t_ms": 351747.568, "wall": "2026-09-07T22:34:43.932+00:00", "dropped_packets": 0}

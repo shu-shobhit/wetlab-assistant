@@ -1,0 +1,37 @@
+# The scripted question set, fed into a live session as text.
+#
+# These are the same words every run, which is what claim 3.3 needs: the
+# comparison is statuses on against statuses off, and if the questions are
+# spoken they come out differently the second time, the recogniser hears them
+# differently, the model takes a different path, and the difference reported
+# might be the wording rather than the feature.
+#
+# Chosen to exercise both sides of the split in claim 3.2. Some can be answered
+# from the standing context alone, one model call; others have to call a tool.
+#
+#     WETLAB_SCRIPT=data/scenarios/questions.yaml python -m wetlab.agent dev
+turns:
+  # Starting, and reading. A tool turn.
+  - Start the procedure.
+  # Answerable from the window without a lookup.
+  - What step are we on?
+  # Advancing, which is the most frequent thing anyone says.
+  - I have done that, move on.
+  - Done, next one.
+  # A question about a step already read. Needs retrieval.
+  - What temperature did you mention earlier?
+  # A question about a step not yet reached. Needs retrieval, and the answer
+  # must not claim it was already said.
+  - How long is the annealing step?
+  # Navigation by number.
+  - Go back to step two.
+  # Repeating, which is what "I did not catch that" has to reach.
+  - Sorry, say that again?
+  # Jumping forward.
+  - Take me to step nine.
+  # A timer asked for in words.
+  - Set a timer for thirty seconds.
+  - What timers are running?
+  # Something the protocol does not contain. It must say so rather than
+  # answering from general knowledge, which is the failure that matters most.
+  - What pH should the buffer be?

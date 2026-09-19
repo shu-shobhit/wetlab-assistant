@@ -1,0 +1,11 @@
+id: handwritten
+title: Hand-written PCR step
+citation: none, authored for the vertical slice
+steps:
+  - id: s1
+    text: "Add 0.5 µL of 10 mM dNTP mix to tube 3. Incubate at 98 °C for 30 seconds."
+    timers:
+      - { id: s1.timer1, label: "thirty second incubation at ninety eight degrees", seconds: 30 }
+  - id: s2
+    text: "Mix by pipetting and spin down briefly."
+    timers: []
